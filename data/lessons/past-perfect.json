@@ -1,0 +1,440 @@
+{
+  "id": "past-perfect",
+  "version": 1,
+  "titleEn": "Past Perfect",
+  "titleFa": "گذشتهٔ کامل",
+  "subtitleFa": "had + past participle",
+  "track": "tense-aspect",
+  "tags": ["sequence", "before-after", "detect"],
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "teach",
+      "titleFa": "ساختار",
+      "intro": "had + past participle برای همهٔ فاعل‌ها، بدون استثنا. همان had برای I و she و they.",
+      "examples": [
+        { "en": "I had finished before he came.", "fa": "قبل از آمدنش تمام کرده بودم.", "hl": ["had finished"] },
+        { "en": "She had left.", "fa": "او رفته بود.", "hl": ["had left"] },
+        { "en": "They had eaten already.", "fa": "آن‌ها قبلاً غذا خورده بودند.", "hl": ["had eaten"] },
+        { "en": "Nobody had told me.", "fa": "هیچ‌کس به من نگفته بود.", "hl": ["had told"] }
+      ],
+      "note": "I / you / he / she / it / we / they → had · بعد از had همیشه past participle",
+      "mistake": {
+        "wrong": "She had went home.",
+        "right": "She had gone home.",
+        "whyFa": "بعد از had همیشه past participle می‌آید: gone، نه went."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "By 9 p.m. she ___ her report.",
+          "options": ["had finished", "has finished", "finishes"],
+          "answer": 0,
+          "why": "عمل در گذشته و قبل از زمان دیگری (9 p.m.) تمام شده بود → had finished.",
+          "hint": "گذشتهٔ قبل از گذشته → had."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "They ___ (leave) before the rain started.",
+          "answers": ["had left"],
+          "placeholder": "had + pp",
+          "why": "رفتن قبل از شروع باران بوده → had left.",
+          "hint": "دو عمل گذشته، اولی با had."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "___ you ever seen snow before that winter?",
+          "options": ["Had", "Have", "Did"],
+          "answer": 0,
+          "why": "«before that winter» یک نقطهٔ گذشته است، پس گذشتهٔ کامل: Had you seen.",
+          "hint": "نقطهٔ مرجع در گذشته → Had."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "teach",
+      "titleFa": "توالی دو عملِ گذشته",
+      "intro": "وقتی دو عمل در گذشته داریم، عملی که اول اتفاق افتاده با had + pp می‌آید و عمل دوم با past simple.",
+      "examples": [
+        { "en": "When I got home, she had cooked dinner.", "fa": "وقتی رسیدم، او شام پخته بود.", "hl": ["had cooked"] },
+        { "en": "The train had left before we arrived.", "fa": "قطار قبل از رسیدن ما رفته بود.", "hl": ["had left"] },
+        { "en": "He had never seen the sea until that summer.", "fa": "تا آن تابستان هرگز دریا را ندیده بود.", "hl": ["had never seen"] },
+        { "en": "We had already eaten when they called.", "fa": "وقتی تماس گرفتند ما قبلاً غذا خورده بودیم.", "hl": ["had already eaten"] }
+      ],
+      "note": "عمل اول → had + pp · عمل دوم → past simple",
+      "mistake": {
+        "wrong": "When I arrived, he already left.",
+        "right": "When I arrived, he had already left.",
+        "whyFa": "رفتن او قبل از رسیدن من بود، پس باید had left باشد."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "sequence",
+          "prompt": "When we arrived at the cinema, the film ___.",
+          "options": ["had started", "has started", "starts"],
+          "answer": 0,
+          "why": "شروع فیلم قبل از رسیدن ما بود → had started.",
+          "hint": "عمل اول در گذشته → had."
+        },
+        {
+          "type": "fill",
+          "tag": "sequence",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "She ___ (eat) before she went out.",
+          "answers": ["had eaten"],
+          "placeholder": "had + pp",
+          "why": "غذا خوردن قبل از بیرون رفتن بوده → had eaten.",
+          "hint": "before → عمل قبل با had."
+        },
+        {
+          "type": "mcq",
+          "tag": "sequence",
+          "prompt": "کدام جمله ترتیب زمانی درست را نشان می‌دهد؟",
+          "options": [
+            "When I called, he had already left.",
+            "When I called, he has already left.",
+            "When I had called, he already left."
+          ],
+          "answer": 0,
+          "why": "او اول رفته بود و بعد من تماس گرفتم: had left + past simple.",
+          "hint": "عمل اول had، عمل دوم past simple."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "kind": "teach",
+      "titleFa": "before و after",
+      "intro": "بعد از after معمولاً عملِ اول با had می‌آید. با before هم می‌شود هر دو عمل را past simple نوشت، اما had ترتیب را روشن‌تر می‌کند.",
+      "examples": [
+        { "en": "After the guests had gone, we cleaned up.", "fa": "بعد از رفتن مهمان‌ها، ما جمع کردیم.", "hl": ["had gone"] },
+        { "en": "We went out after we had finished dinner.", "fa": "بعد از تمام‌شدن شام بیرون رفتیم.", "hl": ["had finished"] },
+        { "en": "She had read the letter before she answered.", "fa": "قبل از جواب دادن، نامه را خوانده بود.", "hl": ["had read"] },
+        { "en": "He had never flown before he moved to Canada.", "fa": "قبل از رفتن به کانادا هرگز پرواز نکرده بود.", "hl": ["had never flown"] }
+      ],
+      "note": "after + had + pp = عمل اول · before + past simple = عمل دوم",
+      "mistake": {
+        "wrong": "After she had finish work, she went home.",
+        "right": "After she had finished work, she went home.",
+        "whyFa": "بعد از had باید past participle بیاید: finished."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "before-after",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "After she ___ (read) the letter, she called me.",
+          "answers": ["had read"],
+          "placeholder": "had + pp",
+          "why": "خواندن نامه قبل از تماس بوده → had read.",
+          "hint": "after + عمل اول → had."
+        },
+        {
+          "type": "mcq",
+          "tag": "before-after",
+          "prompt": "We went out after we ___ dinner.",
+          "options": ["had finished", "have finished", "finish"],
+          "answer": 0,
+          "why": "شام اول تمام شد، بعد بیرون رفتیم → had finished.",
+          "hint": "after → عمل اول با had."
+        },
+        {
+          "type": "fill",
+          "tag": "before-after",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "She had never seen the sea ___ she moved to Kish.",
+          "answers": ["before"],
+          "placeholder": "before / after",
+          "why": "دیدن دریا بعد از نقل‌مکان اتفاق افتاد، پس قبل از آن ندیده بود → before.",
+          "hint": "جمله منفی است و ترتیب را برعکس می‌کند."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "kind": "teach",
+      "titleFa": "when + گذشتهٔ کامل یا گذشتهٔ ساده؟",
+      "intro": "با when، انتخاب زمان معنی را عوض می‌کند: had left یعنی قبل از رسیدن من رفته بود؛ left یعنی بعد از رسیدن من رفت.",
+      "examples": [
+        { "en": "When I arrived, they had left.", "fa": "وقتی رسیدم، آن‌ها رفته بودند.", "hl": ["had left"] },
+        { "en": "When I arrived, they left.", "fa": "وقتی رسیدم، آن‌ها رفتند.", "hl": ["left"] },
+        { "en": "When he heard the news, he called his mother.", "fa": "وقتی خبر را شنید، به مادرش زنگ زد.", "hl": ["heard"] },
+        { "en": "By the time we arrived, the show had begun.", "fa": "تا وقتی رسیدیم، نمایش شروع شده بود.", "hl": ["had begun"] }
+      ],
+      "note": "had + pp = عمل اول · past simple = عمل دوم",
+      "mistake": {
+        "wrong": "By the time we arrived, the show began.",
+        "right": "By the time we arrived, the show had begun.",
+        "whyFa": "«by the time» یعنی تا آن لحظه؛ شروع نمایش قبل از رسیدن ما بود."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "sequence",
+          "prompt": "When I got to the station, the train ___.",
+          "options": ["had left", "has left", "leaves"],
+          "answer": 0,
+          "why": "قطار قبل از رسیدن من رفته بود → had left.",
+          "hint": "قطار دیگر نبود → had left."
+        },
+        {
+          "type": "mcq",
+          "tag": "sequence",
+          "prompt": "When he ___ the news, he called his mother.",
+          "options": ["heard", "had heard", "hears"],
+          "answer": 0,
+          "why": "اول خبر را شنید و بعد زنگ زد؛ عمل دوم past simple است.",
+          "hint": "عمل دوم → past simple."
+        },
+        {
+          "type": "fill",
+          "tag": "sequence",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "By the time we arrived, the show ___ (begin).",
+          "answers": ["had begun"],
+          "placeholder": "had + pp",
+          "why": "by the time + گذشتهٔ کامل: شروع نمایش قبل از رسیدن ما بود.",
+          "hint": "by the time → had."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "kind": "teach",
+      "titleFa": "just / already / never با had",
+      "intro": "این قیدها بین had و past participle می‌نشینند: had just left / had already eaten / had never seen.",
+      "examples": [
+        { "en": "She had just left when I called.", "fa": "تازه رفته بود که زنگ زدم.", "hl": ["had just left"] },
+        { "en": "We had already eaten.", "fa": "ما قبلاً غذا خورده بودیم.", "hl": ["had already eaten"] },
+        { "en": "I had never been there before 2019.", "fa": "قبل از ۲۰۱۹ هرگز آنجا نبوده بودم.", "hl": ["had never been"] },
+        { "en": "By the time we arrived, they had already gone.", "fa": "تا رسیدیم، آن‌ها قبلاً رفته بودند.", "hl": ["had already gone"] }
+      ],
+      "note": "had + قید + past participle",
+      "mistake": {
+        "wrong": "She had left just when I called.",
+        "right": "She had just left when I called.",
+        "whyFa": "«just» بین had و فعل اصلی می‌آید."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "sequence",
+          "prompt": "By the time I called, she had ___ left — only a minute before.",
+          "options": ["just", "yet", "ever"],
+          "answer": 0,
+          "why": "«just» یعنی همین لحظهٔ پیش، که با «only a minute before» جور است.",
+          "hint": "یک دقیقه قبل → just."
+        },
+        {
+          "type": "fill",
+          "tag": "sequence",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "___ the time we arrived, the film had ended.",
+          "answers": ["by"],
+          "placeholder": "by / at",
+          "why": "ترکیب ثابت «by the time» یعنی تا زمانی که.",
+          "hint": "the time → by."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "I had ___ been to that city before 2019.",
+          "options": ["never", "yet", "ever"],
+          "answer": 0,
+          "why": "جملهٔ مثبت با معنای منفی تجربهٔ گذشته → never.",
+          "hint": "هیچ‌وقت → never."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "kind": "teach",
+      "titleFa": "منفی و سؤالی",
+      "intro": "منفی: had not / hadn't + pp. سؤالی: Had + فاعل + pp؟",
+      "examples": [
+        { "en": "She hadn't finished when the meeting started.", "fa": "وقتی جلسه شروع شد، تمام نکرده بود.", "hl": ["hadn't finished"] },
+        { "en": "Had you seen him before that day?", "fa": "قبل از آن روز او را دیده بودی؟", "hl": ["Had you seen"] },
+        { "en": "They had not arrived yet.", "fa": "آن‌ها هنوز نرسیده بودند.", "hl": ["had not arrived"] },
+        { "en": "Had he locked the door before he left?", "fa": "قبل از رفتن در را قفل کرده بود؟", "hl": ["Had he locked"] }
+      ],
+      "note": "سؤال: Had + فاعل + pp · منفی: hadn't + pp",
+      "mistake": {
+        "wrong": "Did you had seen him?",
+        "right": "Had you seen him?",
+        "whyFa": "برای سؤال، خود had به اول جمله می‌آید؛ did لازم نیست."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "She ___ (not / finish) the report when the meeting started.",
+          "answers": ["hadn't finished"],
+          "placeholder": "hadn't / didn't",
+          "why": "گذشتهٔ کامل منفی: hadn't finished.",
+          "hint": "not + had → hadn't."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "___ they already eaten when you arrived?",
+          "options": ["Had", "Have", "Did"],
+          "answer": 0,
+          "why": "«when you arrived» گذشته است و eaten هم past participle → Had.",
+          "hint": "پرسش دربارهٔ گذشتهٔ قبل‌تر → Had."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله غلط است؟",
+          "options": [
+            "I hadn't seen him before.",
+            "She hadn't went home.",
+            "Had you finished by then?",
+            "They had not arrived yet."
+          ],
+          "answer": 1,
+          "why": "بعد از hadn't باید past participle بیاید: hadn't gone.",
+          "hint": "went ≠ past participle."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "kind": "teach",
+      "isFinal": true,
+      "titleFa": "حالا خودت بساز",
+      "intro": "۱۲ تمرین متنوع. بعضی جمله‌ها کوتاه‌اند، بعضی نه. عجله نکن.",
+      "note": "هر سؤال را می‌توانی رد کنی.",
+      "items": [
+        {
+          "type": "fill",
+          "tag": "sequence",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "The film ___ (start) before we got to the cinema.",
+          "answers": ["had started"],
+          "placeholder": "had + pp",
+          "why": "شروع فیلم قبل از رسیدن ما بود → had started.",
+          "hint": "عمل اول → had."
+        },
+        {
+          "type": "mcq",
+          "tag": "sequence",
+          "prompt": "By the time she was 30, she ___ three books.",
+          "options": ["had written", "has written", "writes"],
+          "answer": 0,
+          "why": "تا ۳۰ سالگی، نوشتن سه کتاب تمام شده بود → had written.",
+          "hint": "by the time + گذشته → had."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله درست است؟",
+          "options": [
+            "He had gone when I arrived.",
+            "He had went when I arrived.",
+            "He has gone when I arrived."
+          ],
+          "answer": 0,
+          "why": "had + gone و نه went؛ has با گذشتهٔ ساده جور نیست.",
+          "hint": "past participle → gone."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "We ___ (not / eat) before the guests arrived.",
+          "answers": ["hadn't eaten"],
+          "placeholder": "hadn't / didn't",
+          "why": "منفی گذشتهٔ کامل: hadn't eaten.",
+          "hint": "not → hadn't."
+        },
+        {
+          "type": "double",
+          "tag": "sequence",
+          "prompt": "هر دو جای خالی را پر کن:",
+          "template": "I {0} seen that film, so I {1} the ending.",
+          "answers1": ["had"],
+          "answers2": ["knew"],
+          "why": "تجربهٔ قبلی → had seen؛ دانستن پایان → past simple knew.",
+          "hint": "اولی had، دومی knew."
+        },
+        {
+          "type": "ident",
+          "tag": "form",
+          "prompt": "کلمهٔ غلط را پیدا کن و شکل درستش را بنویس.",
+          "sentence": "He had ate all the cake before we came.",
+          "wrongWord": "ate",
+          "correctWord": "eaten",
+          "why": "بعد از had باید past participle بیاید: eaten.",
+          "hint": "ate → eaten."
+        },
+        {
+          "type": "mcq",
+          "tag": "sequence",
+          "prompt": "When I ___ the room, everyone had left.",
+          "options": ["entered", "had entered", "enter"],
+          "answer": 0,
+          "why": "ورود من عمل دوم است، پس past simple: entered.",
+          "hint": "عمل دوم → past simple."
+        },
+        {
+          "type": "order",
+          "tag": "sequence",
+          "prompt": "جمله را بساز:",
+          "words": ["After", "she", "had", "finished", "work", "she", "went", "home"],
+          "answer": "After she had finished work, she went home.",
+          "why": "After + had finished عمل اول؛ went home عمل دوم.",
+          "hint": "had finished قبل از went."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "در کدام جمله عمل «رفتن» اول اتفاق افتاده؟",
+          "options": [
+            "They had gone when I arrived.",
+            "They went when I arrived.",
+            "They are going when I arrive."
+          ],
+          "answer": 0,
+          "why": "had gone یعنی رفتن قبل از رسیدن من بود.",
+          "hint": "had → عمل اول."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "___ you seen him before that day?",
+          "answers": ["had"],
+          "placeholder": "Had / Have",
+          "why": "«before that day» گذشته است → Had you seen.",
+          "hint": "سؤال گذشتهٔ کامل → Had."
+        },
+        {
+          "type": "mcq",
+          "tag": "sequence",
+          "prompt": "She told me she ___ the email the day before.",
+          "options": ["had sent", "has sent", "sends"],
+          "answer": 0,
+          "why": "نقل قول گذشته + «the day before» → گذشتهٔ کامل: had sent.",
+          "hint": "the day before → had."
+        },
+        {
+          "type": "order",
+          "tag": "before-after",
+          "prompt": "جمله را بساز:",
+          "words": ["By", "the", "time", "I", "called", "she", "had", "left"],
+          "answer": "By the time I called, she had left.",
+          "why": "«By the time I called» مرجع گذشته است و رفتن قبل از آن بود.",
+          "hint": "she had left در انتها."
+        }
+      ]
+    }
+  ]
+}

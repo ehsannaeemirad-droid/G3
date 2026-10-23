@@ -1,0 +1,441 @@
+{
+  "id": "future-continuous",
+  "version": 1,
+  "titleEn": "Future Continuous",
+  "titleFa": "آیندهٔ استمراری",
+  "subtitleFa": "will be + verb-ing",
+  "track": "tense-aspect",
+  "tags": ["form", "parallel", "detect"],
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "teach",
+      "titleFa": "ساختار",
+      "intro": "will be + فعل ing‌دار. برای همهٔ فاعل‌ها یکسان است و شکل فعل را تغییر نمی‌دهد.",
+      "examples": [
+        { "en": "This time tomorrow I will be flying to Tehran.", "fa": "فردا همین ساعت در راه تهران خواهم بود.", "hl": ["will be flying"] },
+        { "en": "She will be working at 8.", "fa": "ساعت ۸ مشغول کار خواهد بود.", "hl": ["will be working"] },
+        { "en": "They will be waiting for us.", "fa": "منتظر ما خواهند بود.", "hl": ["will be waiting"] },
+        { "en": "It will be raining all night.", "fa": "تمام شب باران خواهد بارید.", "hl": ["will be raining"] }
+      ],
+      "note": "will be + verb-ing · همیشه be بعد از will",
+      "mistake": {
+        "wrong": "At 8 I will working.",
+        "right": "At 8 I will be working.",
+        "whyFa": "آیندهٔ استمراری سه بخش دارد: will + be + working."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "At 8 tomorrow morning, I ___ to Shiraz.",
+          "options": ["will be driving", "will driving", "will be drive"],
+          "answer": 0,
+          "why": "will + be + verb-ing: will be driving.",
+          "hint": "سه بخش: will be + ing."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "This time next week we ___ (lie) on the beach.",
+          "answers": ["will be lying"],
+          "placeholder": "will be + ing",
+          "why": "لحظهٔ مشخص در آینده + در جریان بودن → will be lying.",
+          "hint": "will be + lieing? نه: lying."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "She ___ be studying when you call.",
+          "options": ["will", "is", "has"],
+          "answer": 0,
+          "why": "شکل آیندهٔ استمراری با will ساخته می‌شود: will be studying.",
+          "hint": "آینده → will."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "teach",
+      "titleFa": "در یک لحظهٔ مشخص در آینده",
+      "intro": "این زمان برای عملی است که در یک نقطهٔ دقیق از آینده در جریان خواهد بود؛ معمولاً با at 8، this time tomorrow، this time next week.",
+      "examples": [
+        { "en": "At 7 tonight we will be having dinner.", "fa": "امشب ساعت ۷ مشغول شام خوردن خواهیم بود.", "hl": ["will be having"] },
+        { "en": "This time tomorrow I will be sitting in a plane.", "fa": "فردا همین ساعت در هواپیما نشسته‌ام.", "hl": ["will be sitting"] },
+        { "en": "Don't call at 9 — I will be teaching.", "fa": "ساعت ۹ زنگ نزن، سر کلاس خواهم بود.", "hl": ["will be teaching"] },
+        { "en": "This time next month I will be working in the new office.", "fa": "ماه بعد همین موقع در دفتر جدید کار می‌کنم.", "hl": ["will be working"] }
+      ],
+      "note": "at + ساعتِ آینده · this time tomorrow / next week",
+      "mistake": {
+        "wrong": "At 7 tonight we have dinner.",
+        "right": "At 7 tonight we will be having dinner.",
+        "whyFa": "برای آیندهٔ در جریان، will be + ing لازم است."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "Don't call at 7 — we ___ (have) dinner then.",
+          "answers": ["will be having"],
+          "placeholder": "will be + ing",
+          "why": "ساعت ۷ آینده در وسط شام خوردن → will be having.",
+          "hint": "then = همان لحظه در آینده."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "«At 10 a.m. tomorrow I will be taking an exam.» این جمله دربارهٔ چه زمانی است؟",
+          "options": ["یک لحظهٔ مشخص در آینده", "یک عادت همیشگی", "یک کار تمام‌شده در گذشته"],
+          "answer": 0,
+          "why": "«at 10 a.m. tomorrow» یک نقطهٔ دقیق در آینده است و کار در آن لحظه در جریان است.",
+          "hint": "at + ساعت فردا → آیندهٔ در جریان."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "This time next month I ___ (work) in the new office.",
+          "answers": ["will be working"],
+          "placeholder": "will be + ing",
+          "why": "«this time next month» یک لحظهٔ آینده است → will be working.",
+          "hint": "this time + آینده."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "kind": "teach",
+      "titleFa": "دو کار موازی در آینده",
+      "intro": "برای دو کار هم‌زمان در آینده، یکی با while + حال استمراری و دیگری با will be + ing می‌آید.",
+      "examples": [
+        { "en": "While you are cooking dinner, I will be cleaning the car.", "fa": "تو شام می‌پزی، من ماشین را می‌شویم.", "hl": ["will be cleaning"] },
+        { "en": "They will be playing football while we are setting up the tables.", "fa": "آن‌ها فوتبال بازی می‌کنند تا ما میزها را بچینیم.", "hl": ["will be playing"] },
+        { "en": "While she is studying, he will be watching TV.", "fa": "او درس می‌خواند و او تلویزیون تماشا می‌کند.", "hl": ["will be watching"] },
+        { "en": "I will be working while you are on holiday.", "fa": "تو در تعطیلاتی و من کار می‌کنم.", "hl": ["will be working"] }
+      ],
+      "note": "while + present continuous · will be + ing",
+      "mistake": {
+        "wrong": "While you will cook, I will be cleaning.",
+        "right": "While you are cooking, I will be cleaning.",
+        "whyFa": "بعد از while برای آیندهٔ هم‌زمان، حال استمراری می‌آید نه will."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "parallel",
+          "prompt": "While you ___ dinner, I will be cleaning the car.",
+          "options": ["are cooking", "will be cooking", "cook"],
+          "answer": 0,
+          "why": "بعد از while برای آیندهٔ هم‌زمان، حال استمراری: are cooking.",
+          "hint": "while + حال استمراری."
+        },
+        {
+          "type": "fill",
+          "tag": "parallel",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "They ___ (play) football while we are setting up the tables.",
+          "answers": ["will be playing"],
+          "placeholder": "will be + ing",
+          "why": "کار هم‌زمان در آینده → will be playing.",
+          "hint": "while → کار موازی."
+        },
+        {
+          "type": "mcq",
+          "tag": "parallel",
+          "prompt": "While she is studying, he ___ TV the whole evening.",
+          "options": ["will be watching", "watches", "watched"],
+          "answer": 0,
+          "why": "«the whole evening» مدت در جریان در آینده → will be watching.",
+          "hint": "the whole evening → استمرار."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "kind": "teach",
+      "titleFa": "سؤال مؤدبانه با will you be…",
+      "intro": "برای پرسیدن برنامهٔ کسی در آینده، «Will you be + ing?» مؤدبانه‌تر و طبیعی‌تر از «Will you + فعل ساده؟» است.",
+      "examples": [
+        { "en": "Will you be using the car this afternoon?", "fa": "امروز بعدازظهر از ماشین استفاده می‌کنی؟", "hl": ["Will you be using"] },
+        { "en": "Will you be coming to the party?", "fa": "به مهمانی می‌آیی؟", "hl": ["Will you be coming"] },
+        { "en": "Will she be joining us for lunch?", "fa": "او هم برای ناهار می‌آید؟", "hl": ["Will she be joining"] },
+        { "en": "What will you be doing at noon?", "fa": "ظهر چه کار می‌کنی؟", "hl": ["will you be doing"] }
+      ],
+      "note": "Will + فاعل + be + ing؟",
+      "mistake": {
+        "wrong": "Will you using the car?",
+        "right": "Will you be using the car?",
+        "whyFa": "بدون be، جمله ناقص است."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "Will you ___ the car this afternoon?",
+          "options": ["be using", "using", "be use"],
+          "answer": 0,
+          "why": "will + فاعل + be + verb-ing: Will you be using…؟",
+          "hint": "بعد از will باید be بیاید."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله مؤدبانه‌ترین راه برای پرسیدن برنامهٔ کسی است؟",
+          "options": [
+            "Will you be using this computer?",
+            "Will you use this computer now?",
+            "Do you use this computer?"
+          ],
+          "answer": 0,
+          "why": "«Will you be using…» برنامهٔ آینده را محترمانه می‌پرسد.",
+          "hint": "آیندهٔ استمراری → مؤدبانه‌تر."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "___ you be coming to the party?",
+          "answers": ["will"],
+          "placeholder": "Will / Are",
+          "why": "سؤال آیندهٔ استمراری با Will شروع می‌شود.",
+          "hint": "be coming → will."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "kind": "teach",
+      "titleFa": "will do یا will be doing؟",
+      "intro": "will + فعل ساده برای تصمیم، قول و پیشنهاد. will be + ing برای کاری که در یک لحظهٔ آینده در جریان است.",
+      "examples": [
+        { "en": "I will call you at 6 — I promise.", "fa": "ساعت ۶ زنگ می‌زنم، قول می‌دهم.", "hl": ["will call"] },
+        { "en": "At 6 I will be cooking, so call later.", "fa": "ساعت ۶ آشپزی می‌کنم، بعداً زنگ بزن.", "hl": ["will be cooking"] },
+        { "en": "Don't worry, I will help you.", "fa": "نگران نباش، کمک می‌کنم.", "hl": ["will help"] },
+        { "en": "At noon they will be travelling to Isfahan.", "fa": "ظهر در راه اصفهان خواهند بود.", "hl": ["will be travelling"] }
+      ],
+      "note": "قول و تصمیم → will + base · در جریان در لحظهٔ آینده → will be + ing",
+      "mistake": {
+        "wrong": "At 6 I will cook, so call later.",
+        "right": "At 6 I will be cooking, so call later.",
+        "whyFa": "اینجا کار در ساعت ۶ در جریان است، پس will be cooking."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "I ___ you at 6 — I promise.",
+          "options": ["will call", "will be calling", "am calling"],
+          "answer": 0,
+          "why": "قول و تعهد → will + فعل ساده.",
+          "hint": "promise → will call."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "At 6 I ___ dinner, so call later.",
+          "options": ["will be cooking", "will cook", "cook"],
+          "answer": 0,
+          "why": "در ساعت ۶ کار در جریان است → will be cooking.",
+          "hint": "at 6 + در جریان."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I promise I ___ (call) you tonight.",
+          "answers": ["will call"],
+          "placeholder": "will + base",
+          "why": "«I promise» قول است → will call.",
+          "hint": "قول → will + ساده."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "kind": "teach",
+      "titleFa": "منفی: won't be + ing",
+      "intro": "شکل منفی: will not be / won't be + verb-ing.",
+      "examples": [
+        { "en": "I won't be working tomorrow.", "fa": "فردا کار نمی‌کنم.", "hl": ["won't be working"] },
+        { "en": "She won't be sleeping at midnight.", "fa": "نصف‌شب خواب نخواهد بود.", "hl": ["won't be sleeping"] },
+        { "en": "We won't be using the room tonight.", "fa": "امشب از اتاق استفاده نمی‌کنیم.", "hl": ["won't be using"] },
+        { "en": "They won't be waiting for us.", "fa": "منتظر ما نخواهند بود.", "hl": ["won't be waiting"] }
+      ],
+      "note": "won't be + verb-ing",
+      "mistake": {
+        "wrong": "I won't working tomorrow.",
+        "right": "I won't be working tomorrow.",
+        "whyFa": "بعد از won't باید be بیاید."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I ___ (not / work) tomorrow, so we can meet.",
+          "answers": ["won't be working"],
+          "placeholder": "won't be + ing",
+          "why": "منفی آیندهٔ استمراری: won't be working.",
+          "hint": "not will → won't."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "She ___ be sleeping at midnight.",
+          "options": ["won't", "isn't", "doesn't"],
+          "answer": 0,
+          "why": "برای آیندهٔ استمراری منفی، won't به کار می‌رود.",
+          "hint": "آینده → will / won't."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله غلط است؟",
+          "options": [
+            "I will be working at 9.",
+            "I will working at 9.",
+            "Will you be working at 9?",
+            "I won't be working at 9."
+          ],
+          "answer": 1,
+          "why": "«will working» be ندارد؛ درستش will be working است.",
+          "hint": "will + be + ing."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "kind": "teach",
+      "isFinal": true,
+      "titleFa": "حالا خودت بساز",
+      "intro": "۱۲ تمرین متنوع. بعضی جمله‌ها کوتاه‌اند، بعضی نه. عجله نکن.",
+      "note": "هر سؤال را می‌توانی رد کنی.",
+      "items": [
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "At noon tomorrow, they ___ (fly) to Isfahan.",
+          "answers": ["will be flying"],
+          "placeholder": "will be + ing",
+          "why": "لحظهٔ مشخص در آینده → will be flying.",
+          "hint": "at noon tomorrow."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "Don't phone at 8 — we ___ dinner.",
+          "options": ["will be having", "have", "had"],
+          "answer": 0,
+          "why": "ساعت ۸ آینده در وسط شام → will be having.",
+          "hint": "نقطهٔ آینده."
+        },
+        {
+          "type": "ident",
+          "tag": "form",
+          "prompt": "کلمهٔ غلط را پیدا کن و شکل درستش را بنویس.",
+          "sentence": "She will be work at 9 tomorrow.",
+          "wrongWord": "work",
+          "correctWord": "working",
+          "why": "بعد از will be باید verb-ing بیاید: working.",
+          "hint": "be + ing."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "___ you be waiting at the airport?",
+          "answers": ["will"],
+          "placeholder": "Will / Do",
+          "why": "سؤال آیندهٔ استمراری: Will you be waiting…؟",
+          "hint": "be waiting → Will."
+        },
+        {
+          "type": "double",
+          "tag": "form",
+          "prompt": "هر دو جای خالی را پر کن:",
+          "template": "I {0} be studying at 9, so please {1} quietly.",
+          "answers1": ["will"],
+          "answers2": ["come"],
+          "why": "will be studying برای آیندهٔ در جریان؛ come در جملهٔ امری ساده می‌آید.",
+          "hint": "اولی will، دومی come."
+        },
+        {
+          "type": "order",
+          "tag": "form",
+          "prompt": "جمله را بساز:",
+          "words": ["At", "8", "tomorrow", "I", "will", "be", "driving", "to", "work"],
+          "answer": "At 8 tomorrow I will be driving to work.",
+          "why": "ترتیب: زمان + فاعل + will be + ing.",
+          "hint": "will be driving یک تکه است."
+        },
+        {
+          "type": "mcq",
+          "tag": "parallel",
+          "prompt": "While they ___ the film, we will be cooking.",
+          "options": ["are watching", "will be watching", "watch"],
+          "answer": 0,
+          "why": "بعد از while برای آیندهٔ هم‌زمان، حال استمراری: are watching.",
+          "hint": "while + are + ing."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "He ___ (not / sleep) at 10 — he'll be at work.",
+          "answers": ["won't be sleeping"],
+          "placeholder": "won't be + ing",
+          "why": "منفی آیندهٔ استمراری: won't be sleeping.",
+          "hint": "not + will → won't."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله درست است؟",
+          "options": [
+            "I will be working at 9.",
+            "I will working at 9.",
+            "I will be work at 9."
+          ],
+          "answer": 0,
+          "why": "شکل صحیح will + be + verb-ing است.",
+          "hint": "be + ing با هم."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله دربارهٔ عملی است که در یک لحظهٔ مشخص آینده در جریان است؟",
+          "options": [
+            "At 9 I will be teaching.",
+            "I will teach someday.",
+            "I taught yesterday."
+          ],
+          "answer": 0,
+          "why": "«At 9 … will be teaching» کار در جریان در یک نقطهٔ آینده است.",
+          "hint": "at + ساعت."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "This time tomorrow she ___ (sit) in the exam hall.",
+          "answers": ["will be sitting"],
+          "placeholder": "will be + ing",
+          "why": "«this time tomorrow» نقطهٔ آینده → will be sitting.",
+          "hint": "this time tomorrow."
+        },
+        {
+          "type": "order",
+          "tag": "parallel",
+          "prompt": "جمله را بساز:",
+          "words": ["They", "will", "be", "playing", "football", "at", "five"],
+          "answer": "They will be playing football at five.",
+          "why": "will be playing + زمان در انتها.",
+          "hint": "at five آخر جمله."
+        }
+      ]
+    }
+  ]
+}

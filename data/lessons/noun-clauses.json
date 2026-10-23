@@ -1,0 +1,426 @@
+{
+  "id": "noun-clauses",
+  "version": 1,
+  "titleEn": "Noun Clauses",
+  "titleFa": "بندهای اسمی",
+  "subtitleFa": "بندهایی که نقش اسم می‌گیرند",
+  "track": "clauses",
+  "tags": ["noun-clause", "word-order", "detect"],
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "teach",
+      "titleFa": "بند اسمی چیست؟",
+      "intro": "بند با فاعل + فعل که مثل یک اسم عمل می‌کند. با what / that / who / where / when / why / how / whether شروع می‌شود.",
+      "examples": [
+        { "en": "What he said was true.", "fa": "چیزی که او گفت درست بود.", "hl": ["What he said"] },
+        { "en": "I don't know where she lives.", "fa": "نمی‌دانم کجا زندگی می‌کند.", "hl": ["where she lives"] },
+        { "en": "Whether he'll come is unclear.", "fa": "اینکه بیاید یا نه روشن نیست.", "hl": ["Whether he'll come"] },
+        { "en": "She asked why I was late.", "fa": "پرسید چرا دیر آمدم.", "hl": ["why I was late"] }
+      ],
+      "note": "کل بند (نه فقط کلمهٔ اول) نقش اسم را بازی می‌کند.",
+      "mistake": {
+        "wrong": "That what he said was true.",
+        "right": "What he said was true.",
+        "whyFa": "«what» خودش شروع‌کنندهٔ بند است. «that what» دو شروع‌کننده با هم غلط است."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "noun-clause",
+          "prompt": "کدام جمله درست است؟",
+          "options": ["What she said surprised us.", "That what she said surprised us.", "Which she said surprised us."],
+          "answer": 0,
+          "why": "بند اسمی با what شروع می‌شود، نه with that what.",
+          "hint": "فقط یک شروع‌کننده لازم است."
+        },
+        {
+          "type": "fill",
+          "tag": "noun-clause",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I don't know ___ he lives.",
+          "answers": ["where"],
+          "placeholder": "کلمهٔ پرسشی…",
+          "why": "«where» بند اسمی می‌سازد: where he lives (کجا زندگی می‌کند).",
+          "hint": "کجا = where."
+        },
+        {
+          "type": "mcq",
+          "tag": "noun-clause",
+          "prompt": "___ he passed the test made us happy.",
+          "options": ["That", "What", "Which"],
+          "answer": 0,
+          "why": "برای خبر ساده، «that» استفاده می‌شود: That he passed the test.",
+          "hint": "خبر ساده → that."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "teach",
+      "titleFa": "بند اسمی به عنوان فاعل",
+      "intro": "بند اسمی می‌تواند فاعل جمله باشد. فعلش همیشه مفرد است.",
+      "examples": [
+        { "en": "What he does makes me laugh.", "fa": "کاری که می‌کند باعث خنده‌ام می‌شود.", "hl": ["What he does"] },
+        { "en": "Where she lives is a mystery.", "fa": "کجا زندگی می‌کند معماست.", "hl": ["Where she lives"] },
+        { "en": "That she won surprised everyone.", "fa": "اینکه برد همه را شگفت‌زده کرد.", "hl": ["That she won"] },
+        { "en": "Whether it works is unclear.", "fa": "اینکه کار می‌کند یا نه روشن نیست.", "hl": ["Whether it works"] }
+      ],
+      "note": "یک بند = یک چیز = مفرد. پس فعل با is/was/makes می‌آید، نه are.",
+      "mistake": {
+        "wrong": "What they need are more time.",
+        "right": "What they need is more time.",
+        "whyFa": "فاعل بند اسمی مفرد است."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "noun-clause",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "___ she wants is a new phone.",
+          "answers": ["What"],
+          "placeholder": "What / That / Which",
+          "why": "«What she wants» = چیزی که می‌خواهد. فاعل جمله است.",
+          "hint": "چیزی که = What."
+        },
+        {
+          "type": "mcq",
+          "tag": "noun-clause",
+          "prompt": "What they need ___ more time.",
+          "options": ["is", "are", "be"],
+          "answer": 0,
+          "why": "فاعل بند اسمی مفرد است → is.",
+          "hint": "بند = یک چیز = مفرد."
+        },
+        {
+          "type": "fill",
+          "tag": "noun-clause",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "___ he won the race surprised us.",
+          "answers": ["That"],
+          "placeholder": "What / That / Which",
+          "why": "«That he won the race» = اینکه او مسابقه را برد. برای خبر ساده → that.",
+          "hint": "خبر ساده → that."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "kind": "teach",
+      "titleFa": "بند اسمی به عنوان مفعول",
+      "intro": "بعد از فعل‌های know, think, believe, say, ask, tell, wonder، بند اسمی می‌آید.",
+      "examples": [
+        { "en": "I know what you mean.", "fa": "می‌دانم منظورت چیست.", "hl": ["what you mean"] },
+        { "en": "She said that she was tired.", "fa": "گفت خسته است.", "hl": ["that she was tired"] },
+        { "en": "I wonder why he left.", "fa": "تعجب می‌کنم چرا رفت.", "hl": ["why he left"] },
+        { "en": "Do you know when it starts?", "fa": "می‌دانی کِی شروع می‌شود؟", "hl": ["when it starts"] }
+      ],
+      "note": "فعل + بند اسمی = مفعول جمله.",
+      "mistake": {
+        "wrong": "I know what does he want.",
+        "right": "I know what he wants.",
+        "whyFa": "در بند اسمی، ترتیب فاعل + فعل است، نه ترتیب سؤالی."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "noun-clause",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I don't know ___ she is.",
+          "answers": ["who"],
+          "placeholder": "who / which / whose",
+          "why": "«who she is» = او کیست. مفعول فعل know است.",
+          "hint": "چه کسی = who."
+        },
+        {
+          "type": "mcq",
+          "tag": "noun-clause",
+          "prompt": "He asked me ___ I was coming.",
+          "options": ["if", "that", "what"],
+          "answer": 0,
+          "why": "برای سؤال بله/خیر در بند اسمی → if (یا whether).",
+          "hint": "بله/خیر → if / whether."
+        },
+        {
+          "type": "fill",
+          "tag": "noun-clause",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I think ___ he's right.",
+          "answers": ["that"],
+          "placeholder": "that / what / which",
+          "why": "خبر ساده با that: I think that he's right.",
+          "hint": "خبر ساده → that."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "kind": "teach",
+      "titleFa": "بند اسمی بعد از حرف اضافه",
+      "intro": "بند اسمی می‌تواند مفعول حرف اضافه باشد (about, on, of, in).",
+      "examples": [
+        { "en": "She's happy about what happened.", "fa": "از آنچه اتفاق افتاد خوشحال است.", "hl": ["about what happened"] },
+        { "en": "It depends on whether he agrees.", "fa": "بستگی دارد به اینکه او موافقت کند.", "hl": ["on whether he agrees"] },
+        { "en": "I'm worried about how she feels.", "fa": "نگرانم که او چه احساسی دارد.", "hl": ["about how she feels"] },
+        { "en": "We talked about where to go.", "fa": "دربارهٔ اینکه کجا برویم صحبت کردیم.", "hl": ["about where to go"] }
+      ],
+      "note": "حرف اضافه + بند اسمی (نه جملهٔ کامل با فعل).",
+      "mistake": {
+        "wrong": "It depends on that he agrees.",
+        "right": "It depends on whether he agrees.",
+        "whyFa": "بعد از on، برای سؤال بله/خیر از whether استفاده می‌شود، نه that."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "noun-clause",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "It depends on ___ you decide.",
+          "answers": ["what"],
+          "placeholder": "what / which / who",
+          "why": "«what you decide» = آنچه تصمیم می‌گیری. مفعول on.",
+          "hint": "چیزی که = what."
+        },
+        {
+          "type": "mcq",
+          "tag": "noun-clause",
+          "prompt": "I'm worried about ___ she's doing.",
+          "options": ["what", "which", "who"],
+          "answer": 0,
+          "why": "«what she's doing» = کاری که انجام می‌دهد.",
+          "hint": "چه کاری = what."
+        },
+        {
+          "type": "fill",
+          "tag": "noun-clause",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "We talked about ___ we should go.",
+          "answers": ["where"],
+          "placeholder": "where / which / when",
+          "why": "«where we should go» = کجا برویم.",
+          "hint": "کجا = where."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "kind": "teach",
+      "titleFa": "ترتیب کلمات (بدون وارونگی!)",
+      "intro": "در بند اسمی، فاعل قبل از فعل می‌آید. وارونگی (مثل سؤال) ممنوع است. این رایج‌ترین خطای فارسی‌زبان‌هاست.",
+      "examples": [
+        { "en": "I don't know where he lives.", "fa": "نمی‌دانم کجا زندگی می‌کند.", "hl": ["where he lives"] },
+        { "en": "Tell me what you want.", "fa": "بگو چه می‌خواهی.", "hl": ["what you want"] },
+        { "en": "Do you know when it starts?", "fa": "می‌دانی کِی شروع می‌شود؟", "hl": ["when it starts"] },
+        { "en": "I wonder why she left.", "fa": "تعجب می‌کنم چرا رفت.", "hl": ["why she left"] }
+      ],
+      "note": "❌ where does he live → ✅ where he lives",
+      "mistake": {
+        "wrong": "Do you know where is the station?",
+        "right": "Do you know where the station is?",
+        "whyFa": "در بند اسمی، فاعل (the station) قبل از فعل (is) می‌آید. مثل سؤال جابجا نمی‌شود."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "word-order",
+          "prompt": "کدام جمله درست است؟",
+          "options": ["I don't know where he is.", "I don't know where is he.", "I don't know where does he be."],
+          "answer": 0,
+          "why": "ترتیب بند اسمی: فاعل + فعل. he is، نه is he.",
+          "hint": "فاعل قبل از فعل."
+        },
+        {
+          "type": "fill",
+          "tag": "word-order",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "Do you know what time ___?",
+          "answers": ["it is"],
+          "placeholder": "فعل + فاعل…",
+          "why": "«what time it is» = ساعت چند است. فاعل it قبل از فعل is.",
+          "hint": "فاعل + فعل."
+        },
+        {
+          "type": "mcq",
+          "tag": "word-order",
+          "prompt": "Tell me why ___.",
+          "options": ["you left", "did you leave", "you did leave"],
+          "answer": 0,
+          "why": "بند اسمی بدون do/does/did. فاعل + فعل ساده.",
+          "hint": "بدون did."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "kind": "teach",
+      "titleFa": "whether / if / that / what",
+      "intro": "whether/if برای سؤال بله/خیر، that برای خبر، what برای «چیزی که».",
+      "examples": [
+        { "en": "I don't know whether he'll come.", "fa": "نمی‌دانم می‌آید یا نه.", "hl": ["whether he'll come"] },
+        { "en": "I believe that she's honest.", "fa": "باور دارم که صادق است.", "hl": ["that she's honest"] },
+        { "en": "What you need is rest.", "fa": "چیزی که نیاز داری استراحت است.", "hl": ["What you need"] },
+        { "en": "Ask him if he's ready.", "fa": "از او بپرس آماده است یا نه.", "hl": ["if he's ready"] }
+      ],
+      "note": "whether = if (در جمله‌های خبری). but: بعد از حرف اضافه فقط whether، نه if.",
+      "mistake": {
+        "wrong": "I don't know that he'll come or not.",
+        "right": "I don't know whether he'll come or not.",
+        "whyFa": "برای «... یا نه»، whether (یا if در جملهٔ ساده) استفاده می‌شود، نه that."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "noun-clause",
+          "prompt": "I don't know ___ he'll come or not.",
+          "options": ["whether", "that", "what"],
+          "answer": 0,
+          "why": "«... یا نه» → whether. that برای خبر است.",
+          "hint": "... یا نه → whether."
+        },
+        {
+          "type": "fill",
+          "tag": "noun-clause",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I believe ___ she's honest.",
+          "answers": ["that"],
+          "placeholder": "that / what / if",
+          "why": "خبر ساده: I believe that she's honest.",
+          "hint": "خبر → that."
+        },
+        {
+          "type": "mcq",
+          "tag": "noun-clause",
+          "prompt": "___ you need is a good rest.",
+          "options": ["What", "That", "Which"],
+          "answer": 0,
+          "why": "«What you need» = چیزی که نیاز داری. فاعل جمله.",
+          "hint": "چیزی که = What."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "kind": "teach",
+      "isFinal": true,
+      "titleFa": "حالا خودت بساز",
+      "intro": "۱۲ تمرین متنوع. بعضی پاسخ‌ها اصلاً بند اسمی نیستند. عجله نکن.",
+      "note": "هر سؤال را می‌توانی رد کنی.",
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "noun-clause",
+          "prompt": "___ she does makes me happy.",
+          "options": ["What", "That", "It"],
+          "answer": 0,
+          "why": "«What she does» = کاری که انجام می‌دهد. فاعل جمله.",
+          "hint": "کاری که = What."
+        },
+        {
+          "type": "fill",
+          "tag": "noun-clause",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I don't know ___ the meeting starts.",
+          "answers": ["when"],
+          "placeholder": "when / where / why",
+          "why": "«when the meeting starts» = جلسه کِی شروع می‌شود.",
+          "hint": "کِی = when."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله غلط است؟",
+          "options": ["Tell me what you want.", "I know where does he work.", "I think that she's right.", "Do you know when it starts?"],
+          "answer": 1,
+          "why": "در بند اسمی، ترتیب سؤالی ممنوع: «where does he work» غلط است. باید «where he works» باشد.",
+          "hint": "ترتیب فاعل و فعل."
+        },
+        {
+          "type": "fill",
+          "tag": "word-order",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "It depends on ___ you invite.",
+          "answers": ["who"],
+          "placeholder": "who / which / whose",
+          "why": "«who you invite» = چه کسی را دعوت می‌کنی.",
+          "hint": "چه کسی = who."
+        },
+        {
+          "type": "double",
+          "tag": "noun-clause",
+          "prompt": "هر دو جای خالی را پر کن:",
+          "template": "I don't know {0} she is, but I know {1} she works.",
+          "answers1": ["who"],
+          "answers2": ["where"],
+          "why": "«who she is» (چه کسی است) و «where she works» (کجا کار می‌کند).",
+          "hint": "اولی چه کسی، دومی کجا."
+        },
+        {
+          "type": "ident",
+          "tag": "detect",
+          "prompt": "کلمهٔ غلط را پیدا کن و شکل درستش را بنویس.",
+          "sentence": "I don't know where does he live.",
+          "wrongWord": "does",
+          "correctWord": "(حذف)",
+          "why": "در بند اسمی، does اضافی است. جملهٔ درست: I don't know where he lives.",
+          "hint": "فعل کمکی سؤالی حذف می‌شود."
+        },
+        {
+          "type": "mcq",
+          "tag": "noun-clause",
+          "prompt": "The question is ___ we should go.",
+          "options": ["whether", "that", "what"],
+          "answer": 0,
+          "why": "«whether we should go» = اینکه برویم یا نه.",
+          "hint": "... یا نه → whether."
+        },
+        {
+          "type": "fill",
+          "tag": "noun-clause",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "___ he said was a lie.",
+          "answers": ["What"],
+          "placeholder": "What / That / Which",
+          "why": "«What he said» = چیزی که گفت. فاعل جمله.",
+          "hint": "چیزی که = What."
+        },
+        {
+          "type": "order",
+          "tag": "noun-clause",
+          "prompt": "جمله را بساز:",
+          "words": ["What", "she", "is", "saying", "true", "is"],
+          "answer": "What she is saying is true.",
+          "why": "«What she is saying» فاعل است، «is» فعل اصلی، «true» متمم.",
+          "hint": "دو فعل داریم: is saying و is."
+        },
+        {
+          "type": "mcq",
+          "tag": "noun-clause",
+          "prompt": "He asked me ___ I liked tea.",
+          "options": ["if", "that", "what"],
+          "answer": 0,
+          "why": "سؤال بله/خیر در بند اسمی → if (یا whether).",
+          "hint": "بله/خیر → if."
+        },
+        {
+          "type": "mcq",
+          "tag": "noun-clause",
+          "prompt": "___ the plan works depends on you.",
+          "options": ["Whether", "What", "That"],
+          "answer": 0,
+          "why": "«Whether the plan works» = اینکه نقشه کار می‌کند یا نه. فاعل جمله.",
+          "hint": "... یا نه → Whether."
+        },
+        {
+          "type": "fill",
+          "tag": "noun-clause",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I wonder ___ she's crying.",
+          "answers": ["why"],
+          "placeholder": "why / where / when",
+          "why": "«why she's crying» = چرا گریه می‌کند.",
+          "hint": "چرا = why."
+        }
+      ]
+    }
+  ]
+}

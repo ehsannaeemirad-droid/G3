@@ -1,0 +1,433 @@
+{
+  "id": "gerunds",
+  "version": 1,
+  "titleEn": "Gerunds",
+  "titleFa": "Gerund",
+  "subtitleFa": "مصدر با ing",
+  "track": "verb-patterns",
+  "tags": ["gerund", "contrast", "detect"],
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "teach",
+      "titleFa": "gerund چیست؟",
+      "intro": "فعل + ing که مثل یک اسم (یک فعالیت) عمل می‌کند.",
+      "examples": [
+        { "en": "Reading is fun.", "fa": "خواندن سرگرم‌کننده است.", "hl": ["Reading"] },
+        { "en": "I enjoy cooking.", "fa": "از آشپزی لذت می‌برم.", "hl": ["cooking"] },
+        { "en": "Swimming is good exercise.", "fa": "شنا کردن ورزش خوبی است.", "hl": ["Swimming"] }
+      ],
+      "note": "املای ing: read → reading · make → making · run → running",
+      "mistake": {
+        "wrong": "Swim is good exercise.",
+        "right": "Swimming is good exercise.",
+        "whyFa": "فعل swim + ing → swimming. کلمهٔ Swimming مثل اسم، فاعل جمله شده."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "gerund",
+          "prompt": "کدام جمله درست است؟",
+          "options": ["Swim is good exercise.", "Swimming is good exercise.", "Swims is good exercise."],
+          "answer": 1,
+          "why": "فعل swim + ing → swimming. کلمهٔ Swimming مثل اسم، فاعل جمله شده.",
+          "hint": "فعل باید + ing بگیرد تا بتواند جای اسم بنشیند."
+        },
+        {
+          "type": "fill",
+          "tag": "gerund",
+          "prompt": "شکل gerund فعل write را بنویس.",
+          "answers": ["writing"],
+          "placeholder": "write → …",
+          "why": "write به e ختم می‌شود → e حذف می‌شود → writing.",
+          "hint": "فعل‌های مختوم به e، e را حذف می‌کنند."
+        },
+        {
+          "type": "fill",
+          "tag": "gerund",
+          "prompt": "جمله را کامل کن:",
+          "sentence": "___ (run) every morning keeps me healthy.",
+          "answers": ["running", "Running"],
+          "placeholder": "فعل را با ing بنویس…",
+          "why": "فاعل جمله یک فعالیت است → gerund. run → running (حرف آخر دوبرابر می‌شود).",
+          "hint": "فعل کوتاه با یک حرف صدادار: حرف آخر دوبرابر می‌شود."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "teach",
+      "titleFa": "gerund به عنوان فاعل",
+      "intro": "وقتی یک فعالیت، فاعل جمله است، فعلش همیشه مفرد است.",
+      "examples": [
+        { "en": "Smoking causes cancer.", "fa": "سیگار کشیدن باعث سرطان می‌شود.", "hl": ["Smoking"] },
+        { "en": "Learning a language takes time.", "fa": "یاد گرفتن یک زبان زمان می‌برد.", "hl": ["Learning"] },
+        { "en": "Walking to work is good for you.", "fa": "پیاده رفتن به سر کار برایت خوب است.", "hl": ["Walking"] }
+      ],
+      "note": "یک فعالیت = یک چیز = مفرد: Playing football is fun.",
+      "mistake": {
+        "wrong": "Playing football are fun.",
+        "right": "Playing football is fun.",
+        "whyFa": "فاعل gerund همیشه مفرد است."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "gerund",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "___ (read) before bed helps me relax.",
+          "answers": ["reading", "Reading"],
+          "placeholder": "فعل را با ing بنویس…",
+          "why": "فاعل جمله یک فعالیت است → gerund. read → reading.",
+          "hint": "فعل + ing = فاعل."
+        },
+        {
+          "type": "fill",
+          "tag": "gerund",
+          "prompt": "جمله را اصلاح کن (فقط فعل را بنویس):",
+          "sentence": "Playing video games are bad for your eyes.",
+          "answers": ["is"],
+          "placeholder": "فعل درست…",
+          "why": "فاعل «Playing video games» یک فعالیت است و مفرد حساب می‌شود → is، نه are.",
+          "hint": "فاعل gerund همیشه مفرد است."
+        },
+        {
+          "type": "mcq",
+          "tag": "contrast",
+          "prompt": "کدام جمله درست است؟",
+          "options": ["Practicing English every day improve your speaking.", "Practicing English every day improves your speaking.", "Practice English every day improves your speaking."],
+          "answer": 1,
+          "why": "هم فاعل باید gerund باشد، هم فعل مفرد: Practicing / improves.",
+          "hint": "هم فاعل، هم فعل."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "kind": "teach",
+      "titleFa": "بعد از حرف اضافه",
+      "intro": "بعد از هر حرف اضافه (at, in, of, for, about, without, before, after) فعل باید با ing بیاید.",
+      "examples": [
+        { "en": "She is good at drawing.", "fa": "او در نقاشی خوب است.", "hl": ["drawing"] },
+        { "en": "I'm interested in learning Spanish.", "fa": "به یاد گرفتن اسپانیایی علاقه دارم.", "hl": ["learning"] },
+        { "en": "He left without saying goodbye.", "fa": "بدون خداحافظی رفت.", "hl": ["saying"] },
+        { "en": "Thanks for helping me.", "fa": "ممنون که کمکم کردی.", "hl": ["helping"] }
+      ],
+      "note": "تلهٔ مهم: look forward to — کلمهٔ to حرف اضافه است، نه مصدر. I look forward to seeing you.",
+      "mistake": {
+        "wrong": "I look forward to see you.",
+        "right": "I look forward to seeing you.",
+        "whyFa": "در look forward to، کلمهٔ to حرف اضافه است."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "gerund",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "She is very good at ___ (draw).",
+          "answers": ["drawing"],
+          "placeholder": "فعل را با ing بنویس…",
+          "why": "بعد از at همیشه ing: drawing.",
+          "hint": "after at → ing."
+        },
+        {
+          "type": "mcq",
+          "tag": "gerund",
+          "prompt": "گزینهٔ درست را انتخاب کن:",
+          "sentence": "I'm looking forward to ___ you next week.",
+          "options": ["see", "seeing", "to see"],
+          "answer": 1,
+          "why": "to در look forward to حرف اضافه است → بعدش gerund: seeing.",
+          "hint": "to در این عبارت نشانهٔ مصدر نیست."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله غلط است؟",
+          "options": ["She is good at drawing.", "I'm interested in learning Spanish.", "He left without say goodbye.", "Thanks for helping me."],
+          "answer": 2,
+          "why": "بعد از without باید gerund بیاید: saying، نه say.",
+          "hint": "به کلمهٔ بعد از without دقت کن."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "kind": "teach",
+      "titleFa": "بعد از فعل‌های خاص",
+      "intro": "این فعل‌ها همیشه با gerund می‌آیند: enjoy, finish, mind, avoid, suggest, keep, practice, can't stand.",
+      "examples": [
+        { "en": "I enjoy watching movies.", "fa": "از تماشای فیلم لذت می‌برم.", "hl": ["watching"] },
+        { "en": "He finished writing the report.", "fa": "نوشتن گزارش را تمام کرد.", "hl": ["writing"] },
+        { "en": "Would you mind opening the window?", "fa": "ممکن است پنجره را باز کنی؟", "hl": ["opening"] },
+        { "en": "She suggested going to the cinema.", "fa": "پیشنهاد داد به سینما برویم.", "hl": ["going"] }
+      ],
+      "note": "این فعل‌ها با to نمی‌آیند. الگویشان همیشه فعل + ing است.",
+      "mistake": {
+        "wrong": "I enjoy to watch movies.",
+        "right": "I enjoy watching movies.",
+        "whyFa": "enjoy همیشه با gerund می‌آید."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "gerund",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I enjoy ___ (watch) movies.",
+          "answers": ["watching"],
+          "placeholder": "فعل را با ing بنویس…",
+          "why": "enjoy + gerund → watching.",
+          "hint": "enjoy → ing."
+        },
+        {
+          "type": "fill",
+          "tag": "gerund",
+          "prompt": "جمله را اصلاح کن (فقط فعل را بنویس):",
+          "sentence": "He avoided to answer the question.",
+          "answers": ["answering"],
+          "placeholder": "فعل درست…",
+          "why": "avoid + gerund → answering، نه to answer.",
+          "hint": "avoid → ing."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام فعل با gerund می‌آید؟",
+          "options": ["want", "decide", "enjoy", "hope"],
+          "answer": 2,
+          "why": "enjoy + gerund. want/decide/hope با to + فعل می‌آیند.",
+          "hint": "سه فعل دیگر با to می‌آیند."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "kind": "teach",
+      "titleFa": "go + فعالیت و عبارت‌های ثابت",
+      "intro": "برای فعالیت‌های ورزشی و تفریحی از go + ing استفاده می‌کنیم. چند عبارت ثابت هم همیشه با gerund می‌آیند.",
+      "examples": [
+        { "en": "We go swimming every Friday.", "fa": "هر جمعه به شنا می‌رویم.", "hl": ["swimming"] },
+        { "en": "She went shopping yesterday.", "fa": "دیروز به خرید رفت.", "hl": ["shopping"] },
+        { "en": "It's no use arguing with him.", "fa": "بحث کردن با او فایده‌ای ندارد.", "hl": ["arguing"] },
+        { "en": "I can't help laughing.", "fa": "نمی‌توانم جلوی خنده‌ام را بگیرم.", "hl": ["laughing"] }
+      ],
+      "note": "عبارت‌های ثابت با gerund: it's no use …، I can't help …، I'm used to …، How about …؟",
+      "mistake": {
+        "wrong": "We go to swimming.",
+        "right": "We go swimming.",
+        "whyFa": "بعد از go برای فعالیت، to نمی‌آید."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "gerund",
+          "prompt": "گزینهٔ درست را انتخاب کن:",
+          "sentence": "We go ___ every Friday.",
+          "options": ["to swimming", "swimming", "swim"],
+          "answer": 1,
+          "why": "go + فعالیت ورزشی → go swimming.",
+          "hint": "بعد از go برای فعالیت، to نمی‌آید."
+        },
+        {
+          "type": "fill",
+          "tag": "gerund",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "It's no use ___ (argue) with him.",
+          "answers": ["arguing"],
+          "placeholder": "فعل را با ing بنویس…",
+          "why": "عبارت it's no use همیشه با gerund → arguing.",
+          "hint": "no use → ing."
+        },
+        {
+          "type": "mcq",
+          "tag": "gerund",
+          "prompt": "کدام جمله درست است؟",
+          "options": ["She went to shopping yesterday.", "She went shopping yesterday.", "She went shop yesterday."],
+          "answer": 1,
+          "why": "go + فعالیت → go shopping، بدون to.",
+          "hint": "to اضافی است."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "kind": "teach",
+      "titleFa": "gerund یا to؟ فرق مهم",
+      "intro": "بعضی فعل‌ها فقط gerund، بعضی فقط to + فعل. دو فعل stop و remember با هر دو معنی را عوض می‌کنند.",
+      "examples": [
+        { "en": "I stopped smoking two years ago.", "fa": "سیگار را ترک کردم (عمل قبلاً انجام شد).", "hl": ["smoking"] },
+        { "en": "I stopped to smoke a cigarette.", "fa": "ایستادم تا سیگار بکشم (هدف).", "hl": ["to smoke"] },
+        { "en": "I remember locking the door.", "fa": "یادم هست که قفل کردم.", "hl": ["locking"] },
+        { "en": "Remember to lock the door.", "fa": "یادت باشه قفل کنی.", "hl": ["to lock"] }
+      ],
+      "note": "stop + gerund = ترک کردن · stop + to = توقف برای انجام کار · remember + gerund = یادم هست · remember + to = یادت باشه",
+      "mistake": {
+        "wrong": "I stopped to smoke two years ago.",
+        "right": "I stopped smoking two years ago.",
+        "whyFa": "ترک کردن = stop + gerund. stop + to یعنی توقف کرد تا سیگار بکشد."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "contrast",
+          "prompt": "گزینهٔ درست را انتخاب کن:",
+          "sentence": "I stopped ___ two years ago. Now I'm healthy.",
+          "options": ["smoking", "to smoke"],
+          "answer": 0,
+          "why": "ترک کردن = stop + gerund.",
+          "hint": "ترک کردن = stop + ing."
+        },
+        {
+          "type": "mcq",
+          "tag": "contrast",
+          "prompt": "گزینهٔ درست را انتخاب کن:",
+          "sentence": "On my way home, I stopped ___ some bread.",
+          "options": ["buying", "to buy"],
+          "answer": 1,
+          "why": "توقف کرد تا نان بخرد (هدف) → stop + to.",
+          "hint": "هدف از توقف = stop + to."
+        },
+        {
+          "type": "mcq",
+          "tag": "contrast",
+          "prompt": "کدام جمله یعنی «او دیگر نامه نمی‌نویسد»؟",
+          "options": ["He stopped writing letters.", "He stopped to write letters.", "He stopped write letters."],
+          "answer": 0,
+          "why": "stop + gerund = ترک کردن. stop + to = توقف برای انجام کار.",
+          "hint": "«ترک کردن» یعنی stop + ing."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "kind": "teach",
+      "isFinal": true,
+      "titleFa": "حالا خودت بساز",
+      "intro": "۱۲ تمرین متنوع. بعضی جمله‌ها درست هستند و نباید اصلاح شوند. بعضی پاسخ‌ها اصلاً gerund نیستند. عجله نکن.",
+      "note": "هر سؤال را می‌توانی رد کنی.",
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "gerund",
+          "prompt": "گزینهٔ درست را انتخاب کن:",
+          "sentence": "She suggested ___ to the cinema.",
+          "options": ["to go", "going", "go"],
+          "answer": 1,
+          "why": "suggest + gerund → going.",
+          "hint": "suggest یکی از فعل‌های gerund-گیر است."
+        },
+        {
+          "type": "mcq",
+          "tag": "contrast",
+          "prompt": "گزینهٔ درست را انتخاب کن:",
+          "sentence": "They decided ___ a new car.",
+          "options": ["buying", "to buy", "buy"],
+          "answer": 1,
+          "why": "decide + to + فعل → to buy. اینجا gerund غلط است!",
+          "hint": "decide با to می‌آید."
+        },
+        {
+          "type": "order",
+          "tag": "contrast",
+          "prompt": "جمله را بساز. یک کلمه اضافی است که نباید استفاده شود.",
+          "words": ["I", "want", "to", "travel", "traveling", "around", "the", "world"],
+          "answer": "I want to travel around the world.",
+          "extraCount": 1,
+          "why": "want + to + فعل. «traveling» کلمهٔ اضافی است — want هرگز gerund نمی‌گیرد.",
+          "hint": "want + to + فعل."
+        },
+        {
+          "type": "fix",
+          "tag": "detect",
+          "prompt": "جمله را بررسی کن. اگر خطا دارد اصلاح کن؛ اگر درست است، تأیید کن.",
+          "sentence": "I look forward to hearing from you.",
+          "isCorrect": true,
+          "why": "to در look forward to حرف اضافه است، پس hearing درست است.",
+          "wrongFixHint": "این جمله واقعاً درست است. to در look forward to حرف اضافه است، نه مصدر."
+        },
+        {
+          "type": "fix",
+          "tag": "gerund",
+          "prompt": "این جمله دو خطا دارد. اصلاح کن.",
+          "sentence": "I enjoy to swim but I hate to waking up early.",
+          "isCorrect": false,
+          "answers": ["I enjoy swimming but I hate waking up early."],
+          "why": "enjoy + gerund → swimming. hate + gerund → waking up.",
+          "wrongFixHint": "هر دو فعل (enjoy و hate) gerund می‌گیرند."
+        },
+        {
+          "type": "mcq",
+          "tag": "contrast",          "prompt": "کدام جمله یعنی «او برای نوشتن نامه توقف کرد»؟",
+          "options": [
+            "He stopped to write letters.",
+            "He stopped writing letters.",
+            "He stopped write letters."
+          ],
+          "answer": 0,
+          "why": "stop + to = توقف برای انجام کار.",
+          "hint": "هدف از توقف → stop + to."
+        },
+        {
+          "type": "double",
+          "tag": "contrast",
+          "prompt": "هر دو جای خالی را پر کن:",
+          "template": "My sister loves {0} (cook), but she wants {1} (be) a nurse.",
+          "answers1": ["cooking"],
+          "answers2": ["to be"],
+          "why": "love + gerund → cooking. want + to + فعل → to be.",
+          "hint": "love با gerund، want با to."
+        },
+        {
+          "type": "mcq",
+          "tag": "gerund",
+          "prompt": "متن را بخوان و پاسخ بده.",
+          "passage": "Sara loves hiking in the mountains. She goes camping every summer. But she can't stand cooking, so she always eats at restaurants when she travels.",
+          "question": "Sara از انجام کدام کار لذت نمی‌برد؟",
+          "options": ["Hiking", "Camping", "Cooking"],
+          "answer": 2,
+          "why": "can't stand + gerund = دوست نداشتن. سه gerund در متن هست، اما فقط cooking با can't stand آمده.",
+          "hint": "به عبارت can't stand دقت کن."
+        },
+        {
+          "type": "fill",
+          "tag": "gerund",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I'm tired of ___ (wait).",
+          "answers": ["waiting"],
+          "placeholder": "فعل را با ing بنویس…",
+          "why": "tired of + gerund → waiting.",
+          "hint": "after of → ing."
+        },
+        {
+          "type": "fill",
+          "tag": "contrast",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "She decided ___ (stay) home.",
+          "answers": ["to stay"],
+          "placeholder": "فعل با to یا ing؟",
+          "why": "decide + to + فعل → to stay، نه staying.",
+          "hint": "decide + to + فعل."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله غلط است؟",
+          "options": ["I'm interested in learning Japanese.", "He finished writing the report.", "They avoided to answer the question.", "We go swimming every Friday."],
+          "answer": 2,
+          "why": "avoid + gerund → answering، نه to answer.",
+          "hint": "avoid یکی از فعل‌های gerund-گیر است."
+        },
+        {
+          "type": "fill",
+          "tag": "contrast",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I hope ___ (see) you soon.",
+          "answers": ["to see"],
+          "placeholder": "فعل با to یا ing؟",
+          "why": "hope + to + فعل → to see. hope هرگز gerund نمی‌گیرد.",
+          "hint": "hope + to + فعل."
+        }
+      ]
+    }
+  ]
+}

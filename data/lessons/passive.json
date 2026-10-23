@@ -1,0 +1,434 @@
+{
+  "id": "passive",
+  "version": 1,
+  "titleEn": "Passive Voice",
+  "titleFa": "مجهول",
+  "subtitleFa": "be + past participle",
+  "track": "voice-modality",
+  "tags": ["form", "agent", "detect"],
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "teach",
+      "titleFa": "ساختار مجهول",
+      "intro": "در مجهول، مفعول جمله به جای فاعل می‌آید و فعل با be + past participle ساخته می‌شود.",
+      "examples": [
+        { "en": "The house was built in 1990.", "fa": "خانه در ۱۹۹۰ ساخته شد.", "hl": ["was built"] },
+        { "en": "English is spoken here.", "fa": "اینجا انگلیسی صحبت می‌شود.", "hl": ["is spoken"] },
+        { "en": "The letters have been sent.", "fa": "نامه‌ها فرستاده شده‌اند.", "hl": ["been sent"] },
+        { "en": "This cake was made by my sister.", "fa": "این کیک را خواهرم درست کرده است.", "hl": ["was made"] }
+      ],
+      "note": "be (هم‌زمان با جمله) + past participle",
+      "mistake": {
+        "wrong": "The book was wrote by him.",
+        "right": "The book was written by him.",
+        "whyFa": "بعد از be همیشه past participle: written، نه wrote."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "This bridge ___ in 1975.",
+          "options": ["was built", "built", "was build"],
+          "answer": 0,
+          "why": "پل ساخته شد، فاعل مهم نیست → was built.",
+          "hint": "was + pp."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "Rice ___ (grow) in the north of Iran.",
+          "answers": ["is grown"],
+          "placeholder": "is + pp",
+          "why": "حقیقت کلی و مجهول در حال → is grown.",
+          "hint": "حال ساده → is + pp."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "The window ___ by the boys.",
+          "options": ["was broken", "broke", "was break"],
+          "answer": 0,
+          "why": "پنجره شکسته شد (مفعول جلو آمده) → was broken.",
+          "hint": "be + pp."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "teach",
+      "titleFa": "مجهول در زمان‌های مختلف",
+      "intro": "فقط شکل be عوض می‌شود؛ past participle ثابت می‌ماند: is done / was done / has been done / will be done.",
+      "examples": [
+        { "en": "The room is cleaned every morning.", "fa": "اتاق هر صبح تمیز می‌شود.", "hl": ["is cleaned"] },
+        { "en": "The report was finished yesterday.", "fa": "گزارش دیروز تمام شد.", "hl": ["was finished"] },
+        { "en": "The letters have been sent.", "fa": "نامه‌ها فرستاده شده‌اند.", "hl": ["have been sent"] },
+        { "en": "The results will be announced tomorrow.", "fa": "نتایج فردا اعلام می‌شود.", "hl": ["will be announced"] }
+      ],
+      "note": "be در هر زمان + pp · حال کامل مجهول: has/have been + pp",
+      "mistake": {
+        "wrong": "The results will announced tomorrow.",
+        "right": "The results will be announced tomorrow.",
+        "whyFa": "بعد از will باید be بیاید تا مجهول ساخته شود."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "The report ___ tomorrow.",
+          "options": ["will be finished", "will finish", "is finishing"],
+          "answer": 0,
+          "why": "آیندهٔ مجهول: will be + pp.",
+          "hint": "will be + finished."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "The letters ___ already.",
+          "options": ["have been sent", "have sent", "are sending"],
+          "answer": 0,
+          "why": "حال کامل مجهول: have been + pp.",
+          "hint": "have been + pp."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "The room ___ (clean) every morning.",
+          "answers": ["is cleaned"],
+          "placeholder": "is + pp",
+          "why": "عادت روزانهٔ مجهول → is cleaned.",
+          "hint": "every morning → حال ساده."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "kind": "teach",
+      "titleFa": "فاعل با by",
+      "intro": "اگر بخواهیم بگوییم کار را چه کسی انجام داده، با by اضافه می‌کنیم: was written by Ali.",
+      "examples": [
+        { "en": "The song was written by Ali.", "fa": "آهنگ را علی نوشت.", "hl": ["by Ali"] },
+        { "en": "The cake was made by my mother.", "fa": "کیک را مادرم پخت.", "hl": ["by my mother"] },
+        { "en": "This painting was bought by a collector.", "fa": "این نقاشی را یک مجموعه‌دار خرید.", "hl": ["by a collector"] },
+        { "en": "The email was sent by the manager.", "fa": "ایمیل را مدیر فرستاد.", "hl": ["by the manager"] }
+      ],
+      "note": "by + انجام‌دهنده · اگر فاعل مهم نباشد، by حذف می‌شود",
+      "mistake": {
+        "wrong": "The song was written from Ali.",
+        "right": "The song was written by Ali.",
+        "whyFa": "برای انجام‌دهندهٔ کار در مجهول از by استفاده می‌شود."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "agent",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "The song was written ___ Ali.",
+          "answers": ["by"],
+          "placeholder": "by / from",
+          "why": "انجام‌دهندهٔ کار با by می‌آید.",
+          "hint": "نویسنده → by."
+        },
+        {
+          "type": "mcq",
+          "tag": "agent",
+          "prompt": "The cake ___ my sister.",
+          "options": ["was made by", "was made of", "made by"],
+          "answer": 0,
+          "why": "مجهول + انجام‌دهنده: was made by.",
+          "hint": "be + pp + by."
+        },
+        {
+          "type": "mcq",
+          "tag": "agent",
+          "prompt": "کدام جمله فاعل را حذف می‌کند چون مهم نیست؟",
+          "options": [
+            "The bank was robbed yesterday.",
+            "The police robbed the bank yesterday.",
+            "The bank robbed yesterday."
+          ],
+          "answer": 0,
+          "why": "در مجهول «The bank was robbed» فاعل لازم نیست و جمله کامل است.",
+          "hint": "مجهول کامل: be + pp."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "kind": "teach",
+      "titleFa": "کِی مجهول بهتر است؟",
+      "intro": "وقتی فاعل را نمی‌دانیم، مهم نیست، یا واضح است، مجهول طبیعی‌تر است: My bike was stolen.",
+      "examples": [
+        { "en": "My bike was stolen last week.", "fa": "دوچرخه‌ام هفتهٔ پیش دزدیده شد.", "hl": ["was stolen"] },
+        { "en": "The road is being repaired.", "fa": "جاده در حال تعمیر است.", "hl": ["is being repaired"] },
+        { "en": "He was born in Tehran.", "fa": "او در تهران به دنیا آمد.", "hl": ["was born"] },
+        { "en": "English is taught in every school here.", "fa": "اینجا در هر مدرسه‌ای انگلیسی درس داده می‌شود.", "hl": ["is taught"] }
+      ],
+      "note": "فاعل ناشناخته یا بی‌اهمیت → مجهول",
+      "mistake": {
+        "wrong": "My phone stole on the bus.",
+        "right": "My phone was stolen on the bus.",
+        "whyFa": "گوشی خودش نمی‌دزدد؛ دزدیده می‌شود → مجهول."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "My bike ___ last week.",
+          "options": ["was stolen", "stole", "is steal"],
+          "answer": 0,
+          "why": "فاعل (دزد) معلوم نیست → مجهول: was stolen.",
+          "hint": "دزد ناشناس → مجهول."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "در کدام جمله مجهول طبیعی‌تر است؟",
+          "options": [
+            "My phone was stolen on the bus.",
+            "Someone stole my phone on the bus.",
+            "My phone stole on the bus."
+          ],
+          "answer": 0,
+          "why": "فاعل مهم نیست و مجهول کوتاه‌تر و طبیعی‌تر است.",
+          "hint": "فاعل ناشناس."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "This mosque ___ (build) 400 years ago.",
+          "answers": ["was built"],
+          "placeholder": "was + pp",
+          "why": "ساخت در گذشته و فاعل نامعلوم → was built.",
+          "hint": "ago → گذشته."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "kind": "teach",
+      "titleFa": "فعل‌هایی که مجهول نمی‌شوند",
+      "intro": "فعل‌های ناگذر (بدون مفعول) مجهول ندارند: happen, arrive, sleep, die, come, go.",
+      "examples": [
+        { "en": "The accident happened last night.", "fa": "تصادف دیشب اتفاق افتاد.", "hl": ["happened"] },
+        { "en": "They arrived at 6.", "fa": "ساعت ۶ رسیدند.", "hl": ["arrived"] },
+        { "en": "She slept well.", "fa": "خوب خوابید.", "hl": ["slept"] },
+        { "en": "The old man died in 1990.", "fa": "پیرمرد در ۱۹۹۰ فوت کرد.", "hl": ["died"] }
+      ],
+      "note": "بدون مفعول → بدون مجهول",
+      "mistake": {
+        "wrong": "The accident was happened last night.",
+        "right": "The accident happened last night.",
+        "whyFa": "happen مفعول نمی‌گیرد، پس مجهول ندارد."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله را نمی‌توان مجهول کرد؟",
+          "options": ["She slept well.", "She wrote the letter.", "She cleaned the room."],
+          "answer": 0,
+          "why": "sleep ناگذر است و مفعول ندارد؛ write و clean مفعول می‌گیرند.",
+          "hint": "بدون مفعول → بدون مجهول."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "The accident ___ last night.",
+          "options": ["happened", "was happened", "is happened"],
+          "answer": 0,
+          "why": "happen مجهول نمی‌شود.",
+          "hint": "happen همیشه معلوم."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "They ___ at the airport at 6.",
+          "options": ["arrived", "were arrived", "are arrived"],
+          "answer": 0,
+          "why": "arrive ناگذر است و مجهول ندارد.",
+          "hint": "arrive → معلوم."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "kind": "teach",
+      "titleFa": "سؤالی و منفی مجهول",
+      "intro": "سؤال: Was the letter sent? · منفی: The car wasn't repaired.",
+      "examples": [
+        { "en": "Was the letter sent yesterday?", "fa": "نامه دیروز فرستاده شد؟", "hl": ["Was the letter sent"] },
+        { "en": "The car wasn't repaired last week.", "fa": "ماشین هفتهٔ پیش تعمیر نشد.", "hl": ["wasn't repaired"] },
+        { "en": "Has the room been cleaned yet?", "fa": "اتاق تا حالا تمیز شده است؟", "hl": ["been cleaned"] },
+        { "en": "The tickets weren't checked.", "fa": "بلیت‌ها بررسی نشدند.", "hl": ["weren't checked"] }
+      ],
+      "note": "سؤال: be + فاعل + pp؟ · منفی: be + not + pp",
+      "mistake": {
+        "wrong": "Did the letter was sent?",
+        "right": "Was the letter sent?",
+        "whyFa": "در مجهول، خود be به اول جمله می‌آید؛ did لازم نیست."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "___ the letter sent yesterday?",
+          "options": ["Was", "Did", "Is"],
+          "answer": 0,
+          "why": "گذشته + مجهول → Was the letter sent…؟",
+          "hint": "yesterday → Was."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "The room ___ yet.",
+          "options": ["hasn't been cleaned", "hasn't cleaned", "didn't cleaned"],
+          "answer": 0,
+          "why": "حال کامل مجهول منفی: hasn't been cleaned.",
+          "hint": "yet → have/has been."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "The car ___ (not / repair) last week.",
+          "answers": ["wasn't repaired"],
+          "placeholder": "wasn't + pp",
+          "why": "منفی گذشتهٔ مجهول: wasn't repaired.",
+          "hint": "not was → wasn't."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "kind": "teach",
+      "isFinal": true,
+      "titleFa": "حالا خودت بساز",
+      "intro": "۱۲ تمرین متنوع. بعضی جمله‌ها کوتاه‌اند، بعضی نه. عجله نکن.",
+      "note": "هر سؤال را می‌توانی رد کنی.",
+      "items": [
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "The emails ___ (send) this morning.",
+          "answers": ["were sent"],
+          "placeholder": "were + pp",
+          "why": "گذشتهٔ مجهول جمع: were sent.",
+          "hint": "this morning → گذشته."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "A new school ___ in our town next year.",
+          "options": ["will be built", "will build", "is building"],
+          "answer": 0,
+          "why": "آیندهٔ مجهول: will be built.",
+          "hint": "will be + pp."
+        },
+        {
+          "type": "ident",
+          "tag": "form",
+          "prompt": "کلمهٔ غلط را پیدا کن و شکل درستش را بنویس.",
+          "sentence": "The letter was wrote by my brother.",
+          "wrongWord": "wrote",
+          "correctWord": "written",
+          "why": "بعد از was باید past participle بیاید: written.",
+          "hint": "wrote → written."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "The thief ___ (catch) by the police last night.",
+          "answers": ["was caught"],
+          "placeholder": "was + pp",
+          "why": "گذشتهٔ مجهول با فاعل: was caught by…",
+          "hint": "catch → caught."
+        },
+        {
+          "type": "double",
+          "tag": "agent",
+          "prompt": "هر دو جای خالی را پر کن:",
+          "template": "The cake {0} made {1} my mother.",
+          "answers1": ["was"],
+          "answers2": ["by"],
+          "why": "was + made برای مجهول و by برای انجام‌دهنده.",
+          "hint": "اولی was، دومی by."
+        },
+        {
+          "type": "order",
+          "tag": "form",
+          "prompt": "جمله را بساز:",
+          "words": ["The", "house", "was", "built", "in", "1990"],
+          "answer": "The house was built in 1990.",
+          "why": "مجهول گذشته: was built + زمان.",
+          "hint": "was built یک تکه است."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله غلط است؟",
+          "options": [
+            "The book was written by her.",
+            "The book was wrote by her.",
+            "The books were written by her.",
+            "Was the book written by her?"
+          ],
+          "answer": 1,
+          "why": "«was wrote» غلط است؛ باید was written باشد.",
+          "hint": "be + past participle."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "___ English spoken in your country?",
+          "options": ["Is", "Does", "Was"],
+          "answer": 0,
+          "why": "حقیقت کلی در حال → Is English spoken…؟",
+          "hint": "spoke → spoken با is."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام فعل را نمی‌توان مجهول کرد؟",
+          "options": ["arrive", "build", "write"],
+          "answer": 0,
+          "why": "arrive ناگذر است و مفعول ندارد، پس مجهول نمی‌شود.",
+          "hint": "بدون مفعول."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "The windows ___ (clean) every Friday.",
+          "answers": ["are cleaned"],
+          "placeholder": "are + pp",
+          "why": "جمع + عادت + مجهول: are cleaned.",
+          "hint": "windows جمع → are."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "The results ___ tomorrow.",
+          "options": ["will be announced", "will announce", "are announce"],
+          "answer": 0,
+          "why": "آیندهٔ مجهول: will be announced.",
+          "hint": "will be + pp."
+        },
+        {
+          "type": "order",
+          "tag": "form",
+          "prompt": "جمله را بساز:",
+          "words": ["The", "letter", "has", "been", "sent"],
+          "answer": "The letter has been sent.",
+          "why": "حال کامل مجهول: has been sent.",
+          "hint": "has been + pp."
+        }
+      ]
+    }
+  ]
+}

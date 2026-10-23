@@ -1,0 +1,425 @@
+{
+  "id": "present-perfect",
+  "version": 1,
+  "titleEn": "Present Perfect",
+  "titleFa": "حال کامل",
+  "subtitleFa": "have / has + past participle",
+  "track": "tense-aspect",
+  "tags": ["form", "since-for", "detect"],
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "teach",
+      "titleFa": "ساختار",
+      "intro": "have/has + past participle. برای همهٔ فاعل‌ها یکسان، فقط have/has فرق دارد.",
+      "examples": [
+        { "en": "I have finished.", "fa": "تمام کرده‌ام.", "hl": ["have finished"] },
+        { "en": "She has left.", "fa": "رفته است.", "hl": ["has left"] },
+        { "en": "They have eaten.", "fa": "غذا خورده‌اند.", "hl": ["have eaten"] },
+        { "en": "We have been here.", "fa": "اینجا بوده‌ایم.", "hl": ["have been"] }
+      ],
+      "note": "I/you/we/they → have · he/she/it → has",
+      "mistake": {
+        "wrong": "She have finished.",
+        "right": "She has finished.",
+        "whyFa": "برای she → has."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "She ___ finished her work.",
+          "options": ["has", "have", "is"],
+          "answer": 0,
+          "why": "she → has.",
+          "hint": "she → has."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "They ___ (have) eaten lunch.",
+          "answers": ["have"],
+          "placeholder": "have / has",
+          "why": "they → have.",
+          "hint": "they → have."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "I ___ never been to Paris.",
+          "options": ["have", "has", "am"],
+          "answer": 0,
+          "why": "فاعل I → have: I have never been.",
+          "hint": "I → have."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "teach",
+      "titleFa": "تجربه (ever/never)",
+      "intro": "تجربه در زندگی، بدون زمان مشخص. ever = آیا هرگز؟ never = هرگز.",
+      "examples": [
+        { "en": "I have been to Japan.", "fa": "به ژاپن رفته‌ام.", "hl": ["have been"] },
+        { "en": "She has never eaten sushi.", "fa": "او هرگز سوشی نخورده.", "hl": ["has never eaten"] },
+        { "en": "Have you ever met him?", "fa": "آیا هرگز او را دیده‌ای؟", "hl": ["Have you ever met"] },
+        { "en": "I have never seen snow.", "fa": "هرگز برف ندیده‌ام.", "hl": ["have never seen"] }
+      ],
+      "note": "ever در سؤال، never در جملهٔ خبری. هر دو قبل از main verb.",
+      "mistake": {
+        "wrong": "I have ever been to Japan.",
+        "right": "I have never been to Japan.",
+        "whyFa": "در جملهٔ خبری مثبت، ever معمولاً با never جایگزین می‌شود (یا با just/already)."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I have ___ visited London.",
+          "answers": ["never"],
+          "placeholder": "never / ever / yet",
+          "why": "جملهٔ خبری → never.",
+          "hint": "خبری → never."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "Have you ___ met him?",
+          "options": ["ever", "never", "yet"],
+          "answer": 0,
+          "why": "سؤال → ever.",
+          "hint": "سؤال → ever."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "She has ___ been to France.",
+          "options": ["never", "ever", "yet"],
+          "answer": 0,
+          "why": "خبری → never.",
+          "hint": "خبری → never."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "kind": "teach",
+      "titleFa": "زمان ناتمام (today/this week)",
+      "intro": "دورهٔ زمانی که تمام نشده — امروز، این هفته، این ماه.",
+      "examples": [
+        { "en": "I have worked hard this week.", "fa": "این هفته سخت کار کرده‌ام.", "hl": ["have worked"] },
+        { "en": "It has rained a lot today.", "fa": "امروز زیاد باران آمده.", "hl": ["has rained"] },
+        { "en": "I haven't seen her today.", "fa": "امروز او را ندیده‌ام.", "hl": ["haven't seen"] },
+        { "en": "She has called me three times this morning.", "fa": "این صبح سه بار زنگ زده.", "hl": ["has called"] }
+      ],
+      "note": "❌ I have seen him yesterday · ✅ I saw him yesterday — yesterday زمان مشخص تمام‌شده است.",
+      "mistake": {
+        "wrong": "I have seen him yesterday.",
+        "right": "I saw him yesterday.",
+        "whyFa": "yesterday زمان مشخص است → past simple."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I ___ (have) seen her twice today.",
+          "answers": ["have"],
+          "placeholder": "have / has",
+          "why": "today → present perfect. I → have.",
+          "hint": "I → have."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "We ___ seen him today.",
+          "options": ["haven't", "didn't", "don't"],
+          "answer": 0,
+          "why": "today → present perfect منفی: haven't seen.",
+          "hint": "today → haven't seen."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله درست است؟",
+          "options": ["I have seen him yesterday.", "I saw him yesterday."],
+          "answer": 1,
+          "why": "yesterday → past simple، نه present perfect.",
+          "hint": "yesterday → past simple."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "kind": "teach",
+      "titleFa": "for / since",
+      "intro": "for + دوره (سه سال، دو ساعت)؛ since + نقطهٔ شروع (2020، دوشنبه، بچگی).",
+      "examples": [
+        { "en": "I've lived here for ten years.", "fa": "ده سال است اینجا زندگی می‌کنم.", "hl": ["for ten years"] },
+        { "en": "I've lived here since 2015.", "fa": "از ۲۰۱۵ اینجا زندگی می‌کنم.", "hl": ["since 2015"] },
+        { "en": "She's worked here for five years.", "fa": "پنج سال است اینجا کار می‌کند.", "hl": ["for five years"] },
+        { "en": "We've known each other since childhood.", "fa": "از بچگی همدیگر را می‌شناسیم.", "hl": ["since childhood"] }
+      ],
+      "note": "for = مدت · since = نقطه",
+      "mistake": {
+        "wrong": "I've lived here since ten years.",
+        "right": "I've lived here for ten years.",
+        "whyFa": "«ده سال» یک دوره است → for."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "since-for",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I have lived here ___ 2015.",
+          "answers": ["since"],
+          "placeholder": "for / since",
+          "why": "2015 نقطهٔ شروع است → since.",
+          "hint": "نقطه → since."
+        },
+        {
+          "type": "mcq",
+          "tag": "since-for",
+          "prompt": "She has worked here ___ five years.",
+          "options": ["for", "since", "from"],
+          "answer": 0,
+          "why": "«پنج سال» یک دوره است → for.",
+          "hint": "دوره → for."
+        },
+        {
+          "type": "fill",
+          "tag": "since-for",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "We have known each other ___ childhood.",
+          "answers": ["since"],
+          "placeholder": "for / since",
+          "why": "childhood نقطهٔ شروع است → since.",
+          "hint": "نقطه → since."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "kind": "teach",
+      "titleFa": "just / already / yet",
+      "intro": "just = همین حالا · already = قبلاً (زودتر از انتظار) · yet = هنوز (منفی و سؤالی).",
+      "examples": [
+        { "en": "I have just eaten.", "fa": "همین حالا غذا خورده‌ام.", "hl": ["have just eaten"] },
+        { "en": "I have already finished.", "fa": "قبلاً تمام کرده‌ام.", "hl": ["have already finished"] },
+        { "en": "I haven't finished yet.", "fa": "هنوز تمام نکرده‌ام.", "hl": ["haven't finished yet"] },
+        { "en": "Have you finished yet?", "fa": "هنوز تمام کرده‌ای؟", "hl": ["finished yet"] }
+      ],
+      "note": "just/already قبل از main verb · yet در آخر جمله",
+      "mistake": {
+        "wrong": "I yet haven't finished.",
+        "right": "I haven't finished yet.",
+        "whyFa": "yet در آخر جمله می‌آید، نه اول."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I have ___ finished — you're too late!",
+          "answers": ["already"],
+          "placeholder": "already / just / yet",
+          "why": "قبلاً تمام شده → already.",
+          "hint": "قبلاً → already."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "Have you finished ___?",
+          "options": ["yet", "already", "just"],
+          "answer": 0,
+          "why": "سؤالی → yet.",
+          "hint": "سؤالی → yet."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "She has ___ left the office.",
+          "answers": ["just"],
+          "placeholder": "just / already / yet",
+          "why": "همین حالا → just.",
+          "hint": "همین حالا → just."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "kind": "teach",
+      "titleFa": "been vs gone",
+      "intro": "been = رفته و برگشته (تجربه). gone = رفته و هنوز آنجاست.",
+      "examples": [
+        { "en": "I have been to Paris.", "fa": "به پاریس رفته‌ام (الان برگشته‌ام).", "hl": ["have been"] },
+        { "en": "She has gone to Paris.", "fa": "به پاریس رفته (الان آنجاست).", "hl": ["has gone"] },
+        { "en": "Where's Ali? He has gone to the shop.", "fa": "علی کجاست؟ به مغازه رفته.", "hl": ["has gone"] },
+        { "en": "I have been to New York twice.", "fa": "دو بار نیویورک رفته‌ام.", "hl": ["have been"] }
+      ],
+      "note": "been = تجربه (برگشت) · gone = نتیجه (آنجاست)",
+      "mistake": {
+        "wrong": "Where's Ali? He has been to the shop.",
+        "right": "Where's Ali? He has gone to the shop.",
+        "whyFa": "هنوز آنجاست → has gone."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "Where's Ali? He ___ to the shop.",
+          "options": ["has gone", "has been", "went"],
+          "answer": 0,
+          "why": "هنوز آنجاست → has gone.",
+          "hint": "هنوز آنجاست → has gone."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I have ___ to New York twice.",
+          "answers": ["been"],
+          "placeholder": "been / gone",
+          "why": "تجربه → been.",
+          "hint": "تجربه → been."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "She isn't here. She ___ home.",
+          "options": ["has gone", "has been", "is going"],
+          "answer": 0,
+          "why": "هنوز آنجاست → has gone.",
+          "hint": "هنوز آنجاست → has gone."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "kind": "teach",
+      "isFinal": true,
+      "titleFa": "حالا خودت بساز",
+      "intro": "۱۲ تمرین متنوع. بعضی جمله‌ها کوتاه‌اند، بعضی نه. عجله نکن.",
+      "note": "هر سؤال را می‌توانی رد کنی.",
+      "items": [
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I ___ (have) never eaten sushi.",
+          "answers": ["have"],
+          "placeholder": "have / has",
+          "why": "فاعل I → have: I have never eaten sushi.",
+          "hint": "I → have."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "They ___ arrived yet.",
+          "options": ["haven't", "didn't", "don't"],
+          "answer": 0,
+          "why": "yet + present perfect: haven't arrived.",
+          "hint": "yet → haven't."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله غلط است؟",
+          "options": ["I have seen that movie.", "I have seen him yesterday.", "She has just left.", "Have you ever been to London?"],
+          "answer": 1,
+          "why": "yesterday → past simple، نه present perfect.",
+          "hint": "yesterday → past simple."
+        },
+        {
+          "type": "fill",
+          "tag": "since-for",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "We have been friends ___ 2010.",
+          "answers": ["since"],
+          "placeholder": "for / since",
+          "why": "2010 نقطه → since.",
+          "hint": "نقطه → since."
+        },
+        {
+          "type": "double",
+          "tag": "form",
+          "prompt": "هر دو جای خالی را پر کن:",
+          "template": "I have {0} finished, but I haven't eaten {1}.",
+          "answers1": ["already"],
+          "answers2": ["yet"],
+          "why": "already قبل از main verb، yet در آخر.",
+          "hint": "اولی already، دومی yet."
+        },
+        {
+          "type": "ident",
+          "tag": "form",
+          "prompt": "کلمهٔ غلط را پیدا کن و شکل درستش را بنویس.",
+          "sentence": "She has went to the market.",
+          "wrongWord": "went",
+          "correctWord": "gone",
+          "why": "has + past participle: gone، نه went.",
+          "hint": "past participle → gone."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "Have you ___ been to London?",
+          "options": ["ever", "never", "already"],
+          "answer": 0,
+          "why": "سؤال تجربه → ever.",
+          "hint": "سؤال → ever."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "He ___ (have) lived here for ten years.",
+          "answers": ["has"],
+          "placeholder": "have / has",
+          "why": "فاعل he → has: He has lived here.",
+          "hint": "he → has."
+        },
+        {
+          "type": "order",
+          "tag": "form",
+          "prompt": "جمله را بساز:",
+          "words": ["I", "have", "never", "seen", "this", "film"],
+          "answer": "I have never seen this film.",
+          "why": "never بین have و main verb.",
+          "hint": "never بین have و main."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "Ali isn't here. He ___ to school.",
+          "options": ["has gone", "has been", "went"],
+          "answer": 0,
+          "why": "هنوز آنجاست → has gone.",
+          "hint": "هنوز آنجاست."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I ___ (not / see) her today.",
+          "answers": ["haven't seen"],
+          "placeholder": "haven't seen / didn't see",
+          "why": "today → present perfect منفی.",
+          "hint": "today → haven't seen."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "How long ___ you ___ here?",
+          "options": ["have / lived", "did / live", "do / live"],
+          "answer": 0,
+          "why": "How long + present perfect: have lived.",
+          "hint": "How long → present perfect."
+        }
+      ]
+    }
+  ]
+}

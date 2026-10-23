@@ -1,0 +1,424 @@
+{
+  "id": "wish",
+  "version": 1,
+  "titleEn": "Wish / If Only",
+  "titleFa": "آرزو و ای کاش",
+  "subtitleFa": "wish + past / had + pp / would",
+  "track": "conditionals",
+  "tags": ["present-wish", "past-wish", "detect"],
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "teach",
+      "titleFa": "wish چیست؟",
+      "intro": "آرزو یا پشیمانی. سه ساختار: past (حال)، had + pp (گذشته)، would (تغییر).",
+      "examples": [
+        { "en": "I wish I had a car.", "fa": "ای کاش ماشین داشتم (ندارم).", "hl": ["had"] },
+        { "en": "I wish I had studied harder.", "fa": "ای کاش سخت‌تر درس خوانده بودم (نخواندم).", "hl": ["had studied"] },
+        { "en": "I wish you would stop smoking.", "fa": "ای کاش سیگار کشیدنت را متوقف کنی.", "hl": ["would stop"] },
+        { "en": "I wish I could fly.", "fa": "ای کاش می‌توانستم پرواز کنم (نمی‌توانم).", "hl": ["could fly"] }
+      ],
+      "note": "past = حال غیرواقعی · had + pp = گذشته (پشیمانی) · would = تغییر رفتار",
+      "mistake": {
+        "wrong": "I wish I have a car.",
+        "right": "I wish I had a car.",
+        "whyFa": "برای حال غیرواقعی → past simple (had)."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "present-wish",
+          "prompt": "I wish I ___ a car.",
+          "options": ["had", "have", "will have"],
+          "answer": 0,
+          "why": "آرزوی حال غیرواقعی → had.",
+          "hint": "past simple."
+        },
+        {
+          "type": "fill",
+          "tag": "present-wish",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I wish I ___ (know) the answer.",
+          "answers": ["knew"],
+          "placeholder": "past simple",
+          "why": "آرزوی حال → knew.",
+          "hint": "past simple."
+        },
+        {
+          "type": "mcq",
+          "tag": "present-wish",
+          "prompt": "She wishes she ___ taller.",
+          "options": ["were", "is", "will be"],
+          "answer": 0,
+          "why": "آرزوی حال (ولی نیست) → were.",
+          "hint": "were."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "teach",
+      "titleFa": "wish + past simple (حال غیرواقعی)",
+      "intro": "آرزوی حال/آیندهٔ غیرواقعی. معنی: «ای کاش ... می‌کردم» (ولی نمی‌کنم).",
+      "examples": [
+        { "en": "I wish I spoke French.", "fa": "ای کاش فرانسه صحبت می‌کردم (نمی‌کنم).", "hl": ["spoke"] },
+        { "en": "I wish it were sunny.", "fa": "ای کاش هوا آفتابی بود (نیست).", "hl": ["were"] },
+        { "en": "She wishes she could play piano.", "fa": "ای کاش می‌توانست پیانو بزند.", "hl": ["could play"] },
+        { "en": "I wish I had more time.", "fa": "ای کاش وقت بیشتری داشتم.", "hl": ["had"] }
+      ],
+      "note": "الگوی مشابه: I'd rather you + past · It's time + past (برای حال غیرواقعی)",
+      "mistake": {
+        "wrong": "I wish I speak French.",
+        "right": "I wish I spoke French.",
+        "whyFa": "wish + past simple (نه present)."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "present-wish",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I wish I ___ (have) more time.",
+          "answers": ["had"],
+          "placeholder": "past simple",
+          "why": "آرزوی حال → had.",
+          "hint": "had."
+        },
+        {
+          "type": "mcq",
+          "tag": "present-wish",
+          "prompt": "She wishes she ___ play piano.",
+          "options": ["could", "can", "will"],
+          "answer": 0,
+          "why": "wish + could (توانایی) → could play.",
+          "hint": "could."
+        },
+        {
+          "type": "fill",
+          "tag": "present-wish",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I wish it ___ (not / be) so cold.",
+          "answers": ["weren't"],
+          "placeholder": "weren't / wasn't",
+          "why": "wish + were → weren't.",
+          "hint": "weren't."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "kind": "teach",
+      "titleFa": "wish + had + pp (پشیمانی گذشته)",
+      "intro": "پشیمانی از گذشته. معنی: «ای کاش ... کرده بودم» (ولی نکردم).",
+      "examples": [
+        { "en": "I wish I had studied harder.", "fa": "ای کاش سخت‌تر درس خوانده بودم (نخواندم).", "hl": ["had studied"] },
+        { "en": "I wish I hadn't eaten so much.", "fa": "ای کاش اینقدر غذا نمی‌خوردم (خوردم).", "hl": ["hadn't eaten"] },
+        { "en": "She wishes she had taken that job.", "fa": "ای کاش آن کار را گرفته بود.", "hl": ["had taken"] },
+        { "en": "I wish I hadn't said that.", "fa": "ای کاش آن را نگفته بودم.", "hl": ["hadn't said"] }
+      ],
+      "note": "wish + had + pp = پشیمانی گذشته (مثل type 3).",
+      "mistake": {
+        "wrong": "I wish I studied harder at school. (برای گذشته)",
+        "right": "I wish I had studied harder at school.",
+        "whyFa": "برای پشیمانی گذشته → had + pp."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "past-wish",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I wish I ___ (study) harder at school.",
+          "answers": ["had studied"],
+          "placeholder": "had + pp",
+          "why": "پشیمانی گذشته → had studied.",
+          "hint": "had + studied."
+        },
+        {
+          "type": "mcq",
+          "tag": "past-wish",
+          "prompt": "She wishes she ___ that job.",
+          "options": ["had taken", "took", "takes"],
+          "answer": 0,
+          "why": "پشیمانی گذشته → had taken.",
+          "hint": "had + taken."
+        },
+        {
+          "type": "fill",
+          "tag": "past-wish",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I wish I ___ (not / say) that.",
+          "answers": ["hadn't said"],
+          "placeholder": "hadn't + pp",
+          "why": "پشیمانی گذشته (منفی) → hadn't said.",
+          "hint": "hadn't + said."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "kind": "teach",
+      "titleFa": "wish + would (تغییر رفتار)",
+      "intro": "برای تغییر رفتار دیگران — نه خودت. معمولاً شکایت/نارضایتی.",
+      "examples": [
+        { "en": "I wish you would stop smoking.", "fa": "ای کاش سیگار کشیدنت را متوقف کنی.", "hl": ["would stop"] },
+        { "en": "I wish it would stop raining.", "fa": "ای کاش باران بند بیاید.", "hl": ["would stop"] },
+        { "en": "I wish they would be quiet.", "fa": "ای کاش ساکت باشند.", "hl": ["would be"] },
+        { "en": "I wish he would call me.", "fa": "ای کاش به من زنگ بزند.", "hl": ["would call"] }
+      ],
+      "note": "❌ I wish I would work harder (خودت را نمی‌توانی تغییر دهی) · ✅ I wish I worked harder.",
+      "mistake": {
+        "wrong": "I wish I would work harder.",
+        "right": "I wish I worked harder.",
+        "whyFa": "برای خودت، wish + past (نه would)."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "present-wish",
+          "prompt": "I wish you ___ smoking.",
+          "options": ["would stop", "stopped", "stop"],
+          "answer": 0,
+          "why": "تغییر رفتار دیگری → would stop.",
+          "hint": "would + base."
+        },
+        {
+          "type": "fill",
+          "tag": "present-wish",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I wish they ___ (be) quiet.",
+          "answers": ["would be"],
+          "placeholder": "would + base",
+          "why": "تغییر رفتار → would be.",
+          "hint": "would + base."
+        },
+        {
+          "type": "mcq",
+          "tag": "present-wish",
+          "prompt": "I wish it ___ raining.",
+          "options": ["would stop", "stopped", "stops"],
+          "answer": 0,
+          "why": "تغییر وضعیت (هوا) → would stop.",
+          "hint": "would + base."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "kind": "teach",
+      "titleFa": "if only",
+      "intro": "if only = ای کاش! (قوی‌تر از wish). با past یا had + pp.",
+      "examples": [
+        { "en": "If only I had more money!", "fa": "ای کاش پول بیشتری داشتم!", "hl": ["had"] },
+        { "en": "If only I hadn't said that!", "fa": "ای کاش آن را نگفته بودم!", "hl": ["hadn't said"] },
+        { "en": "If only I were taller!", "fa": "ای کاش قدبلندتر بودم!", "hl": ["were"] },
+        { "en": "If only she hadn't left!", "fa": "ای کاش نرفته بود!", "hl": ["hadn't left"] }
+      ],
+      "note": "if only = wish (اما با تأکید بیشتر).",
+      "mistake": {
+        "wrong": "Only if I had more money!",
+        "right": "If only I had more money!",
+        "whyFa": "if only (به این ترتیب نوشته می‌شود)."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "past-wish",
+          "prompt": "___ I had studied harder!",
+          "options": ["If only", "Only if", "If"],
+          "answer": 0,
+          "why": "if only = ای کاش.",
+          "hint": "if only."
+        },
+        {
+          "type": "fill",
+          "tag": "present-wish",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If only I ___ (be) taller!",
+          "answers": ["were"],
+          "placeholder": "were / was",
+          "why": "آرزوی حال → were.",
+          "hint": "were."
+        },
+        {
+          "type": "mcq",
+          "tag": "past-wish",
+          "prompt": "If only she ___!",
+          "options": ["hadn't left", "didn't leave", "wouldn't leave"],
+          "answer": 0,
+          "why": "پشیمانی گذشته → hadn't left.",
+          "hint": "hadn't + pp."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "kind": "teach",
+      "titleFa": "wish vs hope",
+      "intro": "wish = غیرواقعی/غیرممکن · hope = ممکن و واقعی.",
+      "examples": [
+        { "en": "I wish I could fly.", "fa": "ای کاش می‌توانستم پرواز کنم (غیرممکن).", "hl": ["wish", "could"] },
+        { "en": "I hope you pass the exam.", "fa": "امیدوارم قبول شوی (ممکن).", "hl": ["hope", "pass"] },
+        { "en": "I hope it rains tomorrow.", "fa": "امیدوارم فردا باران بیاید.", "hl": ["hope", "rains"] },
+        { "en": "I wish I had a million dollars.", "fa": "ای کاش یک میلیون دلار داشتم.", "hl": ["wish", "had"] }
+      ],
+      "note": "واقعی → hope · غیرواقعی → wish",
+      "mistake": {
+        "wrong": "I wish you pass your exam. (ممکن است)",
+        "right": "I hope you pass your exam.",
+        "whyFa": "برای آرزوی ممکن → hope + present."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله درست است؟",
+          "options": ["I hope you pass your exam.", "I wish you passed your exam. (امتحان آینده)", "I hope you passed your exam tomorrow."],
+          "answer": 0,
+          "why": "آرزوی ممکن → hope + present.",
+          "hint": "hope + present."
+        },
+        {
+          "type": "mcq",
+          "tag": "present-wish",
+          "prompt": "I ___ I could fly.",
+          "options": ["wish", "hope", "want"],
+          "answer": 0,
+          "why": "غیرممکن → wish.",
+          "hint": "غیرممکن → wish."
+        },
+        {
+          "type": "mcq",
+          "tag": "present-wish",
+          "prompt": "I ___ it rains tomorrow.",
+          "options": ["hope", "wish", "want"],
+          "answer": 0,
+          "why": "ممکن → hope + present.",
+          "hint": "ممکن → hope."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "kind": "teach",
+      "isFinal": true,
+      "titleFa": "حالا خودت بساز",
+      "intro": "۱۲ تمرین متنوع. بعضی جمله‌ها درست هستند و نباید اصلاح شوند.",
+      "note": "هر سؤال را می‌توانی رد کنی.",
+      "items": [
+        {
+          "type": "fill",
+          "tag": "present-wish",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I wish I ___ (have) a big house.",
+          "answers": ["had"],
+          "placeholder": "past simple",
+          "why": "آرزوی حال → had.",
+          "hint": "had."
+        },
+        {
+          "type": "mcq",
+          "tag": "past-wish",
+          "prompt": "I wish I ___ harder last year.",
+          "options": ["had studied", "studied", "study"],
+          "answer": 0,
+          "why": "پشیمانی گذشته → had studied.",
+          "hint": "had + studied."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله غلط است؟",
+          "options": ["I wish I had a car.", "I wish I have a car.", "I wish I were rich.", "I wish it would stop raining."],
+          "answer": 1,
+          "why": "آرزوی حال → had، نه have.",
+          "hint": "had."
+        },
+        {
+          "type": "fill",
+          "tag": "present-wish",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I wish you ___ (stop) making noise.",
+          "answers": ["would stop"],
+          "placeholder": "would + base",
+          "why": "تغییر رفتار → would stop.",
+          "hint": "would + base."
+        },
+        {
+          "type": "double",
+          "tag": "past-wish",
+          "prompt": "هر دو جای خالی را پر کن:",
+          "template": "I wish I {0} more, but I {1} tired.",
+          "answers1": ["had studied"],
+          "answers2": ["was"],
+          "why": "had studied (پشیمانی) + was (واقعیت).",
+          "hint": "had studied / was."
+        },
+        {
+          "type": "ident",
+          "tag": "past-wish",
+          "prompt": "کلمهٔ غلط را پیدا کن و شکل درستش را بنویس.",
+          "sentence": "If only I have studied harder!",
+          "wrongWord": "have",
+          "correctWord": "had",
+          "why": "If only + had + pp (پشیمانی گذشته).",
+          "hint": "have → had."
+        },
+        {
+          "type": "mcq",
+          "tag": "present-wish",
+          "prompt": "If only I ___ taller!",
+          "options": ["were", "am", "will be"],
+          "answer": 0,
+          "why": "آرزوی حال → were.",
+          "hint": "were."
+        },
+        {
+          "type": "fill",
+          "tag": "present-wish",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I ___ (wish) I could fly.",
+          "answers": ["wish"],
+          "placeholder": "wish / hope",
+          "why": "غیرممکن → wish.",
+          "hint": "wish."
+        },
+        {
+          "type": "order",
+          "tag": "past-wish",
+          "prompt": "جمله را بساز:",
+          "words": ["I", "wish", "I", "had", "studied", "harder"],
+          "answer": "I wish I had studied harder.",
+          "why": "wish + had + pp.",
+          "hint": "wish + had + pp."
+        },
+        {
+          "type": "mcq",
+          "tag": "present-wish",
+          "prompt": "I ___ you pass your exam tomorrow. (possible)",
+          "options": ["hope", "wish", "want"],
+          "answer": 0,
+          "why": "ممکن → hope + present.",
+          "hint": "hope."
+        },
+        {
+          "type": "fill",
+          "tag": "present-wish",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I'd rather you ___ (not / tell) him.",
+          "answers": ["didn't tell"],
+          "placeholder": "didn't + base",
+          "why": "I'd rather + past simple (حال غیرواقعی).",
+          "hint": "didn't + base."
+        },
+        {
+          "type": "mcq",
+          "tag": "present-wish",
+          "prompt": "It's time we ___ home.",
+          "options": ["went", "go", "will go"],
+          "answer": 0,
+          "why": "It's time + past simple (حال غیرواقعی).",
+          "hint": "past simple."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "id": "adjective-clauses",
+  "version": 1,
+  "titleEn": "Adjective Clauses",
+  "titleFa": "بندهای وصفی",
+  "subtitleFa": "who / which / that / whose / where / when",
+  "track": "clauses",
+  "tags": ["relative", "comma", "detect"],
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "teach",
+      "titleFa": "بند وصفی چیست؟",
+      "intro": "بند وابسته‌ای که اسم قبلش را توصیف می‌کند. با who / which / that / whose / where / when شروع می‌شود.",
+      "examples": [
+        { "en": "The man who called is my uncle.", "fa": "مردی که زنگ زد عموی من است.", "hl": ["who called"] },
+        { "en": "The book that I bought is good.", "fa": "کتابی که خریدم خوب است.", "hl": ["that I bought"] },
+        { "en": "The city where I was born is small.", "fa": "شهری که در آن متولد شدم کوچک است.", "hl": ["where I was born"] },
+        { "en": "The day when we met was rainy.", "fa": "روزی که همدیگر را دیدیم بارانی بود.", "hl": ["when we met"] }
+      ],
+      "note": "بند وصفی بلافاصله بعد از اسمی می‌آید که توصیف می‌کند.",
+      "mistake": {
+        "wrong": "The man who he called is my uncle.",
+        "right": "The man who called is my uncle.",
+        "whyFa": "ضمیر وصفی (who) خودش فاعل است. «he» اضافی است."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "relative",
+          "prompt": "The girl ___ is singing is my sister.",
+          "options": ["who", "which", "whose"],
+          "answer": 0,
+          "why": "برای انسان → who.",
+          "hint": "انسان → who."
+        },
+        {
+          "type": "fill",
+          "tag": "relative",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "The car ___ is parked outside is mine.",
+          "answers": ["which", "that"],
+          "placeholder": "which / that",
+          "why": "برای اشیا → which یا that.",
+          "hint": "اشیا → which / that."
+        },
+        {
+          "type": "mcq",
+          "tag": "relative",
+          "prompt": "This is the house ___ we lived.",
+          "options": ["where", "which", "who"],
+          "answer": 0,
+          "why": "«where we lived» = جایی که زندگی می‌کردیم.",
+          "hint": "مکان → where."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "teach",
+      "titleFa": "who / which / that",
+      "intro": "who برای انسان، which برای اشیا، that برای هر دو (غیررسمی).",
+      "examples": [
+        { "en": "The teacher who helped me is Mr. Jackson.", "fa": "معلمی که کمکم کرد آقای جکسون است.", "hl": ["who helped me"] },
+        { "en": "The book which I read was great.", "fa": "کتابی که خواندم عالی بود.", "hl": ["which I read"] },
+        { "en": "The film that I saw was boring.", "fa": "فیلمی که دیدم خسته‌کننده بود.", "hl": ["that I saw"] },
+        { "en": "The people who live here are friendly.", "fa": "مردمی که اینجا زندگی می‌کنند خوش‌برخوردند.", "hl": ["who live here"] }
+      ],
+      "note": "در انگلیسی رسمی، for humans فقط who؛ for things فقط which. that محاوره‌ای است.",
+      "mistake": {
+        "wrong": "The movie who we watched was boring.",
+        "right": "The movie that we watched was boring.",
+        "whyFa": "فیلم شیء است → that (یا which)، نه who."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "relative",
+          "prompt": "The woman ___ lives next door is a doctor.",
+          "options": ["who", "which", "where"],
+          "answer": 0,
+          "why": "زن → انسان → who.",
+          "hint": "انسان → who."
+        },
+        {
+          "type": "fill",
+          "tag": "relative",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "The movie ___ we watched was boring.",
+          "answers": ["that", "which"],
+          "placeholder": "that / which",
+          "why": "فیلم → شیء → that / which.",
+          "hint": "شیء → that / which."
+        },
+        {
+          "type": "mcq",
+          "tag": "relative",
+          "prompt": "The dog ___ is barking belongs to Ali.",
+          "options": ["which", "who", "whose"],
+          "answer": 0,
+          "why": "سگ → حیوان/شیء → which (یا that).",
+          "hint": "حیوان → which."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "kind": "teach",
+      "titleFa": "whose (مالکیت)",
+      "intro": "whose = «که ...ـَش». هم برای انسان هم شیء.",
+      "examples": [
+        { "en": "The man whose car was stolen called police.", "fa": "مردی که ماشینش دزدیده شد به پلیس زنگ زد.", "hl": ["whose car was stolen"] },
+        { "en": "I met a girl whose father is a teacher.", "fa": "دختری را دیدم که پدرش معلم است.", "hl": ["whose father is a teacher"] },
+        { "en": "The house whose roof is red is mine.", "fa": "خانه‌ای که سقفش قرمز است مال من است.", "hl": ["whose roof is red"] },
+        { "en": "The writer whose books I love is Iranian.", "fa": "نویسنده‌ای که کتاب‌هایش را دوست دارم ایرانی است.", "hl": ["whose books I love"] }
+      ],
+      "note": "whose جایگزین his/her/its می‌شود.",
+      "mistake": {
+        "wrong": "The boy that his bag is red is my brother.",
+        "right": "The boy whose bag is red is my brother.",
+        "whyFa": "برای مالکیت، whose به کار می‌رود، نه that + ضمیر."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "relative",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "The boy ___ bag is red is my brother.",
+          "answers": ["whose"],
+          "placeholder": "who / whose / which",
+          "why": "مالکیت: whose bag = کیف او.",
+          "hint": "مالکیت → whose."
+        },
+        {
+          "type": "mcq",
+          "tag": "relative",
+          "prompt": "This is the writer ___ books I love.",
+          "options": ["whose", "who", "which"],
+          "answer": 0,
+          "why": "مالکیت: whose books = کتاب‌هایش.",
+          "hint": "مالکیت → whose."
+        },
+        {
+          "type": "fill",
+          "tag": "relative",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "The woman ___ son plays football is here.",
+          "answers": ["whose"],
+          "placeholder": "whose / who / which",
+          "why": "پسرش → whose.",
+          "hint": "پسرش → whose."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "kind": "teach",
+      "titleFa": "where / when",
+      "intro": "where برای مکان، when برای زمان (به جای in which / at which).",
+      "examples": [
+        { "en": "The city where I was born is small.", "fa": "شهری که در آن متولد شدم کوچک است.", "hl": ["where I was born"] },
+        { "en": "The day when we met was rainy.", "fa": "روزی که همدیگر را دیدیم بارانی بود.", "hl": ["when we met"] },
+        { "en": "The house where they live is old.", "fa": "خانه‌ای که در آن زندگی می‌کنند قدیمی است.", "hl": ["where they live"] },
+        { "en": "The year when I graduated was 2015.", "fa": "سالی که فارغ‌التحصیل شدم ۲۰۱۵ بود.", "hl": ["when I graduated"] }
+      ],
+      "note": "where = in/at which، when = in/at which (زمان).",
+      "mistake": {
+        "wrong": "The city which I was born is small.",
+        "right": "The city where I was born is small.",
+        "whyFa": "برای مکان با فعل born، where صحیح است. which به تنهایی ناقص است."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "relative",
+          "prompt": "This is the park ___ we played.",
+          "options": ["where", "which", "when"],
+          "answer": 0,
+          "why": "مکان → where.",
+          "hint": "مکان → where."
+        },
+        {
+          "type": "fill",
+          "tag": "relative",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I remember the day ___ we first met.",
+          "answers": ["when"],
+          "placeholder": "when / where / which",
+          "why": "زمان → when.",
+          "hint": "زمان → when."
+        },
+        {
+          "type": "mcq",
+          "tag": "relative",
+          "prompt": "The school ___ he studies is old.",
+          "options": ["where", "which", "who"],
+          "answer": 0,
+          "why": "مکان → where.",
+          "hint": "مکان → where."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "kind": "teach",
+      "titleFa": "Essential vs Non-essential (کاما)",
+      "intro": "Essential = اطلاعات ضروری (بدون کاما). Non-essential = اطلاعات اضافه (با کاما).",
+      "examples": [
+        { "en": "The man who lives next door is nice.", "fa": "مردی که بغل زندگی می‌کند خوب است.", "hl": ["who lives next door"] },
+        { "en": "Ali, who lives next door, is nice.", "fa": "علی که بغل زندگی می‌کند خوب است.", "hl": ["who lives next door"] },
+        { "en": "Tehran, which is the capital, is crowded.", "fa": "تهران که پایتخت است شلوغ است.", "hl": ["which is the capital"] },
+        { "en": "My brother who lives in Tehran is a doctor.", "fa": "برادرم که در تهران زندگی می‌کند دکتر است (ممکن است برادران دیگر هم داشته باشم).", "hl": ["who lives in Tehran"] }
+      ],
+      "note": "با اسم خاص (Ali, Tehran) همیشه کاما لازم است. با اسم عام (the man) بستگی به معنی دارد.",
+      "mistake": {
+        "wrong": "Tehran that is the capital is crowded.",
+        "right": "Tehran, which is the capital, is crowded.",
+        "whyFa": "برای non-essential، that استفاده نمی‌شود و کاما لازم است."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "comma",
+          "prompt": "Tehran, ___ is the capital, is very crowded.",
+          "options": ["which", "that", "who"],
+          "answer": 0,
+          "why": "non-essential → which، نه that.",
+          "hint": "non-essential → which."
+        },
+        {
+          "type": "fill",
+          "tag": "comma",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "Ali, ___ is my best friend, lives in Shiraz.",
+          "answers": ["who"],
+          "placeholder": "who / which / that",
+          "why": "non-essential برای انسان → who.",
+          "hint": "انسان + کاما → who."
+        },
+        {
+          "type": "mcq",
+          "tag": "comma",
+          "prompt": "کدام جمله درست است؟",
+          "options": ["My brother, who lives in Tehran, is a doctor.", "My brother, that lives in Tehran, is a doctor.", "My brother who lives in Tehran, is a doctor."],
+          "answer": 0,
+          "why": "non-essential → who (نه that) + دو کاما.",
+          "hint": "کاما + who."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "kind": "teach",
+      "titleFa": "حذف ضمیر مفعولی",
+      "intro": "اگر ضمیر وصفی مفعول بند باشد، می‌توان حذف کرد. اگر فاعل باشد، نه.",
+      "examples": [
+        { "en": "The book (that) I bought is good.", "fa": "کتابی که خریدم خوب است.", "hl": ["(that) I bought"] },
+        { "en": "The man (who) I met was kind.", "fa": "مردی که دیدم مهربان بود.", "hl": ["(who) I met"] },
+        { "en": "The man who called is my uncle.", "fa": "مردی که زنگ زد عموی من است.", "hl": ["who called"] },
+        { "en": "The girl who is sitting there is my sister.", "fa": "دختری که آنجا نشسته خواهر من است.", "hl": ["who is sitting there"] }
+      ],
+      "note": "قاعده: subject pronoun → cannot drop · object pronoun → can drop.",
+      "mistake": {
+        "wrong": "The book that I bought it is good.",
+        "right": "The book (that) I bought is good.",
+        "whyFa": "ضمیر «it» اضافی است. مفعول همان اسم قبل است."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "relative",
+          "prompt": "جای خالی را پر کن (یا خالی بگذار):",
+          "sentence": "The film ___ we saw was great.",
+          "answers": ["", "that", "which"],
+          "placeholder": "خالی یا that/which",
+          "why": "چون مفعول است، می‌توان حذف کرد: The film (that/which) we saw.",
+          "hint": "مفعول → حذف ممکن."
+        },
+        {
+          "type": "mcq",
+          "tag": "relative",
+          "prompt": "The girl ___ is sitting there is my sister.",
+          "options": ["who", "(nothing)", "whose"],
+          "answer": 0,
+          "why": "فاعل بند است → cannot drop → who.",
+          "hint": "فاعل → cannot drop."
+        },
+        {
+          "type": "mcq",
+          "tag": "relative",
+          "prompt": "کدام جمله درست است؟",
+          "options": ["The book that I bought it is good.", "The book that I bought is good.", "The book who I bought is good."],
+          "answer": 1,
+          "why": "«it» اضافی است. «that I bought» بدون it.",
+          "hint": "it اضافی است."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "kind": "teach",
+      "isFinal": true,
+      "titleFa": "حالا خودت بساز",
+      "intro": "۱۲ تمرین متنوع. بعضی جمله‌ها پیچیده‌ترند. عجله نکن.",
+      "note": "هر سؤال را می‌توانی رد کنی.",
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "relative",
+          "prompt": "The woman ___ helped me was very kind.",
+          "options": ["who", "which", "whose"],
+          "answer": 0,
+          "why": "انسان + فاعل → who.",
+          "hint": "انسان + فاعل → who."
+        },
+        {
+          "type": "fill",
+          "tag": "relative",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "The book ___ cover is red is mine.",
+          "answers": ["whose"],
+          "placeholder": "whose / who / which",
+          "why": "مالکیت: whose cover = جلدش.",
+          "hint": "مالکیت → whose."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله غلط است؟",
+          "options": ["The man who I met was nice.", "The book that I bought it was good.", "The city where I live is big.", "The girl who is singing is my sister."],
+          "answer": 1,
+          "why": "«it» اضافی است. جملهٔ درست: The book that I bought was good.",
+          "hint": "به it اضافی دقت کن."
+        },
+        {
+          "type": "fill",
+          "tag": "relative",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "The house ___ we stayed was old.",
+          "answers": ["where"],
+          "placeholder": "where / which / when",
+          "why": "مکان → where.",
+          "hint": "مکان → where."
+        },
+        {
+          "type": "double",
+          "tag": "relative",
+          "prompt": "هر دو جای خالی را پر کن:",
+          "template": "The boy {0} won the race is {1} brother.",
+          "answers1": ["who"],
+          "answers2": ["my"],
+          "why": "who برای انسان (فاعل) و my برای مالکیت.",
+          "hint": "اولی who، دومی my."
+        },
+        {
+          "type": "ident",
+          "tag": "detect",
+          "prompt": "کلمهٔ غلط را پیدا کن و شکل درستش را بنویس.",
+          "sentence": "The woman which called you is my aunt.",
+          "wrongWord": "which",
+          "correctWord": "who",
+          "why": "برای انسان → who، نه which.",
+          "hint": "انسان → who."
+        },
+        {
+          "type": "mcq",
+          "tag": "comma",
+          "prompt": "Ali, ___ is my friend, is coming.",
+          "options": ["who", "which", "whose"],
+          "answer": 0,
+          "why": "non-essential + انسان → who.",
+          "hint": "کاما + انسان → who."
+        },
+        {
+          "type": "fill",
+          "tag": "relative",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "The day ___ we met was rainy.",
+          "answers": ["when"],
+          "placeholder": "when / where / which",
+          "why": "زمان → when.",
+          "hint": "زمان → when."
+        },
+        {
+          "type": "order",
+          "tag": "relative",
+          "prompt": "جمله را بساز:",
+          "words": ["The", "man", "who", "helped", "me", "was", "kind"],
+          "answer": "The man who helped me was kind.",
+          "why": "who helped me بند وصفی برای The man است.",
+          "hint": "who بعد از man."
+        },
+        {
+          "type": "mcq",
+          "tag": "relative",
+          "prompt": "This is the book ___ I told you about.",
+          "options": ["that", "who", "whose"],
+          "answer": 0,
+          "why": "شیء → that (یا which).",
+          "hint": "شیء → that."
+        },
+        {
+          "type": "fill",
+          "tag": "relative",
+          "prompt": "جای خالی را پر کن (یا خالی بگذار):",
+          "sentence": "The movie ___ we watched was long.",
+          "answers": ["", "that", "which"],
+          "placeholder": "خالی یا that/which",
+          "why": "مفعول → حذف ممکن.",
+          "hint": "مفعول → حذف."
+        },
+        {
+          "type": "mcq",
+          "tag": "relative",
+          "prompt": "She has a friend ___ father is a pilot.",
+          "options": ["whose", "who", "which"],
+          "answer": 0,
+          "why": "مالکیت: whose father = پدرش.",
+          "hint": "مالکیت → whose."
+        }
+      ]
+    }
+  ]
+}

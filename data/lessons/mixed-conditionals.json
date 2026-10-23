@@ -1,0 +1,424 @@
+{
+  "id": "mixed-conditionals",
+  "version": 1,
+  "titleEn": "Mixed Conditionals",
+  "titleFa": "شرطی‌های ترکیبی",
+  "subtitleFa": "شرط گذشته، نتیجهٔ حال / برعکس",
+  "track": "conditionals",
+  "tags": ["combination", "time-marker", "detect"],
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "teach",
+      "titleFa": "mixed چیست؟",
+      "intro": "شرط در یک زمان، نتیجه در زمان دیگر. برخلاف type 2/3 که هر دو زمان یکی است.",
+      "examples": [
+        { "en": "If I had studied medicine, I would be a doctor now.", "fa": "اگر پزشکی خوانده بودم الان دکتر بودم.", "hl": ["had studied", "would be", "now"] },
+        { "en": "If I were more organized, I wouldn't have missed the deadline.", "fa": "اگر منظم‌تر بودم ددلاین را از دست نمی‌دادم.", "hl": ["were", "wouldn't have missed"] },
+        { "en": "If she had left earlier, she would be here now.", "fa": "اگر زودتر رفته بود الان اینجا بود.", "hl": ["had left", "would be", "now"] },
+        { "en": "If he were more careful, he wouldn't have crashed.", "fa": "اگر مراقب‌تر بود تصادف نمی‌کرد.", "hl": ["were", "wouldn't have crashed"] }
+      ],
+      "note": "شرط گذشته → نتیجهٔ حال · شرط حال → نتیجهٔ گذشته",
+      "mistake": {
+        "wrong": "If I studied medicine, I would have been a doctor now.",
+        "right": "If I had studied medicine, I would be a doctor now.",
+        "whyFa": "شرط گذشته + نتیجهٔ حال → had + pp + would + base."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "combination",
+          "prompt": "If I had studied, I ___ a doctor now.",
+          "options": ["would be", "would have been", "am"],
+          "answer": 0,
+          "why": "نتیجهٔ حال → would be.",
+          "hint": "نتیجهٔ حال → would + base."
+        },
+        {
+          "type": "fill",
+          "tag": "combination",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If I ___ (be) taller, I would have joined the team.",
+          "answers": ["were"],
+          "placeholder": "were / had been",
+          "why": "شرط حال + نتیجهٔ گذشته → were.",
+          "hint": "شرط حال → were."
+        },
+        {
+          "type": "mcq",
+          "tag": "combination",
+          "prompt": "If she had left earlier, she ___ here now.",
+          "options": ["would be", "would have been", "is"],
+          "answer": 0,
+          "why": "نتیجهٔ حال (now) → would be.",
+          "hint": "now → would be."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "teach",
+      "titleFa": "شرط گذشته → نتیجهٔ حال",
+      "intro": "if + had + pp, would + base (+ now).",
+      "examples": [
+        { "en": "If I hadn't eaten so much, I wouldn't feel sick now.", "fa": "اگر اینقدر غذا نمی‌خوردم الان حالم بد نبود.", "hl": ["hadn't eaten", "wouldn't feel", "now"] },
+        { "en": "If I hadn't broken my leg, I would be playing football now.", "fa": "اگر پام را نشکسته بودم الان فوتبال بازی می‌کردم.", "hl": ["hadn't broken", "would be playing", "now"] },
+        { "en": "If he had taken the job, he would be living in London now.", "fa": "اگر کار را گرفته بود الان در لندن زندگی می‌کرد.", "hl": ["had taken", "would be living", "now"] },
+        { "en": "If she had studied harder, she would be at university now.", "fa": "اگر سخت‌تر درس خوانده بود الان دانشگاه بود.", "hl": ["had studied", "would be", "now"] }
+      ],
+      "note": "نشانهٔ now → نتیجهٔ حال.",
+      "mistake": {
+        "wrong": "If I hadn't broken my leg, I would have been playing football now.",
+        "right": "If I hadn't broken my leg, I would be playing football now.",
+        "whyFa": "نتیجهٔ حال (now) → would + base."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "combination",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If I ___ (not / break) my leg, I would be playing football now.",
+          "answers": ["hadn't broken"],
+          "placeholder": "hadn't + pp",
+          "why": "شرط گذشته → hadn't broken.",
+          "hint": "hadn't + broken."
+        },
+        {
+          "type": "mcq",
+          "tag": "combination",
+          "prompt": "If he had taken the job, he ___ in London now.",
+          "options": ["would be living", "would have lived", "lives"],
+          "answer": 0,
+          "why": "نتیجهٔ حال → would be living.",
+          "hint": "now → would be + ing."
+        },
+        {
+          "type": "fill",
+          "tag": "combination",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If she ___ (study) harder, she would be at university now.",
+          "answers": ["had studied"],
+          "placeholder": "had + pp",
+          "why": "شرط گذشته → had studied.",
+          "hint": "had + studied."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "kind": "teach",
+      "titleFa": "شرط حال → نتیجهٔ گذشته",
+      "intro": "if + past simple, would have + pp (+ then).",
+      "examples": [
+        { "en": "If I were more organized, I wouldn't have missed the deadline.", "fa": "اگر منظم‌تر بودم ددلاین را از دست نمی‌دادم.", "hl": ["were", "wouldn't have missed"] },
+        { "en": "If I were you, I would have said no.", "fa": "اگر جای تو بودم نه می‌گفتم.", "hl": ["were", "would have said"] },
+        { "en": "If she weren't so shy, she would have made more friends.", "fa": "اگر اینقدر خجالتی نبود دوستان بیشتری پیدا می‌کرد.", "hl": ["weren't", "would have made"] },
+        { "en": "If he were more careful, he wouldn't have crashed.", "fa": "اگر مراقب‌تر بود تصادف نمی‌کرد.", "hl": ["were", "wouldn't have crashed"] }
+      ],
+      "note": "شرط حال + نتیجهٔ گذشته.",
+      "mistake": {
+        "wrong": "If I had been you, I would have said no.",
+        "right": "If I were you, I would have said no. (mixed)",
+        "whyFa": "«were you» شرط حال، «would have said» نتیجهٔ گذشته."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "combination",
+          "prompt": "If I ___ you, I would have said no.",
+          "options": ["were", "was being", "am"],
+          "answer": 0,
+          "why": "شرط حال + نتیجهٔ گذشته → were.",
+          "hint": "were."
+        },
+        {
+          "type": "fill",
+          "tag": "combination",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If she ___ (not / be) so shy, she would have made more friends.",
+          "answers": ["weren't"],
+          "placeholder": "weren't / hadn't been",
+          "why": "شرط حال + نتیجهٔ گذشته → weren't.",
+          "hint": "weren't."
+        },
+        {
+          "type": "mcq",
+          "tag": "combination",
+          "prompt": "If he ___ more careful, he wouldn't have crashed. (but he's careless)",
+          "options": ["were", "would be", "is"],
+          "answer": 0,
+          "why": "شرط حال (careless است) → were.",
+          "hint": "were."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "kind": "teach",
+      "titleFa": "نشانه‌های now / then",
+      "intro": "now = نتیجهٔ حال · then = نتیجهٔ گذشته.",
+      "examples": [
+        { "en": "If I had studied, I would be a doctor now.", "fa": "اگر درس خوانده بودم الان دکتر بودم.", "hl": ["would be", "now"] },
+        { "en": "If I were taller, I would have joined the team then.", "fa": "اگر قدبلندتر بودم آن موقع عضو تیم می‌شدم.", "hl": ["were", "would have joined", "then"] },
+        { "en": "If I had money, I would have bought that house last year.", "fa": "اگر پول داشتم سال گذشته آن خانه را می‌خریدم.", "hl": ["had", "would have bought", "last year"] },
+        { "en": "If she were here, she would have helped us yesterday.", "fa": "اگر دیروز اینجا بود کمکمان می‌کرد.", "hl": ["were", "would have helped", "yesterday"] }
+      ],
+      "note": "now/last year/yesterday = نشانهٔ زمان نتیجه.",
+      "mistake": {
+        "wrong": "If I had studied, I would be a doctor then.",
+        "right": "If I had studied, I would be a doctor now.",
+        "whyFa": "had studied → نتیجهٔ حال → now."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "time-marker",
+          "prompt": "کدام جمله mixed است؟",
+          "options": ["If I had studied, I would be a doctor now.", "If I studied, I would be a doctor now.", "If I had studied, I would have been a doctor then."],
+          "answer": 0,
+          "why": "had studied + would be + now = mixed.",
+          "hint": "had + pp + would + now."
+        },
+        {
+          "type": "mcq",
+          "tag": "time-marker",
+          "prompt": "If I had money, I ___ that house last year.",
+          "options": ["would have bought", "would buy", "bought"],
+          "answer": 0,
+          "why": "نتیجهٔ گذشته (last year) → would have bought.",
+          "hint": "last year → would have + pp."
+        },
+        {
+          "type": "fill",
+          "tag": "time-marker",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If I ___ (know) you were coming, I would be at the airport now.",
+          "answers": ["had known"],
+          "placeholder": "had + pp",
+          "why": "نتیجهٔ حال (now) + شرط گذشته → had known.",
+          "hint": "had + known."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "kind": "teach",
+      "titleFa": "اشتباهات رایج",
+      "intro": "هماهنگی زمان‌ها را رعایت کن.",
+      "examples": [
+        { "en": "❌ If I studied medicine, I would have been a doctor now.", "fa": "این اشتباه است — شرط و نتیجه ناهماهنگ‌اند.", "hl": [] },
+        { "en": "✅ If I had studied medicine, I would be a doctor now.", "fa": "درست.", "hl": ["had studied", "would be"] },
+        { "en": "❌ If I had studied, I would be a doctor then.", "fa": "then با نتیجهٔ گذشته جور است، نه حال.", "hl": [] },
+        { "en": "✅ If I had studied, I would have been a doctor then.", "fa": "درست.", "hl": ["had studied", "would have been"] }
+      ],
+      "note": "نشانهٔ now → would + base · نشانهٔ then → would have + pp.",
+      "mistake": {
+        "wrong": "If I studied medicine, I would have been a doctor now.",
+        "right": "If I had studied medicine, I would be a doctor now.",
+        "whyFa": "شرط گذشته (had studied) + نتیجهٔ حال (would be)."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله غلط است؟",
+          "options": ["If I had studied, I would be a doctor now.", "If I studied, I would have been a doctor now.", "If I were taller, I would have joined."],
+          "answer": 1,
+          "why": "«studied» (حال) + «would have been» (گذشته) ناهماهنگ است.",
+          "hint": "زمان شرط و نتیجه یکی نیست."
+        },
+        {
+          "type": "fill",
+          "tag": "combination",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If I ___ (not / be) sick, I would be at work today.",
+          "answers": ["hadn't been"],
+          "placeholder": "hadn't + pp",
+          "why": "شرط گذشته + نتیجهٔ حال → hadn't been.",
+          "hint": "hadn't + been."
+        },
+        {
+          "type": "mcq",
+          "tag": "combination",
+          "prompt": "If she ___ more patient, she wouldn't have shouted.",
+          "options": ["were", "would be", "is"],
+          "answer": 0,
+          "why": "شرط حال (patient نیست) + نتیجهٔ گذشته → were.",
+          "hint": "were."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "kind": "teach",
+      "titleFa": "contrast با pure type 2/3",
+      "intro": "mixed = شرط و نتیجه دو زمان. pure = یک زمان.",
+      "examples": [
+        { "en": "Pure type 2: If I were rich, I would travel.", "fa": "حال + حال.", "hl": ["were", "would travel"] },
+        { "en": "Pure type 3: If I had been rich, I would have traveled.", "fa": "گذشته + گذشته.", "hl": ["had been", "would have traveled"] },
+        { "en": "Mixed: If I had studied, I would be a doctor now.", "fa": "گذشته + حال.", "hl": ["had studied", "would be", "now"] },
+        { "en": "Mixed: If I were more organized, I wouldn't have missed the deadline.", "fa": "حال + گذشته.", "hl": ["were", "wouldn't have missed"] }
+      ],
+      "note": "pure = یک زمان در هر دو clause.",
+      "mistake": {
+        "wrong": "If I had studied, I would be a doctor then.",
+        "right": "If I had studied, I would have been a doctor then. (یا: would be a doctor now)",
+        "whyFa": "then با نتیجهٔ گذشته جور است."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "combination",
+          "prompt": "If I had left earlier, I ___ home now.",
+          "options": ["would be", "would have been", "am"],
+          "answer": 0,
+          "why": "mixed: شرط گذشته + نتیجهٔ حال (now).",
+          "hint": "now → would be."
+        },
+        {
+          "type": "fill",
+          "tag": "combination",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If I ___ (be) you, I would have apologized.",
+          "answers": ["were"],
+          "placeholder": "were / had been",
+          "why": "شرط حال + نتیجهٔ گذشته → were.",
+          "hint": "were."
+        },
+        {
+          "type": "mcq",
+          "tag": "combination",
+          "prompt": "If I ___ harder at school, I would have a better job now.",
+          "options": ["had worked", "worked", "work"],
+          "answer": 0,
+          "why": "شرط گذشته + نتیجهٔ حال → had worked.",
+          "hint": "had worked."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "kind": "teach",
+      "isFinal": true,
+      "titleFa": "حالا خودت بساز",
+      "intro": "۱۲ تمرین متنوع. بعضی جمله‌ها درست هستند و نباید اصلاح شوند.",
+      "note": "هر سؤال را می‌توانی رد کنی.",
+      "items": [
+        {
+          "type": "fill",
+          "tag": "combination",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If I ___ (study) medicine, I would be a doctor now.",
+          "answers": ["had studied"],
+          "placeholder": "had + pp",
+          "why": "شرط گذشته + نتیجهٔ حال → had studied.",
+          "hint": "had + studied."
+        },
+        {
+          "type": "mcq",
+          "tag": "combination",
+          "prompt": "If I were you, I ___ that offer last week.",
+          "options": ["would have accepted", "would accept", "accepted"],
+          "answer": 0,
+          "why": "شرط حال + نتیجهٔ گذشته → would have accepted.",
+          "hint": "would have + pp."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام mixed است؟",
+          "options": ["If I had left earlier, I would be home now.", "If I left earlier, I would be home now.", "If I had left earlier, I would have been home then."],
+          "answer": 0,
+          "why": "had left + would be + now = mixed.",
+          "hint": "had + pp + would + now."
+        },
+        {
+          "type": "fill",
+          "tag": "combination",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If she ___ (not / be) so shy, she would have made friends.",
+          "answers": ["weren't"],
+          "placeholder": "weren't / hadn't been",
+          "why": "شرط حال + نتیجهٔ گذشته → weren't.",
+          "hint": "weren't."
+        },
+        {
+          "type": "double",
+          "tag": "combination",
+          "prompt": "هر دو جای خالی را پر کن:",
+          "template": "If I {0} studied, I {1} a doctor now.",
+          "answers1": ["had"],
+          "answers2": ["would be"],
+          "why": "had studied + would be.",
+          "hint": "had / would be."
+        },
+        {
+          "type": "ident",
+          "tag": "combination",
+          "prompt": "کلمهٔ غلط را پیدا کن و شکل درستش را بنویس.",
+          "sentence": "If I studied, I would have passed the exam last year.",
+          "wrongWord": "studied",
+          "correctWord": "had studied",
+          "why": "نتیجهٔ گذشته (last year) → شرط گذشته: had studied.",
+          "hint": "had + pp."
+        },
+        {
+          "type": "mcq",
+          "tag": "combination",
+          "prompt": "If I ___ more careful, I wouldn't have lost my keys.",
+          "options": ["were", "would be", "is"],
+          "answer": 0,
+          "why": "شرط حال (careful نیست) + نتیجهٔ گذشته → were.",
+          "hint": "were."
+        },
+        {
+          "type": "fill",
+          "tag": "combination",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If I ___ (know) you were sick, I would be with you now.",
+          "answers": ["had known"],
+          "placeholder": "had + pp",
+          "why": "شرط گذشته + نتیجهٔ حال → had known.",
+          "hint": "had + known."
+        },
+        {
+          "type": "order",
+          "tag": "combination",
+          "prompt": "جمله را بساز:",
+          "words": ["If", "I", "had", "studied", "I", "would", "be", "a", "doctor", "now"],
+          "answer": "If I had studied, I would be a doctor now.",
+          "why": "had studied + would be + now.",
+          "hint": "had + pp."
+        },
+        {
+          "type": "mcq",
+          "tag": "combination",
+          "prompt": "If she ___ the job, she would be in London now.",
+          "options": ["had taken", "took", "takes"],
+          "answer": 0,
+          "why": "شرط گذشته + نتیجهٔ حال → had taken.",
+          "hint": "had + taken."
+        },
+        {
+          "type": "fill",
+          "tag": "time-marker",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If I ___ (not / eat) so much, I wouldn't feel sick now.",
+          "answers": ["hadn't eaten"],
+          "placeholder": "hadn't + pp",
+          "why": "شرط گذشته + نتیجهٔ حال → hadn't eaten.",
+          "hint": "hadn't + eaten."
+        },
+        {
+          "type": "mcq",
+          "tag": "time-marker",
+          "prompt": "If I had seen the sign, I ___ that road last week.",
+          "options": ["wouldn't have taken", "wouldn't take", "didn't take"],
+          "answer": 0,
+          "why": "نتیجهٔ گذشته (last week) → wouldn't have taken.",
+          "hint": "last week → would have + pp."
+        }
+      ]
+    }
+  ]
+}

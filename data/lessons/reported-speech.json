@@ -1,0 +1,428 @@
+{
+  "id": "reported-speech",
+  "version": 1,
+  "titleEn": "Reported Speech",
+  "titleFa": "نقل قول غیرمستقیم",
+  "subtitleFa": "say / tell + backshift",
+  "track": "reporting",
+  "tags": ["backshift", "questions", "detect"],
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "teach",
+      "titleFa": "نقل قول غیرمستقیم چیست؟",
+      "intro": "گفتهٔ کسی را بازگو می‌کنیم، بدون علامت نقل قول.",
+      "examples": [
+        { "en": "Direct: \"I am tired.\" → Reported: She said (that) she was tired.", "fa": "گفت خسته است.", "hl": ["was"] },
+        { "en": "Direct: \"We are late.\" → They said they were late.", "fa": "گفتند دیر کرده‌اند.", "hl": ["were"] },
+        { "en": "Direct: \"I like tea.\" → She said she liked tea.", "fa": "گفت چای دوست دارد.", "hl": ["liked"] },
+        { "en": "Direct: \"I work here.\" → He said he worked there.", "fa": "گفت آنجا کار می‌کند.", "hl": ["worked", "there"] }
+      ],
+      "note": "در reported speech، فعل یک زمان عقب می‌رود.",
+      "mistake": {
+        "wrong": "She said she is tired.",
+        "right": "She said she was tired.",
+        "whyFa": "وقتی فعل say گذشته است، فعل داخل نقل قول یک زمان عقب می‌رود (is → was)."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "backshift",
+          "prompt": "Direct: 'I am tired.' → He said he ___ tired.",
+          "options": ["was", "is", "am"],
+          "answer": 0,
+          "why": "backshift: am → was.",
+          "hint": "یک زمان عقب."
+        },
+        {
+          "type": "fill",
+          "tag": "backshift",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "Direct: 'I like tea.' → She said she ___ tea.",
+          "answers": ["liked"],
+          "placeholder": "past simple",
+          "why": "like → liked (backshift).",
+          "hint": "like → liked."
+        },
+        {
+          "type": "mcq",
+          "tag": "backshift",
+          "prompt": "Direct: 'We are late.' → They said they ___ late.",
+          "options": ["were", "are", "will be"],
+          "answer": 0,
+          "why": "are → were (backshift).",
+          "hint": "are → were."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "teach",
+      "titleFa": "say vs tell",
+      "intro": "say + (that) · tell + شخص + (that).",
+      "examples": [
+        { "en": "He said (that) he was tired.", "fa": "گفت خسته است.", "hl": ["said"] },
+        { "en": "He told me (that) he was tired.", "fa": "به من گفت خسته است.", "hl": ["told", "me"] },
+        { "en": "She said she was busy.", "fa": "گفت مشغول است.", "hl": ["said"] },
+        { "en": "She told me she was busy.", "fa": "به من گفت مشغول است.", "hl": ["told", "me"] }
+      ],
+      "note": "say بدون شخص · tell با شخص.",
+      "mistake": {
+        "wrong": "She said me she was busy.",
+        "right": "She told me she was busy.",
+        "whyFa": "برای شخص از tell استفاده می‌شود، نه say."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "backshift",
+          "prompt": "She ___ me she was busy.",
+          "options": ["told", "said", "said to"],
+          "answer": 0,
+          "why": "شخص دارد → told.",
+          "hint": "شخص → told."
+        },
+        {
+          "type": "fill",
+          "tag": "backshift",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "He ___ (say) that he would come.",
+          "answers": ["said"],
+          "placeholder": "said / told",
+          "why": "بدون شخص → said.",
+          "hint": "بدون شخص → said."
+        },
+        {
+          "type": "mcq",
+          "tag": "backshift",
+          "prompt": "She ___ she was happy.",
+          "options": ["said", "told", "told that"],
+          "answer": 0,
+          "why": "بدون شخص → said.",
+          "hint": "بدون شخص → said."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "kind": "teach",
+      "titleFa": "Backshift (عقب‌گرد زمان)",
+      "intro": "فعل یک زمان عقب می‌رود: present → past · past → past perfect · will → would · can → could.",
+      "examples": [
+        { "en": "\"I am tired\" → she was tired.", "fa": "is → was.", "hl": ["was"] },
+        { "en": "\"I will come\" → he would come.", "fa": "will → would.", "hl": ["would come"] },
+        { "en": "\"I saw her\" → he had seen her.", "fa": "saw → had seen.", "hl": ["had seen"] },
+        { "en": "\"I can swim\" → he could swim.", "fa": "can → could.", "hl": ["could swim"] }
+      ],
+      "note": "will → would · can → could · past → had + pp.",
+      "mistake": {
+        "wrong": "He said he will come.",
+        "right": "He said he would come.",
+        "whyFa": "will → would (backshift)."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "backshift",
+          "prompt": "Direct: 'I will help.' → He said he ___ help.",
+          "options": ["would", "will", "helped"],
+          "answer": 0,
+          "why": "will → would.",
+          "hint": "will → would."
+        },
+        {
+          "type": "fill",
+          "tag": "backshift",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "Direct: 'I saw her.' → He said he ___ (see) her.",
+          "answers": ["had seen"],
+          "placeholder": "had + pp",
+          "why": "past simple → past perfect: had seen.",
+          "hint": "had seen."
+        },
+        {
+          "type": "mcq",
+          "tag": "backshift",
+          "prompt": "Direct: 'I am working.' → She said she ___ working.",
+          "options": ["was", "is", "were"],
+          "answer": 0,
+          "why": "am → was (backshift).",
+          "hint": "am → was."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "kind": "teach",
+      "titleFa": "Reported questions",
+      "intro": "در سؤال گزارش‌شده، فاعل + فعل (نه ترتیب سؤالی). if/whether برای سؤال بله/خیر.",
+      "examples": [
+        { "en": "\"Where do you live?\" → He asked where I lived.", "fa": "پرسید کجا زندگی می‌کنم.", "hl": ["where I lived"] },
+        { "en": "\"Are you ready?\" → She asked if I was ready.", "fa": "پرسید آماده‌ام یا نه.", "hl": ["if I was ready"] },
+        { "en": "\"What is your name?\" → She asked what my name was.", "fa": "پرسید اسمم چیست.", "hl": ["what my name was"] },
+        { "en": "\"Do you like tea?\" → He asked whether I liked tea.", "fa": "پرسید چای دوست دارم.", "hl": ["whether I liked"] }
+      ],
+      "note": "بدون do/does/did · فاعل + فعل · if/whether برای بله/خیر.",
+      "mistake": {
+        "wrong": "He asked where did I live.",
+        "right": "He asked where I lived.",
+        "whyFa": "در سؤال گزارش‌شده، ترتیب سؤالی ممنوع. did حذف می‌شود."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "questions",
+          "prompt": "Direct: 'Where do you live?' → He asked where I ___.",
+          "options": ["lived", "did live", "live"],
+          "answer": 0,
+          "why": "بدون did، فاعل + فعل.",
+          "hint": "فاعل + فعل."
+        },
+        {
+          "type": "fill",
+          "tag": "questions",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "Direct: 'What is your name?' → She asked what my name ___.",
+          "answers": ["was"],
+          "placeholder": "was / is",
+          "why": "is → was (backshift).",
+          "hint": "is → was."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله درست است؟",
+          "options": ["He asked where did I live.", "He asked where I lived.", "He asked where I did live."],
+          "answer": 1,
+          "why": "بدون ترتیب سؤالی، بدون did.",
+          "hint": "فاعل + فعل."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "kind": "teach",
+      "titleFa": "تغییرات زمان و مکان",
+      "intro": "now→then · today→that day · tomorrow→the next day · yesterday→the day before · here→there · this→that.",
+      "examples": [
+        { "en": "\"I'll see you tomorrow\" → He said he would see me the next day.", "fa": "فردا → روز بعد.", "hl": ["the next day"] },
+        { "en": "\"I saw her yesterday\" → He said he had seen her the day before.", "fa": "دیروز → روز قبل.", "hl": ["the day before"] },
+        { "en": "\"I am here\" → She said she was there.", "fa": "اینجا → آنجا.", "hl": ["there"] },
+        { "en": "\"I'll do it now\" → He said he would do it then.", "fa": "حالا → آن وقت.", "hl": ["then"] }
+      ],
+      "note": "با backshift، ضمایر زمان و مکان هم عوض می‌شوند.",
+      "mistake": {
+        "wrong": "He said he would see me tomorrow. (دیروز این را گفت)",
+        "right": "He said he would see me the next day.",
+        "whyFa": "tomorrow در نقل قول گذشته → the next day."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "backshift",
+          "prompt": "Direct: 'I will come tomorrow.' → He said he would come ___.",
+          "options": ["the next day", "tomorrow", "today"],
+          "answer": 0,
+          "why": "tomorrow → the next day.",
+          "hint": "tomorrow → the next day."
+        },
+        {
+          "type": "fill",
+          "tag": "backshift",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "Direct: 'I saw her yesterday.' → He said he had seen her ___.",
+          "answers": ["the day before", "the previous day"],
+          "placeholder": "yesterday → …",
+          "why": "yesterday → the day before.",
+          "hint": "the day before."
+        },
+        {
+          "type": "mcq",
+          "tag": "backshift",
+          "prompt": "Direct: 'I am here.' → She said she was ___.",
+          "options": ["there", "here", "where"],
+          "answer": 0,
+          "why": "here → there.",
+          "hint": "here → there."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "kind": "teach",
+      "titleFa": "Reported commands",
+      "intro": "tell + شخص + to + فعل · منفی: tell + شخص + not to + فعل · درخواست: ask + شخص + to.",
+      "examples": [
+        { "en": "\"Sit down!\" → He told me to sit down.", "fa": "گفت بنشینم.", "hl": ["told me to sit"] },
+        { "en": "\"Don't go!\" → She told me not to go.", "fa": "گفت نروم.", "hl": ["told me not to go"] },
+        { "en": "\"Please help me.\" → He asked me to help him.", "fa": "خواست کمکش کنم.", "hl": ["asked me to help"] },
+        { "en": "\"Don't be late.\" → She told us not to be late.", "fa": "گفت دیر نکنیم.", "hl": ["told us not to be"] }
+      ],
+      "note": "command → tell + obj + to / not to · request → ask + obj + to.",
+      "mistake": {
+        "wrong": "He said me to sit down.",
+        "right": "He told me to sit down.",
+        "whyFa": "برای دستور، tell (نه say)."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "backshift",
+          "prompt": "Direct: 'Sit down!' → He ___ sit down.",
+          "options": ["told me to", "said me to", "told me"],
+          "answer": 0,
+          "why": "دستور → told me to + فعل.",
+          "hint": "told me to."
+        },
+        {
+          "type": "fill",
+          "tag": "backshift",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "Direct: 'Don't go!' → She told me ___ (not / go).",
+          "answers": ["not to go"],
+          "placeholder": "not to + فعل",
+          "why": "منفی → not to go.",
+          "hint": "not to go."
+        },
+        {
+          "type": "mcq",
+          "tag": "backshift",
+          "prompt": "Direct: 'Please help me.' → He ___ help him.",
+          "options": ["asked me to", "said me to", "told to me"],
+          "answer": 0,
+          "why": "درخواست → asked me to + فعل.",
+          "hint": "asked me to."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "kind": "teach",
+      "isFinal": true,
+      "titleFa": "حالا خودت بساز",
+      "intro": "۱۲ تمرین متنوع. بعضی جمله‌ها درست هستند و نباید اصلاح شوند.",
+      "note": "هر سؤال را می‌توانی رد کنی.",
+      "items": [
+        {
+          "type": "fill",
+          "tag": "backshift",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "Direct: 'I am happy.' → She said she ___ happy.",
+          "answers": ["was"],
+          "placeholder": "was / is",
+          "why": "am → was (backshift).",
+          "hint": "am → was."
+        },
+        {
+          "type": "mcq",
+          "tag": "backshift",
+          "prompt": "He ___ me he would come.",
+          "options": ["told", "said", "say"],
+          "answer": 0,
+          "why": "شخص دارد → told.",
+          "hint": "شخص → told."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله غلط است؟",
+          "options": [
+            "She said she was tired.",
+            "She told she was tired.",
+            "She told me she was tired.",
+            "He said he would come."
+          ],
+          "answer": 1,
+          "why": "tell باید شخص داشته باشد: told me، نه told.",
+          "hint": "tell + شخص."
+        },
+        {
+          "type": "fill",
+          "tag": "questions",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "Direct: 'Where do you work?' → She asked where I ___.",
+          "answers": ["worked"],
+          "placeholder": "past simple",
+          "why": "work → worked، بدون did.",
+          "hint": "worked."
+        },
+        {
+          "type": "double",
+          "tag": "backshift",
+          "prompt": "هر دو جای خالی را پر کن:",
+          "template": "Direct: 'I will see you tomorrow.' → He said he {0} see me {1}.",
+          "answers1": ["would"],
+          "answers2": ["the next day"],
+          "why": "will → would · tomorrow → the next day.",
+          "hint": "would / the next day."
+        },
+        {
+          "type": "ident",
+          "tag": "backshift",
+          "prompt": "کلمهٔ غلط را پیدا کن و شکل درستش را بنویس.",
+          "sentence": "He told that he would come.",
+          "wrongWord": "told",
+          "correctWord": "said",
+          "why": "بدون شخص → said (نه told).",
+          "hint": "بدون شخص → said."
+        },
+        {
+          "type": "mcq",
+          "tag": "backshift",
+          "prompt": "Direct: 'I can swim.' → He said he ___ swim.",
+          "options": ["could", "can", "will"],
+          "answer": 0,
+          "why": "can → could.",
+          "hint": "can → could."
+        },
+        {
+          "type": "fill",
+          "tag": "backshift",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "Direct: 'I saw her yesterday.' → She said she had seen her ___.",
+          "answers": ["the day before", "the previous day"],
+          "placeholder": "yesterday → …",
+          "why": "yesterday → the day before.",
+          "hint": "the day before."
+        },
+        {
+          "type": "order",
+          "tag": "backshift",
+          "prompt": "جمله را بساز:",
+          "words": ["He", "said", "he", "was", "tired"],
+          "answer": "He said he was tired.",
+          "why": "said + (that) + فاعل + was.",
+          "hint": "said + was."
+        },
+        {
+          "type": "mcq",
+          "tag": "backshift",
+          "prompt": "Direct: 'Don't go!' → She told me ___.",
+          "options": ["not to go", "to not go", "don't go"],
+          "answer": 0,
+          "why": "منفی → not to go.",
+          "hint": "not to go."
+        },
+        {
+          "type": "fill",
+          "tag": "questions",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "Direct: 'Are you ready?' → She asked me ___ I was ready.",
+          "answers": ["if", "whether"],
+          "placeholder": "if / whether",
+          "why": "سؤال بله/خیر → if یا whether.",
+          "hint": "if."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله درست است؟",
+          "options": ["She asked if I was ready.", "She asked if was I ready.", "She asked if I am ready. (گذشته)"],
+          "answer": 0,
+          "why": "فاعل + فعل، با backshift.",
+          "hint": "فاعل + فعل."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "id": "conditional-3",
+  "version": 1,
+  "titleEn": "Conditional Type 3",
+  "titleFa": "شرطی نوع ۳",
+  "subtitleFa": "if + had + pp, would have + pp",
+  "track": "conditionals",
+  "tags": ["form", "regret", "detect"],
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "teach",
+      "titleFa": "ساختار و معنی",
+      "intro": "if + had + past participle, would have + past participle — گذشتهٔ غیرواقعی + پشیمانی.",
+      "examples": [
+        { "en": "If I had studied, I would have passed.", "fa": "اگر درس خوانده بودم قبول می‌شدم (نشدم).", "hl": ["had studied", "would have passed"] },
+        { "en": "If she had known, she would have told you.", "fa": "اگر می‌دانست به تو می‌گفت.", "hl": ["had known", "would have told"] },
+        { "en": "If it had rained, we would have stayed home.", "fa": "اگر باران آمده بود خانه می‌ماندیم.", "hl": ["had rained", "would have stayed"] },
+        { "en": "I would have called if I had had your number.", "fa": "اگر شماره‌ات را داشتم زنگ می‌زدم.", "hl": ["would have called", "had had"] }
+      ],
+      "note": "if-clause → had + pp · main clause → would have + pp",
+      "mistake": {
+        "wrong": "If I would have studied, I would have passed.",
+        "right": "If I had studied, I would have passed.",
+        "whyFa": "در if-clause، «would have» نمی‌آید؛ فقط had + pp."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "If I ___ harder, I would have passed.",
+          "options": ["had studied", "studied", "have studied"],
+          "answer": 0,
+          "why": "if-clause → had + pp.",
+          "hint": "had + studied."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If she ___ (know), she would have told you.",
+          "answers": ["had known"],
+          "placeholder": "had + pp",
+          "why": "if-clause → had known.",
+          "hint": "had + known."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "I would have called if I ___ your number.",
+          "options": ["had had", "had", "have"],
+          "answer": 0,
+          "why": "if-clause + گذشتهٔ کامل → had had.",
+          "hint": "had + had."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "teach",
+      "titleFa": "if-clause (had + pp)",
+      "intro": "در if-clause، گذشتهٔ کامل (had + pp) به کار می‌رود.",
+      "examples": [
+        { "en": "If you had asked, I would have helped.", "fa": "اگر خواسته بودی کمک می‌کردم.", "hl": ["had asked"] },
+        { "en": "If they had left earlier, they wouldn't have missed the train.", "fa": "اگر زودتر رفته بودند قطار را از دست نمی‌دادند.", "hl": ["had left"] },
+        { "en": "If I had seen him, I would have said hello.", "fa": "اگر او را دیده بودم سلام می‌کردم.", "hl": ["had seen"] },
+        { "en": "If it had rained, we would have stayed home.", "fa": "اگر باران آمده بود خانه می‌ماندیم.", "hl": ["had rained"] }
+      ],
+      "note": "اگر in if-clause → had + pp",
+      "mistake": {
+        "wrong": "If you asked, I would have helped.",
+        "right": "If you had asked, I would have helped.",
+        "whyFa": "if-clause گذشتهٔ غیرواقعی → had + pp."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If you ___ (ask), I would have helped.",
+          "answers": ["had asked"],
+          "placeholder": "had + pp",
+          "why": "if-clause → had asked.",
+          "hint": "had + asked."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "If they ___ earlier, they wouldn't have missed the train.",
+          "options": ["had left", "left", "have left"],
+          "answer": 0,
+          "why": "if-clause → had left.",
+          "hint": "had + left."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If I ___ (see) him, I would have said hello.",
+          "answers": ["had seen"],
+          "placeholder": "had + pp",
+          "why": "if-clause → had seen.",
+          "hint": "had + seen."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "kind": "teach",
+      "titleFa": "main clause (would have + pp)",
+      "intro": "در جملهٔ اصلی، would have + past participle.",
+      "examples": [
+        { "en": "If I had known, I would have called you.", "fa": "اگر می‌دانستم زنگ می‌زدم.", "hl": ["would have called"] },
+        { "en": "She wouldn't have come if she had known.", "fa": "اگر می‌دانست نمی‌آمد.", "hl": ["wouldn't have come"] },
+        { "en": "They would have stopped if they had seen the sign.", "fa": "اگر علامت را دیده بودند ایستاده بودند.", "hl": ["would have stopped"] },
+        { "en": "I would have bought it if I had had money.", "fa": "اگر پول داشتم می‌خریدم.", "hl": ["would have bought"] }
+      ],
+      "note": "main clause → would have + pp (نه would + pp).",
+      "mistake": {
+        "wrong": "If I had known, I would called you.",
+        "right": "If I had known, I would have called you.",
+        "whyFa": "بعد از would، have + pp."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "If I had known, I ___ you.",
+          "options": ["would have called", "would call", "called"],
+          "answer": 0,
+          "why": "main → would have called.",
+          "hint": "would have + pp."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "She ___ (would / not / come) if she had known.",
+          "answers": ["wouldn't have come"],
+          "placeholder": "wouldn't have + pp",
+          "why": "main منفی → wouldn't have come.",
+          "hint": "wouldn't have + pp."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "They ___ if they had seen the sign.",
+          "options": ["would have stopped", "would stop", "stopped"],
+          "answer": 0,
+          "why": "main → would have stopped.",
+          "hint": "would have + pp."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "kind": "teach",
+      "titleFa": "پشیمانی",
+      "intro": "type 3 همیشه پشیمانی یا نتیجهٔ نگرفته دارد.",
+      "examples": [
+        { "en": "If I hadn't eaten so much, I wouldn't have felt sick.", "fa": "اگر اینقدر غذا نمی‌خوردم حالم بد نمی‌شد.", "hl": ["hadn't eaten", "wouldn't have felt"] },
+        { "en": "If I had studied, I would have passed.", "fa": "اگر درس خوانده بودم قبول می‌شدم.", "hl": ["had studied", "would have passed"] },
+        { "en": "If she hadn't left, she would have met him.", "fa": "اگر نرفته بود او را می‌دید.", "hl": ["hadn't left", "would have met"] },
+        { "en": "If only I had listened to you!", "fa": "ای کاش به تو گوش داده بودم!", "hl": ["had listened"] }
+      ],
+      "note": "If only + had + pp = تأکید قوی‌ترِ پشیمانی.",
+      "mistake": {
+        "wrong": "If I hadn't eaten so much, I wouldn't feel sick (past).",
+        "right": "If I hadn't eaten so much, I wouldn't have felt sick.",
+        "whyFa": "نتیجهٔ گذشته → would have + pp."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "regret",
+          "prompt": "کدام جمله پشیمانی گذشته را نشان می‌دهد؟",
+          "options": ["If I had studied, I would have passed.", "If I study, I will pass.", "If I studied, I would pass."],
+          "answer": 0,
+          "why": "type 3 → پشیمانی گذشته.",
+          "hint": "had + pp + would have + pp."
+        },
+        {
+          "type": "mcq",
+          "tag": "regret",
+          "prompt": "I ___ so tired if I had slept more.",
+          "options": ["wouldn't have been", "wouldn't be", "weren't"],
+          "answer": 0,
+          "why": "نتیجهٔ گذشته → wouldn't have been.",
+          "hint": "wouldn't have + pp."
+        },
+        {
+          "type": "fill",
+          "tag": "regret",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If I ___ (not / eat) so much, I wouldn't have felt sick.",
+          "answers": ["hadn't eaten"],
+          "placeholder": "hadn't + pp",
+          "why": "if-clause منفی گذشته → hadn't eaten.",
+          "hint": "hadn't + eaten."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "kind": "teach",
+      "titleFa": "could / might have در main clause",
+      "intro": "به جای would، می‌توان could یا might هم آورد.",
+      "examples": [
+        { "en": "If I had studied, I could have passed.", "fa": "می‌توانستم قبول شوم (توانایی).", "hl": ["could have passed"] },
+        { "en": "I might have passed if I had studied.", "fa": "شاید قبول می‌شدم (احتمال).", "hl": ["might have passed"] },
+        { "en": "She could have won if she had trained.", "fa": "می‌توانست ببرد اگر تمرین کرده بود.", "hl": ["could have won"] },
+        { "en": "He might have come if you had invited him.", "fa": "شاید می‌آمد اگر دعوتش کرده بودی.", "hl": ["might have come"] }
+      ],
+      "note": "would = نتیجهٔ قطعی · could = توانایی · might = احتمال",
+      "mistake": {
+        "wrong": "If he had trained, he could won.",
+        "right": "If he had trained, he could have won.",
+        "whyFa": "could + have + pp."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "If he had trained, he ___ won.",
+          "options": ["could have", "could", "can have"],
+          "answer": 0,
+          "why": "could + have + pp.",
+          "hint": "could have + pp."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If she had asked, I ___ (might / help).",
+          "answers": ["might have helped"],
+          "placeholder": "might have + pp",
+          "why": "احتمال گذشته → might have helped.",
+          "hint": "might have + pp."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "If I had known, I ___ come.",
+          "options": ["might have", "might", "may"],
+          "answer": 0,
+          "why": "might + have + pp.",
+          "hint": "might have + pp."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "kind": "teach",
+      "titleFa": "contrast با type 2",
+      "intro": "type 2 = حال غیرواقعی · type 3 = گذشتهٔ غیرواقعی.",
+      "examples": [
+        { "en": "If I were rich, I would travel.", "fa": "اگر ثروتمند بودم سفر می‌کردم (الان نیستم).", "hl": ["were", "would travel"] },
+        { "en": "If I had been rich, I would have traveled.", "fa": "اگر ثروتمند بودم سفر می‌کردم (گذشته).", "hl": ["had been", "would have traveled"] },
+        { "en": "If she worked harder, she would pass.", "fa": "اگر سخت‌تر کار می‌کرد قبول می‌شد (حال).", "hl": ["worked", "would pass"] },
+        { "en": "If she had worked harder, she would have passed.", "fa": "اگر سخت‌تر کار کرده بود قبول می‌شد (گذشته).", "hl": ["had worked", "would have passed"] }
+      ],
+      "note": "اگر نتیجه مربوط به گذشته است → type 3 · اگر حال است → type 2",
+      "mistake": {
+        "wrong": "If I had studied, I would be a doctor now.",
+        "right": "If I had studied, I would have passed. (گذشته، type 3)",
+        "whyFa": "اگر نتیجه هم گذشته باشد → type 3."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله type 3 است؟",
+          "options": ["If I were rich, I would travel.", "If I had been rich, I would have traveled.", "If I am rich, I will travel."],
+          "answer": 1,
+          "why": "had been + would have → type 3.",
+          "hint": "had + pp + would have + pp."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "If she ___ harder, she would have passed.",
+          "options": ["had worked", "worked", "works"],
+          "answer": 0,
+          "why": "گذشتهٔ غیرواقعی → had worked.",
+          "hint": "had + worked."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If I ___ (not / be) sick, I would have gone.",
+          "answers": ["hadn't been"],
+          "placeholder": "hadn't + pp",
+          "why": "if-clause منفی گذشته → hadn't been.",
+          "hint": "hadn't + been."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "kind": "teach",
+      "isFinal": true,
+      "titleFa": "حالا خودت بساز",
+      "intro": "۱۲ تمرین متنوع. بعضی جمله‌ها درست هستند و نباید اصلاح شوند.",
+      "note": "هر سؤال را می‌توانی رد کنی.",
+      "items": [
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If I ___ (know), I would have helped.",
+          "answers": ["had known"],
+          "placeholder": "had + pp",
+          "why": "if-clause → had known.",
+          "hint": "had + known."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "If they ___ earlier, they wouldn't have missed the bus.",
+          "options": ["had left", "left", "leave"],
+          "answer": 0,
+          "why": "if-clause → had left.",
+          "hint": "had + left."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله غلط است؟",
+          "options": [
+            "If I had studied, I would have passed.",
+            "If I would have studied, I would have passed.",
+            "If he had called, I would have answered.",
+            "If it had rained, we would have stayed home."
+          ],
+          "answer": 1,
+          "why": "در if-clause، would have نمی‌آید؛ فقط had + pp.",
+          "hint": "if-clause → had + pp."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "She ___ (would / not / go) if she had known.",
+          "answers": ["wouldn't have gone"],
+          "placeholder": "wouldn't have + pp",
+          "why": "main منفی → wouldn't have gone.",
+          "hint": "wouldn't have + pp."
+        },
+        {
+          "type": "double",
+          "tag": "form",
+          "prompt": "هر دو جای خالی را پر کن:",
+          "template": "If I {0} harder, I {1} passed.",
+          "answers1": ["had studied"],
+          "answers2": ["would have"],
+          "why": "if + had studied · main + would have.",
+          "hint": "had studied / would have."
+        },
+        {
+          "type": "ident",
+          "tag": "form",
+          "prompt": "کلمهٔ غلط را پیدا کن و شکل درستش را بنویس.",
+          "sentence": "If I had known, I would called you.",
+          "wrongWord": "called",
+          "correctWord": "have called",
+          "why": "would have + pp → have called.",
+          "hint": "would have + pp."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "If they had rehearsed, they ___ performed better.",
+          "options": ["could have", "could", "can"],
+          "answer": 0,
+          "why": "could + have + pp.",
+          "hint": "could have."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If it ___ (not / rain), we would have gone out.",
+          "answers": ["hadn't rained"],
+          "placeholder": "hadn't + pp",
+          "why": "if-clause منفی → hadn't rained.",
+          "hint": "hadn't + rained."
+        },
+        {
+          "type": "order",
+          "tag": "form",
+          "prompt": "جمله را بساز:",
+          "words": ["If", "I", "had", "known", "I", "would", "have", "called"],
+          "answer": "If I had known, I would have called.",
+          "why": "had known + would have called.",
+          "hint": "if + had + pp."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "If I ___ rich, I would have bought that house.",
+          "options": ["had been", "have been", "am"],
+          "answer": 0,
+          "why": "گذشتهٔ غیرواقعی → had been.",
+          "hint": "had + been."
+        },
+        {
+          "type": "fill",
+          "tag": "regret",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If only I ___ (not / say) that!",
+          "answers": ["hadn't said"],
+          "placeholder": "hadn't + pp",
+          "why": "If only + had + pp (پشیمانی).",
+          "hint": "hadn't + said."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "I ___ have helped if you had asked.",
+          "options": ["would", "will", "can"],
+          "answer": 0,
+          "why": "نتیجهٔ شرط گذشته → would have helped.",
+          "hint": "would have + pp."
+        }
+      ]
+    }
+  ]
+}

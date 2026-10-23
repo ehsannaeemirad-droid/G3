@@ -1,0 +1,425 @@
+{
+  "id": "present-perfect-continuous",
+  "version": 1,
+  "titleEn": "Present Perfect Continuous",
+  "titleFa": "حال کامل استمراری",
+  "subtitleFa": "have / has been + verb-ing",
+  "track": "tense-aspect",
+  "tags": ["duration", "simple-continuous", "detect"],
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "teach",
+      "titleFa": "ساختار",
+      "intro": "have/has been + verb-ing. برای فعالیتی که از گذشته شروع شده و تا حالا ادامه دارد.",
+      "examples": [
+        { "en": "I have been studying for two hours.", "fa": "دو ساعت است درس می‌خوانم.", "hl": ["have been studying"] },
+        { "en": "She has been working here since June.", "fa": "از ژوئن اینجا کار می‌کند.", "hl": ["has been working"] },
+        { "en": "They have been waiting all morning.", "fa": "تمام صبح منتظر بوده‌اند.", "hl": ["have been waiting"] },
+        { "en": "It has been raining since yesterday.", "fa": "از دیروز باران می‌بارد.", "hl": ["has been raining"] }
+      ],
+      "note": "have/has + been + verb-ing (سه جزء، بدون کوتاه‌سازی در نوشتار رسمی).",
+      "mistake": {
+        "wrong": "I have been knowing her for years.",
+        "right": "I have known her for years.",
+        "whyFa": "know فعل حالتی است → present perfect، نه continuous."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "They ___ been waiting for an hour.",
+          "options": ["have", "has", "are"],
+          "answer": 0,
+          "why": "they → have.",
+          "hint": "they → have."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "She ___ (have) been reading all morning.",
+          "answers": ["has"],
+          "placeholder": "have / has",
+          "why": "she → has.",
+          "hint": "she → has."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "I ___ been working all day.",
+          "options": ["have", "has", "am"],
+          "answer": 0,
+          "why": "فاعل I → have been: I have been working.",
+          "hint": "I → have."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "teach",
+      "titleFa": "مدت (for / since)",
+      "intro": "تأکید روی مدت زمان. for + دوره، since + نقطه.",
+      "examples": [
+        { "en": "I have been waiting for two hours.", "fa": "دو ساعت است منتظرم.", "hl": ["have been waiting for two hours"] },
+        { "en": "She has been living here since 2020.", "fa": "از ۲۰۲۰ اینجا زندگی می‌کند.", "hl": ["has been living since 2020"] },
+        { "en": "They have been talking for an hour.", "fa": "یک ساعت است صحبت می‌کنند.", "hl": ["have been talking for an hour"] },
+        { "en": "We have been working since morning.", "fa": "از صبح کار می‌کنیم.", "hl": ["have been working since morning"] }
+      ],
+      "note": "for + دوره · since + نقطه",
+      "mistake": {
+        "wrong": "I have been waiting since two hours.",
+        "right": "I have been waiting for two hours.",
+        "whyFa": "«دو ساعت» دوره است → for."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "duration",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I have been studying ___ three hours.",
+          "answers": ["for"],
+          "placeholder": "for / since",
+          "why": "دوره → for.",
+          "hint": "دوره → for."
+        },
+        {
+          "type": "mcq",
+          "tag": "duration",
+          "prompt": "He has been working here ___ 2015.",
+          "options": ["since", "for", "from"],
+          "answer": 0,
+          "why": "2015 نقطه → since.",
+          "hint": "نقطه → since."
+        },
+        {
+          "type": "fill",
+          "tag": "duration",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "They have been talking ___ an hour.",
+          "answers": ["for"],
+          "placeholder": "for / since",
+          "why": "دوره → for.",
+          "hint": "دوره → for."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "kind": "teach",
+      "titleFa": "recently / lately",
+      "intro": "فعالیت اخیر بدون مدت مشخص. lately/recently در انتها یا ابتدا.",
+      "examples": [
+        { "en": "I have been feeling tired lately.", "fa": "اخیراً خسته‌ام.", "hl": ["have been feeling tired lately"] },
+        { "en": "She has been watching too much TV.", "fa": "زیادی تلویزیون تماشا کرده.", "hl": ["has been watching"] },
+        { "en": "Recently, I have been studying a lot.", "fa": "اخیراً زیاد درس خوانده‌ام.", "hl": ["have been studying"] },
+        { "en": "He has been working hard lately.", "fa": "اخیراً سخت کار کرده.", "hl": ["has been working"] }
+      ],
+      "note": "continuous + lately/recently = فعالیت اخیر",
+      "mistake": {
+        "wrong": "I have been feeling tired since.",
+        "right": "I have been feeling tired lately.",
+        "whyFa": "since بدون نقطهٔ شروع ناقص است. lately درست است."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "duration",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I have been feeling tired ___.",
+          "answers": ["lately", "recently"],
+          "placeholder": "lately / yet / already",
+          "why": "فعالیت اخیر → lately / recently.",
+          "hint": "اخیراً → lately."
+        },
+        {
+          "type": "mcq",
+          "tag": "duration",
+          "prompt": "___ I have been studying a lot.",
+          "options": ["Recently", "Yet", "Already"],
+          "answer": 0,
+          "why": "recently در ابتدا می‌آید.",
+          "hint": "recently → ابتدا."
+        },
+        {
+          "type": "fill",
+          "tag": "duration",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "He has been working ___ — he looks exhausted.",
+          "answers": ["hard"],
+          "placeholder": "hard / lately",
+          "why": "hard = سخت، متمم فعل work.",
+          "hint": "سخت کار کردن → hard."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "kind": "teach",
+      "titleFa": "contrast با simple",
+      "intro": "continuous = مدت/خودِ فعالیت · simple = نتیجه/تکمیل.",
+      "examples": [
+        { "en": "I have been reading the book.", "fa": "مشغول خواندن کتاب بوده‌ام (ناتمام).", "hl": ["have been reading"] },
+        { "en": "I have read the book.", "fa": "کتاب را خوانده‌ام (تمام شد).", "hl": ["have read"] },
+        { "en": "She's tired because she has been running.", "fa": "خسته است چون می‌دوید.", "hl": ["has been running"] },
+        { "en": "I have run 5 km today.", "fa": "امروز ۵ کیلومتر دویده‌ام (مقدار).", "hl": ["have run"] }
+      ],
+      "note": "چقدر/چند تا → simple · چقدر طولانی → continuous",
+      "mistake": {
+        "wrong": "I have been drinking three cups of coffee this morning.",
+        "right": "I have drunk three cups of coffee this morning.",
+        "whyFa": "مقدار مشخص (سه فنجان) → simple، نه continuous."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "simple-continuous",
+          "prompt": "I ___ that book — I finished it last night.",
+          "options": ["have read", "have been reading"],
+          "answer": 0,
+          "why": "تمام شد → simple: have read.",
+          "hint": "تمام شد → simple."
+        },
+        {
+          "type": "fill",
+          "tag": "simple-continuous",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "She's tired because she ___ (be) running.",
+          "answers": ["has been"],
+          "placeholder": "has been / has",
+          "why": "فعالیت ادامه‌دار → has been running.",
+          "hint": "فعالیت → has been."
+        },
+        {
+          "type": "mcq",
+          "tag": "simple-continuous",
+          "prompt": "I ___ three cups of coffee this morning.",
+          "options": ["have drunk", "have been drinking"],
+          "answer": 0,
+          "why": "مقدار مشخص → simple.",
+          "hint": "مقدار → simple."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "kind": "teach",
+      "titleFa": "افعال حالتی",
+      "intro": "افعال حالتی (know, like, want, have, believe, belong) با continuous نمی‌آیند.",
+      "examples": [
+        { "en": "I have known her for years.", "fa": "سال‌هاست او را می‌شناسم.", "hl": ["have known"] },
+        { "en": "I have had this car for ten years.", "fa": "ده سال است این ماشین را دارم.", "hl": ["have had"] },
+        { "en": "I have believed it since childhood.", "fa": "از بچگی باور داشته‌ام.", "hl": ["have believed"] },
+        { "en": "She has owned this house since 2010.", "fa": "از ۲۰۱۰ صاحب این خانه است.", "hl": ["has owned"] }
+      ],
+      "note": "فعل حالتی + for/since → simple، نه continuous.",
+      "mistake": {
+        "wrong": "I have been having this car for five years.",
+        "right": "I have had this car for five years.",
+        "whyFa": "have (داشتن) فعل حالتی است → simple."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "simple-continuous",
+          "prompt": "I ___ her since 2018.",
+          "options": ["have known", "have been knowing"],
+          "answer": 0,
+          "why": "know فعل حالتی است → simple.",
+          "hint": "know → simple."
+        },
+        {
+          "type": "fill",
+          "tag": "simple-continuous",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "She ___ (have) this car for ten years.",
+          "answers": ["has had"],
+          "placeholder": "has had / has been having",
+          "why": "have (داشتن) حالت است → has had.",
+          "hint": "have → has had."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله غلط است؟",
+          "options": ["I have known her for years.", "I have been knowing her for years.", "I have been working all day."],
+          "answer": 1,
+          "why": "know فعل حالتی است → simple، نه continuous.",
+          "hint": "know → simple."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "kind": "teach",
+      "titleFa": "نتیجهٔ دیدنی",
+      "intro": "continuous = اثر قابل مشاهده · simple = کار تمام شده.",
+      "examples": [
+        { "en": "I have been cooking — the kitchen is messy!", "fa": "آشپزی می‌کردم — آشپزخانه به‌هم‌ریخته است!", "hl": ["have been cooking"] },
+        { "en": "I have cooked — dinner is ready.", "fa": "آشپزی کردم — شام آماده است.", "hl": ["have cooked"] },
+        { "en": "Her eyes are red — she has been crying.", "fa": "چشم‌هایش قرمز است — گریه می‌کرده.", "hl": ["has been crying"] },
+        { "en": "I have made a cake — would you like some?", "fa": "کیک درست کرده‌ام — می‌خواهی؟", "hl": ["have made"] }
+      ],
+      "note": "نتیجهٔ دیدنی → continuous · نتیجهٔ تمام‌شده → simple",
+      "mistake": {
+        "wrong": "I have been making dinner, so let's eat!",
+        "right": "I have made dinner, so let's eat!",
+        "whyFa": "کار تمام شده → simple: have made."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "simple-continuous",
+          "prompt": "The kitchen is a mess! Someone ___.",
+          "options": ["has been cooking", "has cooked"],
+          "answer": 0,
+          "why": "اثر دیدنی → continuous.",
+          "hint": "اثر دیدنی → continuous."
+        },
+        {
+          "type": "fill",
+          "tag": "simple-continuous",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "Her eyes are red. She ___ (cry).",
+          "answers": ["has been crying"],
+          "placeholder": "has been crying / has cried",
+          "why": "اثر دیدنی → continuous.",
+          "hint": "اثر دیدنی → has been crying."
+        },
+        {
+          "type": "mcq",
+          "tag": "simple-continuous",
+          "prompt": "I ___ dinner — let's eat!",
+          "options": ["have made", "have been making"],
+          "answer": 0,
+          "why": "کار تمام شده → simple.",
+          "hint": "تمام شد → simple."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "kind": "teach",
+      "isFinal": true,
+      "titleFa": "حالا خودت بساز",
+      "intro": "۱۲ تمرین متنوع. بعضی جمله‌ها کوتاه‌اند، بعضی نه. عجله نکن.",
+      "note": "هر سؤال را می‌توانی رد کنی.",
+      "items": [
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I ___ (wait) for you for an hour!",
+          "answers": ["have been waiting"],
+          "placeholder": "have been waiting",
+          "why": "مدت + فعالیت → present perfect continuous.",
+          "hint": "مدت → have been waiting."
+        },
+        {
+          "type": "mcq",
+          "tag": "simple-continuous",
+          "prompt": "She ___ here since 2019.",
+          "options": ["has been working", "has worked", "works"],
+          "answer": 0,
+          "why": "مدت + ادامه → continuous.",
+          "hint": "ادامه‌دار → has been working."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله غلط است؟",
+          "options": ["I have been knowing her for years.", "I have been studying all day.", "I have known her for years."],
+          "answer": 0,
+          "why": "know حالت است → simple، نه continuous.",
+          "hint": "know → simple."
+        },
+        {
+          "type": "fill",
+          "tag": "duration",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "They have been playing football ___ two hours.",
+          "answers": ["for"],
+          "placeholder": "for / since",
+          "why": "دوره → for.",
+          "hint": "دوره → for."
+        },
+        {
+          "type": "double",
+          "tag": "form",
+          "prompt": "هر دو جای خالی را پر کن:",
+          "template": "I have {0} three cups of coffee, so I have {1} working hard.",
+          "answers1": ["drunk"],
+          "answers2": ["been"],
+          "why": "مقدار مشخص (سه فنجان) → simple: drunk. فعالیت ادامه‌دار → have been working.",
+          "hint": "اولی drunk، دومی been."
+        },
+        {
+          "type": "ident",
+          "tag": "simple-continuous",
+          "prompt": "کلمهٔ غلط را پیدا کن و شکل درستش را بنویس.",
+          "sentence": "She has been having that car for five years.",
+          "wrongWord": "having",
+          "correctWord": "had",
+          "why": "have (داشتن) حالت است → has had.",
+          "hint": "have → had."
+        },
+        {
+          "type": "mcq",
+          "tag": "simple-continuous",
+          "prompt": "Why are you tired? ___ you ___?",
+          "options": ["Have / been running", "Have / run", "Did / run"],
+          "answer": 0,
+          "why": "فعالیت ادامه‌دار + اثر دیدنی → have been running.",
+          "hint": "ادامه‌دار → have been running."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "He ___ (work) here since June.",
+          "answers": ["has been working"],
+          "placeholder": "has been working",
+          "why": "مدت → continuous.",
+          "hint": "ادامه‌دار → has been working."
+        },
+        {
+          "type": "order",
+          "tag": "duration",
+          "prompt": "جمله را بساز:",
+          "words": ["I", "have", "been", "studying", "since", "morning"],
+          "answer": "I have been studying since morning.",
+          "why": "have been studying + since morning.",
+          "hint": "since morning در آخر."
+        },
+        {
+          "type": "mcq",
+          "tag": "simple-continuous",
+          "prompt": "I ___ the book — I finished it yesterday.",
+          "options": ["have read", "have been reading", "read"],
+          "answer": 0,
+          "why": "تمام شد → simple.",
+          "hint": "تمام شد → simple."
+        },
+        {
+          "type": "fill",
+          "tag": "duration",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I ___ (not / sleep) well lately.",
+          "answers": ["haven't been sleeping"],
+          "placeholder": "haven't been sleeping",
+          "why": "lately + فعالیت ادامه‌دار → haven't been sleeping.",
+          "hint": "lately → haven't been sleeping."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "How long ___ you ___ English?",
+          "options": ["have / been learning", "have / learned", "did / learn"],
+          "answer": 0,
+          "why": "How long + continuous.",
+          "hint": "How long → have been learning."
+        }
+      ]
+    }
+  ]
+}

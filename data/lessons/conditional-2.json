@@ -1,0 +1,434 @@
+{
+  "id": "conditional-2",
+  "version": 1,
+  "titleEn": "Conditional Type 2",
+  "titleFa": "شرطی نوع ۲",
+  "subtitleFa": "if + past, would + base",
+  "track": "conditionals",
+  "tags": ["form", "unless", "detect"],
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "teach",
+      "titleFa": "ساختار",
+      "intro": "if + past simple در جملهٔ شرط، و would + شکل سادهٔ فعل در جملهٔ نتیجه. این شرطی دربارهٔ وضعیت غیرواقعی یا خیالی در حال است.",
+      "examples": [
+        { "en": "If I had more time, I would travel.", "fa": "اگر وقت بیشتری داشتم، سفر می‌کردم.", "hl": ["had", "would travel"] },
+        { "en": "If she knew, she would tell us.", "fa": "اگر می‌دانست، به ما می‌گفت.", "hl": ["knew", "would tell"] },
+        { "en": "If it rained, we would stay home.", "fa": "اگر باران می‌آمد، خانه می‌ماندیم.", "hl": ["rained", "would stay"] },
+        { "en": "I would buy that car if I had the money.", "fa": "اگر پولش را داشتم آن ماشین را می‌خریدم.", "hl": ["would buy", "had"] }
+      ],
+      "note": "if + past simple , would + base · would هرگز در جملهٔ if نمی‌آید",
+      "mistake": {
+        "wrong": "If I would have money, I would buy it.",
+        "right": "If I had money, I would buy it.",
+        "whyFa": "در بخش if فقط past simple می‌آید؛ would فقط در جملهٔ نتیجه."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "If I ___ rich, I would buy a boat.",
+          "options": ["were", "am", "will be"],
+          "answer": 0,
+          "why": "شرطی نوع ۲ در if گذشته می‌گیرد: If I were rich.",
+          "hint": "if + گذشته."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If he ___ (know) the answer, he would tell us.",
+          "answers": ["knew"],
+          "placeholder": "past simple",
+          "why": "بخش if با گذشتهٔ ساده: If he knew.",
+          "hint": "know → knew."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "She would come if you ___ her.",
+          "options": ["invited", "invite", "will invite"],
+          "answer": 0,
+          "why": "جملهٔ نتیجه with would و شرط با گذشته: if you invited.",
+          "hint": "would come → if + گذشته."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "teach",
+      "titleFa": "were برای همهٔ فاعل‌ها",
+      "intro": "در شرطی نوع ۲، «be» در بخش if برای همهٔ فاعل‌ها were است، حتی با I و he و she.",
+      "examples": [
+        { "en": "If I were you, I would apologise.", "fa": "اگر جای تو بودم عذرخواهی می‌کردم.", "hl": ["were"] },
+        { "en": "If he were here, he would help us.", "fa": "اگر اینجا بود کمکمان می‌کرد.", "hl": ["were"] },
+        { "en": "They wouldn't be happy if we left early.", "fa": "اگر زود می‌رفتیم خوشحال نمی‌شدند.", "hl": ["wouldn't be", "left"] },
+        { "en": "If it were warmer, we would eat outside.", "fa": "اگر گرم‌تر بود بیرون غذا می‌خوردیم.", "hl": ["were"] }
+      ],
+      "note": "If I / he / she were… (نه was در نوشتار رسمی)",
+      "mistake": {
+        "wrong": "If I would be you, I would wait.",
+        "right": "If I were you, I would wait.",
+        "whyFa": "در بخش if از were استفاده می‌شود، نه would be."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "If I ___ you, I would apologise.",
+          "options": ["were", "am", "would be"],
+          "answer": 0,
+          "why": "عبارت ثابت: If I were you.",
+          "hint": "If I ___ you → were."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "They ___ (not / be) happy if we left early.",
+          "answers": ["wouldn't be"],
+          "placeholder": "wouldn't + base",
+          "why": "نتیجهٔ منفی با would: wouldn't be.",
+          "hint": "not would → wouldn't."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "If it ___ tomorrow, we would stay home.",
+          "options": ["rained", "rains", "will rain"],
+          "answer": 0,
+          "why": "شرطی نوع ۲ با گذشته در if: if it rained.",
+          "hint": "would stay → if + گذشته."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "kind": "teach",
+      "titleFa": "unless / as long as / provided that",
+      "intro": "unless یعنی «اگر … نه». as long as و provided that یعنی «به شرطی که». بعد از همهٔ این‌ها همان زمان شرطی می‌آید.",
+      "examples": [
+        { "en": "I wouldn't go unless you came with me.", "fa": "اگر تو با من نمی‌آمدی نمی‌رفتم.", "hl": ["unless"] },
+        { "en": "You could borrow my car as long as you drove carefully.", "fa": "می‌توانستی ماشینم را قرض بگیری به شرطی که بااحتیاط برانی.", "hl": ["as long as"] },
+        { "en": "Provided that we left now, we would catch the train.", "fa": "به شرطی که همین حالا راه بیفتیم، قطار را می‌گرفتیم.", "hl": ["Provided that"] },
+        { "en": "Unless we studied, we would fail.", "fa": "اگر درس نمی‌خواندیم، رد می‌شدیم.", "hl": ["Unless"] }
+      ],
+      "note": "unless = if … not · as long as / provided that = به شرطی که",
+      "mistake": {
+        "wrong": "Unless you don't study, you would fail.",
+        "right": "Unless you studied, you would fail.",
+        "whyFa": "unless خودش معنای منفی دارد؛ don't اضافه نمی‌شود."
+      },
+      "items": [
+        {
+          "type": "fill",
+          "tag": "unless",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I wouldn't go ___ you came with me.",
+          "answers": ["unless"],
+          "placeholder": "unless / if not",
+          "why": "«اگر تو نمی‌آمدی» → unless.",
+          "hint": "اگر … نه → unless."
+        },
+        {
+          "type": "mcq",
+          "tag": "unless",
+          "prompt": "You can borrow my car ___ you drive carefully.",
+          "options": ["as long as", "unless", "in case"],
+          "answer": 0,
+          "why": "«به شرطی که» → as long as.",
+          "hint": "شرط مثبت → as long as."
+        },
+        {
+          "type": "mcq",
+          "tag": "unless",
+          "prompt": "Unless you ___ harder, you would fail.",
+          "options": ["studied", "study", "will study"],
+          "answer": 0,
+          "why": "جملهٔ نتیجه would دارد، پس شرطی نوع ۲ است: unless you studied.",
+          "hint": "would fail → studied."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "kind": "teach",
+      "titleFa": "نوع ۱ یا نوع ۲؟",
+      "intro": "نوع ۱ دربارهٔ احتمال واقعی است (if + present, will). نوع ۲ دربارهٔ وضعیت خیالی یا بعید است (if + past, would).",
+      "examples": [
+        { "en": "If I have time, I will call you.", "fa": "اگر وقت داشته باشم زنگ می‌زنم.", "hl": ["have", "will call"] },
+        { "en": "If I had time, I would call you.", "fa": "اگر وقت داشتم زنگ می‌زدم.", "hl": ["had", "would call"] },
+        { "en": "If it rains, we will stay home.", "fa": "اگر باران بیاید خانه می‌مانیم.", "hl": ["rains", "will stay"] },
+        { "en": "If it rained, we would stay home.", "fa": "اگر باران می‌آمد خانه می‌ماندیم.", "hl": ["rained", "would stay"] }
+      ],
+      "note": "واقعی: present + will · خیالی: past + would",
+      "mistake": {
+        "wrong": "If I had time, I will call you.",
+        "right": "If I had time, I would call you.",
+        "whyFa": "نیمهٔ اول گذشته است، پس نتیجه هم باید would بگیرد."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "If I have time, I ___ you.",
+          "options": ["will call", "would call", "called"],
+          "answer": 0,
+          "why": "if + حال ساده → نتیجه با will (نوع ۱، احتمال واقعی).",
+          "hint": "have → will."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "If I had time, I ___ you.",
+          "options": ["would call", "will call", "call"],
+          "answer": 0,
+          "why": "if + گذشته → نتیجه با would (نوع ۲، خیالی).",
+          "hint": "had → would."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله دربارهٔ وضعیت غیرواقعی در حال است؟",
+          "options": [
+            "If I knew her number, I would call her.",
+            "If I know her number, I will call her.",
+            "If I knew her number, I called her."
+          ],
+          "answer": 0,
+          "why": "گذشته در if + would در نتیجه = وضعیت خیالی حال.",
+          "hint": "knew + would."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "kind": "teach",
+      "titleFa": "سؤالی و ترتیب کلمات",
+      "intro": "در سؤال، would قبل از فاعل می‌آید: What would you do if you won? در جملهٔ if ترتیب عوض نمی‌شود.",
+      "examples": [
+        { "en": "What would you do if you lost your job?", "fa": "اگر کارت را از دست می‌دادی چه می‌کردی؟", "hl": ["would you do", "lost"] },
+        { "en": "Would you come if I asked?", "fa": "اگر می‌خواستم می‌آمدی؟", "hl": ["Would you come", "asked"] },
+        { "en": "Where would you live if you could choose?", "fa": "اگر می‌توانستی انتخاب کنی کجا زندگی می‌کردی؟", "hl": ["would you live", "could"] },
+        { "en": "If she studied more, would she pass?", "fa": "اگر بیشتر درس می‌خواند قبول می‌شد؟", "hl": ["studied", "would she pass"] }
+      ],
+      "note": "Would + فاعل + base … if + فاعل + past",
+      "mistake": {
+        "wrong": "What you would do if you won?",
+        "right": "What would you do if you won?",
+        "whyFa": "در سؤال، would قبل از فاعل می‌آید."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "What ___ if you lost your job?",
+          "options": ["would you do", "you would do", "will you do"],
+          "answer": 0,
+          "why": "سؤال نوع ۲: would + فاعل + فعل ساده.",
+          "hint": "would قبل از you."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "___ would you do if you won the lottery?",
+          "answers": ["what"],
+          "placeholder": "What / Which",
+          "why": "پرسش دربارهٔ کار → What would you do…؟",
+          "hint": "چه کاری → What."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "If she ___ more, she would pass.",
+          "options": ["studied", "studies", "would study"],
+          "answer": 0,
+          "why": "بخش if گذشتهٔ ساده می‌گیرد: if she studied.",
+          "hint": "would pass → studied."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "kind": "teach",
+      "titleFa": "خطاهای رایج",
+      "intro": "سه خطای پرتکرار: would در بخش if، was به جای were، و فعل گذشته بعد از would.",
+      "examples": [
+        { "en": "If I had money, I would travel.", "fa": "اگر پول داشتم سفر می‌کردم.", "hl": ["had", "would travel"] },
+        { "en": "If I were you, I would wait.", "fa": "اگر جای تو بودم صبر می‌کردم.", "hl": ["were"] },
+        { "en": "If he studied, he would pass.", "fa": "اگر درس می‌خواند قبول می‌شد.", "hl": ["studied", "would pass"] },
+        { "en": "Would you come if I asked?", "fa": "اگر می‌خواستم می‌آمدی؟", "hl": ["Would you come"] }
+      ],
+      "note": "if + past (نه would) · would + base (نه past)",
+      "mistake": {
+        "wrong": "If he studied, he would passed the test.",
+        "right": "If he studied, he would pass the test.",
+        "whyFa": "بعد از would فعل به شکل ساده می‌آید: pass."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله غلط است؟",
+          "options": [
+            "If I had money, I would travel.",
+            "If I would have money, I would travel.",
+            "If I were you, I would wait.",
+            "Would you come if I asked?"
+          ],
+          "answer": 1,
+          "why": "در بخش if هرگز would نمی‌آید؛ درستش If I had money است.",
+          "hint": "would فقط در نتیجه."
+        },
+        {
+          "type": "ident",
+          "tag": "form",
+          "prompt": "کلمهٔ غلط را پیدا کن و شکل درستش را بنویس.",
+          "sentence": "If he studied, he would passed the test.",
+          "wrongWord": "passed",
+          "correctWord": "pass",
+          "why": "بعد از would فعل ساده می‌آید: would pass.",
+          "hint": "would + base."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "If they ___ earlier, they wouldn't be late.",
+          "options": ["left", "leave", "will leave"],
+          "answer": 0,
+          "why": "wouldn't در نتیجه، پس if گذشته می‌گیرد: if they left.",
+          "hint": "wouldn't → left."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "kind": "teach",
+      "isFinal": true,
+      "titleFa": "حالا خودت بساز",
+      "intro": "۱۲ تمرین متنوع. بعضی جمله‌ها کوتاه‌اند، بعضی نه. عجله نکن.",
+      "note": "هر سؤال را می‌توانی رد کنی.",
+      "items": [
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "If I ___ (be) taller, I would play basketball.",
+          "answers": ["were"],
+          "placeholder": "was / were",
+          "why": "در شرطی نوع ۲، be برای همهٔ فاعل‌ها were است.",
+          "hint": "If I ___ → were."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "If she ___ harder, she would succeed.",
+          "options": ["tried", "tries", "would try"],
+          "answer": 0,
+          "why": "بخش if گذشته می‌گیرد: if she tried.",
+          "hint": "would succeed → tried."
+        },
+        {
+          "type": "ident",
+          "tag": "detect",
+          "prompt": "کلمهٔ غلط را پیدا کن و شکل درستش را بنویس.",
+          "sentence": "If I would know the answer, I would tell you.",
+          "wrongWord": "would know",
+          "correctWord": "knew",
+          "why": "در بخش if فقط گذشتهٔ ساده می‌آید: If I knew the answer.",
+          "hint": "would know → knew."
+        },
+        {
+          "type": "mcq",
+          "tag": "unless",
+          "prompt": "Unless you ___ now, you will miss the bus.",
+          "options": ["leave", "left", "will leave"],
+          "answer": 0,
+          "why": "اینجا نتیجه will دارد (نوع ۱)، پس بعد از unless حال ساده می‌آید.",
+          "hint": "will miss → leave."
+        },
+        {
+          "type": "double",
+          "tag": "form",
+          "prompt": "هر دو جای خالی را پر کن:",
+          "template": "If I {0} more free time, I {1} learn the guitar.",
+          "answers1": ["had"],
+          "answers2": ["would"],
+          "why": "شرط با past (had) و نتیجه با would + base.",
+          "hint": "اولی had، دومی would."
+        },
+        {
+          "type": "order",
+          "tag": "form",
+          "prompt": "جمله را بساز:",
+          "words": ["If", "I", "were", "you", "I", "would", "wait"],
+          "answer": "If I were you, I would wait.",
+          "why": "عبارت ثابت If I were you + نتیجه با would.",
+          "hint": "were بعد از I."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "What would you do if you ___ a wallet in the street?",
+          "options": ["found", "find", "will find"],
+          "answer": 0,
+          "why": "سؤال نوع ۲: if + گذشته → found.",
+          "hint": "would you do → found."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "I ___ (not / go) if I were you.",
+          "answers": ["wouldn't go"],
+          "placeholder": "wouldn't + base",
+          "why": "نتیجهٔ منفی با would: wouldn't go.",
+          "hint": "not would → wouldn't."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله درست است؟",
+          "options": [
+            "If it rained, we would stay home.",
+            "If it rains, we would stay home.",
+            "If it would rain, we stayed home."
+          ],
+          "answer": 0,
+          "why": "گذشته در if + would در نتیجه = شرطی نوع ۲ درست.",
+          "hint": "rained + would stay."
+        },
+        {
+          "type": "mcq",
+          "tag": "unless",
+          "prompt": "We would have more space ___ we moved to a bigger flat.",
+          "options": ["if", "unless", "so"],
+          "answer": 0,
+          "why": "شرط مثبت است، پس if لازم است؛ unless معنای جمله را برعکس می‌کند.",
+          "hint": "شرط مثبت → if."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "She would tell you if she ___ (know).",
+          "answers": ["knew"],
+          "placeholder": "past simple",
+          "why": "بخش if گذشته می‌گیرد: if she knew.",
+          "hint": "know → knew."
+        },
+        {
+          "type": "order",
+          "tag": "unless",
+          "prompt": "جمله را بساز:",
+          "words": ["You", "can", "stay", "as", "long", "as", "you", "are", "quiet"],
+          "answer": "You can stay as long as you are quiet.",
+          "why": "as long as یعنی «به شرطی که» و بعدش حال ساده می‌آید.",
+          "hint": "as long as یک تکه است."
+        }
+      ]
+    }
+  ]
+}

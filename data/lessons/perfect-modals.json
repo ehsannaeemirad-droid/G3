@@ -1,0 +1,428 @@
+{
+  "id": "perfect-modals",
+  "version": 1,
+  "titleEn": "Perfect Modals",
+  "titleFa": "افعال وجهی کامل",
+  "subtitleFa": "should / could / must / might have + pp",
+  "track": "voice-modality",
+  "tags": ["form", "meaning", "detect"],
+  "steps": [
+    {
+      "id": "s1",
+      "kind": "teach",
+      "titleFa": "ساختار",
+      "intro": "modal + have + past participle. بعد از هر modal همیشه have می‌آید، نه has و نه had.",
+      "examples": [
+        { "en": "You should have called me.", "fa": "باید به من زنگ می‌زدی.", "hl": ["should have called"] },
+        { "en": "She must have forgotten.", "fa": "حتماً فراموش کرده است.", "hl": ["must have forgotten"] },
+        { "en": "They might have left.", "fa": "شاید رفته باشند.", "hl": ["might have left"] },
+        { "en": "He could have helped us.", "fa": "می‌توانست کمکمان کند.", "hl": ["could have helped"] }
+      ],
+      "note": "modal + have + pp · همیشه have، برای همهٔ فاعل‌ها",
+      "mistake": {
+        "wrong": "You should has told me.",
+        "right": "You should have told me.",
+        "whyFa": "بعد از modal، have تغییر نمی‌کند؛ has غلط است."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "You ___ told me earlier.",
+          "options": ["should have", "should has", "should"],
+          "answer": 0,
+          "why": "modal + have + past participle: should have told.",
+          "hint": "بعد از should → have."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "She ___ her keys — she can't open the door.",
+          "options": ["must have forgotten", "must forgot", "must have forget"],
+          "answer": 0,
+          "why": "حدس دربارهٔ گذشته: must have + forgotten.",
+          "hint": "must have + pp."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "He might ___ left already.",
+          "answers": ["have"],
+          "placeholder": "have / has",
+          "why": "بعد از might همیشه have می‌آید: might have left.",
+          "hint": "modal + have."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "kind": "teach",
+      "titleFa": "should have — پشیمانی و سرزنش",
+      "intro": "should have + pp یعنی کاری را انجام ندادی و حالا پشیمانی یا کسی را سرزنش می‌کنی. shouldn't have + pp یعنی کاری را کردی که نباید.",
+      "examples": [
+        { "en": "I should have studied harder.", "fa": "باید بیشتر درس می‌خواندم.", "hl": ["should have studied"] },
+        { "en": "You shouldn't have spent so much money.", "fa": "نباید این‌قدر پول خرج می‌کردی.", "hl": ["shouldn't have spent"] },
+        { "en": "We should have booked the tickets earlier.", "fa": "باید بلیت‌ها را زودتر می‌خریدیم.", "hl": ["should have booked"] },
+        { "en": "She should have told us the truth.", "fa": "باید حقیقت را به ما می‌گفت.", "hl": ["should have told"] }
+      ],
+      "note": "should have + pp = کار انجام‌نشده و پشیمانی",
+      "mistake": {
+        "wrong": "I should studied more.",
+        "right": "I should have studied more.",
+        "whyFa": "برای گذشته، have لازم است: should have studied."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "meaning",
+          "prompt": "I ___ studied harder for the exam.",
+          "options": ["should have", "should", "should has"],
+          "answer": 0,
+          "why": "پشیمانی دربارهٔ گذشته → should have studied.",
+          "hint": "پشیمانی → should have."
+        },
+        {
+          "type": "mcq",
+          "tag": "meaning",
+          "prompt": "You shouldn't ___ so much money.",
+          "options": ["have spent", "spent", "spending"],
+          "answer": 0,
+          "why": "shouldn't have + pp برای کار نادرست در گذشته.",
+          "hint": "shouldn't have + pp."
+        },
+        {
+          "type": "mcq",
+          "tag": "meaning",
+          "prompt": "She failed the test. She ___ prepared better.",
+          "options": ["should have", "should", "must"],
+          "answer": 0,
+          "why": "سرزنش دربارهٔ گذشته → should have prepared.",
+          "hint": "سرزنش → should have."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "kind": "teach",
+      "titleFa": "must have و can't have — حدس قطعی",
+      "intro": "must have + pp یعنی با اطمینان حدس می‌زنیم چیزی در گذشته اتفاق افتاده. can't have + pp یعنی مطمئنیم اتفاق نیفتاده.",
+      "examples": [
+        { "en": "The lights are off. They must have gone to bed.", "fa": "چراغ‌ها خاموش است؛ حتماً خوابیده‌اند.", "hl": ["must have gone"] },
+        { "en": "He can't have taken the money.", "fa": "او نمی‌تواند پول را برداشته باشد.", "hl": ["can't have taken"] },
+        { "en": "She looks happy. She must have received good news.", "fa": "خوشحال است؛ حتماً خبر خوبی شنیده.", "hl": ["must have received"] },
+        { "en": "They can't have finished so quickly.", "fa": "نمی‌شود این‌قدر سریع تمام کرده باشند.", "hl": ["can't have finished"] }
+      ],
+      "note": "مطمئن که بوده → must have · مطمئن که نبوده → can't have",
+      "mistake": {
+        "wrong": "He must has left.",
+        "right": "He must have left.",
+        "whyFa": "بعد از modal، have ثابت است؛ must has غلط است."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "meaning",
+          "prompt": "The lights are off. They ___ gone to bed.",
+          "options": ["must have", "should have", "can't have"],
+          "answer": 0,
+          "why": "شاهد داریم و حدس قطعی می‌زنیم → must have gone.",
+          "hint": "شاهد + حدس قطعی → must have."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "He can't ___ taken the money — he was with me.",
+          "options": ["have", "has", "had"],
+          "answer": 0,
+          "why": "can't + have + pp: can't have taken.",
+          "hint": "بعد از can't → have."
+        },
+        {
+          "type": "mcq",
+          "tag": "meaning",
+          "prompt": "She looks happy. She ___ received good news.",
+          "options": ["must have", "must", "should have"],
+          "answer": 0,
+          "why": "حدس قطعی دربارهٔ گذشته → must have received.",
+          "hint": "past → have + pp."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "kind": "teach",
+      "titleFa": "might / may / could have — احتمال",
+      "intro": "این‌ها یعنی «شاید» یا «می‌شد»؛ مطمئن نیستیم. could have همچنین یعنی «توانایی داشت ولی انجام نداد».",
+      "examples": [
+        { "en": "I don't know where she is. She might have gone home.", "fa": "نمی‌دانم کجاست؛ شاید رفته باشد.", "hl": ["might have gone"] },
+        { "en": "It may have rained in the mountains.", "fa": "شاید در کوه‌ها باران آمده باشد.", "hl": ["may have rained"] },
+        { "en": "They could have left early, but I'm not sure.", "fa": "شاید زود رفته باشند، مطمئن نیستم.", "hl": ["could have left"] },
+        { "en": "You could have told me!", "fa": "می‌توانستی به من بگویی!", "hl": ["could have told"] }
+      ],
+      "note": "احتمال گذشته → may / might / could + have + pp",
+      "mistake": {
+        "wrong": "She may went home.",
+        "right": "She may have gone home.",
+        "whyFa": "برای گذشته بعد از may باید have + pp بیاید."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "meaning",
+          "prompt": "I don't know where she is. She ___ gone home.",
+          "options": ["might have", "must have", "should have"],
+          "answer": 0,
+          "why": "«نمی‌دانم» یعنی احتمال، نه قطعیت → might have gone.",
+          "hint": "not sure → might have."
+        },
+        {
+          "type": "mcq",
+          "tag": "meaning",
+          "prompt": "They ___ left early, but I'm not sure.",
+          "options": ["could have", "can have", "must have"],
+          "answer": 0,
+          "why": "احتمال گذشته: could have left. «must have» با «not sure» جور نیست.",
+          "hint": "احتمال → could have."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "It may ___ snowed in the mountains.",
+          "answers": ["have"],
+          "placeholder": "have / has",
+          "why": "may + have + pp: may have snowed.",
+          "hint": "modal + have."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "kind": "teach",
+      "titleFa": "would have — گذشتهٔ غیرواقعی",
+      "intro": "would have + pp برای نتیجه‌ای است که در گذشته رخ نداد: I would have called, but I lost your number.",
+      "examples": [
+        { "en": "I would have called you, but I lost your number.", "fa": "زنگ می‌زدم، ولی شماره‌ات را گم کردم.", "hl": ["would have called"] },
+        { "en": "We would have won if we had trained harder.", "fa": "اگر بیشتر تمرین کرده بودیم می‌بردیم.", "hl": ["would have won"] },
+        { "en": "She would have come if you had invited her.", "fa": "اگر دعوتش کرده بودی می‌آمد.", "hl": ["would have come"] },
+        { "en": "I wouldn't have said that.", "fa": "من آن حرف را نمی‌زدم.", "hl": ["wouldn't have said"] }
+      ],
+      "note": "would have + pp = نتیجه‌ای که در گذشته اتفاق نیفتاد",
+      "mistake": {
+        "wrong": "I would have came earlier.",
+        "right": "I would have come earlier.",
+        "whyFa": "بعد از would have باید past participle بیاید: come."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "meaning",
+          "prompt": "I ___ called you, but I lost your number.",
+          "options": ["would have", "would", "will have"],
+          "answer": 0,
+          "why": "نتیجهٔ گذشتهٔ غیرواقعی → would have called.",
+          "hint": "but I lost → would have."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "We would have won if we ___ harder.",
+          "options": ["had trained", "trained", "have trained"],
+          "answer": 0,
+          "why": "شرط گذشتهٔ غیرواقعی با had + pp می‌آید: had trained.",
+          "hint": "if + had + pp."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "She would have come if you ___ (invite) her.",
+          "answers": ["had invited"],
+          "placeholder": "had + pp",
+          "why": "شرط گذشته + would have: had invited.",
+          "hint": "if + had + pp."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "kind": "teach",
+      "titleFa": "خطاهای رایج",
+      "intro": "سه خطای پرتکرار: should have went (باید gone باشد)، must has (باید have باشد)، و حذف have.",
+      "examples": [
+        { "en": "You should have gone to the doctor.", "fa": "باید به دکتر می‌رفتی.", "hl": ["should have gone"] },
+        { "en": "He must have missed the bus.", "fa": "حتماً اتوبوس را از دست داده.", "hl": ["must have missed"] },
+        { "en": "They can't have finished already.", "fa": "نمی‌شود همین حالا تمام کرده باشند.", "hl": ["can't have finished"] },
+        { "en": "I might have left my keys at work.", "fa": "شاید کلیدهایم را سر کار جا گذاشته باشم.", "hl": ["might have left"] }
+      ],
+      "note": "بعد از modal همیشه have + past participle",
+      "mistake": {
+        "wrong": "She must have went home.",
+        "right": "She must have gone home.",
+        "whyFa": "بعد از have باید past participle بیاید: gone."
+      },
+      "items": [
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله غلط است؟",
+          "options": [
+            "You should have called me.",
+            "You should have call me.",
+            "He must have left.",
+            "They might have won."
+          ],
+          "answer": 1,
+          "why": "«should have call» غلط است؛ باید should have called باشد.",
+          "hint": "have + pp."
+        },
+        {
+          "type": "ident",
+          "tag": "form",
+          "prompt": "کلمهٔ غلط را پیدا کن و شکل درستش را بنویس.",
+          "sentence": "She must have went home early.",
+          "wrongWord": "went",
+          "correctWord": "gone",
+          "why": "بعد از have باید past participle بیاید: gone.",
+          "hint": "went → gone."
+        },
+        {
+          "type": "mcq",
+          "tag": "meaning",
+          "prompt": "He ___ have finished — the light is still on.",
+          "options": ["can't", "mustn't", "shouldn't"],
+          "answer": 0,
+          "why": "مطمئنیم تمام نشده → can't have finished.",
+          "hint": "نتیجهٔ منفی قطعی → can't have."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "kind": "teach",
+      "isFinal": true,
+      "titleFa": "حالا خودت بساز",
+      "intro": "۱۲ تمرین متنوع. بعضی جمله‌ها کوتاه‌اند، بعضی نه. عجله نکن.",
+      "note": "هر سؤال را می‌توانی رد کنی.",
+      "items": [
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "You should ___ apologised to her.",
+          "answers": ["have"],
+          "placeholder": "have / has",
+          "why": "should + have + pp: should have apologised.",
+          "hint": "modal + have."
+        },
+        {
+          "type": "mcq",
+          "tag": "meaning",
+          "prompt": "The ground is wet. It ___ rained.",
+          "options": ["must have", "should have", "would have"],
+          "answer": 0,
+          "why": "شاهد روشن داریم → حدس قطعی: must have rained.",
+          "hint": "شاهد → must have."
+        },
+        {
+          "type": "ident",
+          "tag": "form",
+          "prompt": "کلمهٔ غلط را پیدا کن و شکل درستش را بنویس.",
+          "sentence": "I should have went to the doctor.",
+          "wrongWord": "went",
+          "correctWord": "gone",
+          "why": "بعد از have باید past participle بیاید: gone.",
+          "hint": "went → gone."
+        },
+        {
+          "type": "mcq",
+          "tag": "meaning",
+          "prompt": "We ___ left earlier; the traffic was terrible.",
+          "options": ["should have", "must have", "can have"],
+          "answer": 0,
+          "why": "پشیمانی دربارهٔ کاری که نکردیم → should have left.",
+          "hint": "پشیمانی → should have."
+        },
+        {
+          "type": "double",
+          "tag": "meaning",
+          "prompt": "هر دو جای خالی را پر کن:",
+          "template": "She {0} have missed the train; she {1} have taken a taxi.",
+          "answers1": ["must"],
+          "answers2": ["could"],
+          "why": "must have برای حدس قوی و could have برای احتمال.",
+          "hint": "اولی must، دومی could."
+        },
+        {
+          "type": "mcq",
+          "tag": "form",
+          "prompt": "He can't ___ seen us — he was looking away.",
+          "options": ["have", "has", "had"],
+          "answer": 0,
+          "why": "can't + have + pp: can't have seen.",
+          "hint": "can't → have."
+        },
+        {
+          "type": "order",
+          "tag": "form",
+          "prompt": "جمله را بساز:",
+          "words": ["You", "should", "have", "told", "me", "earlier"],
+          "answer": "You should have told me earlier.",
+          "why": "should have + pp برای سرزنش گذشته.",
+          "hint": "should have told یک تکه است."
+        },
+        {
+          "type": "mcq",
+          "tag": "meaning",
+          "prompt": "I ___ bought that car, but I didn't have enough money.",
+          "options": ["could have", "can have", "must have"],
+          "answer": 0,
+          "why": "توانایی و امکان در گذشته که محقق نشد → could have bought.",
+          "hint": "می‌توانستم → could have."
+        },
+        {
+          "type": "fill",
+          "tag": "form",
+          "prompt": "جای خالی را پر کن:",
+          "sentence": "She can't ___ been at home — I called twice.",
+          "answers": ["have"],
+          "placeholder": "have / has",
+          "why": "can't + have + pp: can't have been.",
+          "hint": "can't → have."
+        },
+        {
+          "type": "mcq",
+          "tag": "detect",
+          "prompt": "کدام جمله درست است؟",
+          "options": [
+            "She should have gone.",
+            "She should has gone.",
+            "She should have went."
+          ],
+          "answer": 0,
+          "why": "should + have + gone: نه has و نه went.",
+          "hint": "have + past participle."
+        },
+        {
+          "type": "mcq",
+          "tag": "meaning",
+          "prompt": "If you had told me, I ___ helped you.",
+          "options": ["would have", "would", "will have"],
+          "answer": 0,
+          "why": "شرط گذشتهٔ غیرواقعی + نتیجهٔ ناتمام: would have helped.",
+          "hint": "had told → would have."
+        },
+        {
+          "type": "order",
+          "tag": "meaning",
+          "prompt": "جمله را بساز:",
+          "words": ["He", "must", "have", "missed", "the", "bus"],
+          "answer": "He must have missed the bus.",
+          "why": "must have + pp برای حدس قطعی دربارهٔ گذشته.",
+          "hint": "must have missed."
+        }
+      ]
+    }
+  ]
+}
